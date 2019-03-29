@@ -1,0 +1,50 @@
+﻿/*
+ * BLEDevice.h
+ *
+ * Created: 2019-03-27 10:36:39
+ *  Author: kong
+ */
+
+
+#ifndef BLEDEVICE_H_
+#define BLEDEVICE_H_
+
+#include <stdint.h>
+
+class BLEDevice;
+
+typedef void (*BLEDeviceEventHandler)(BLEDevice device);
+
+enum BLEDeviceEvent
+{
+    BD_CONNECTED = 0,
+    BD_DISCONNECTED = 1,
+    BD_EVENT_LAST
+};
+
+class BLEDevice
+{
+public:
+    BLEDevice();
+    virtual ~BLEDevice();
+    virtual void poll();
+    virtual void poll(unsigned long timeout);
+    virtual bool connected() const;
+    virtual bool disconnect();
+    virtual char* address() const; //---- String ----
+    virtual int  rssi();
+    virtual operator bool() const;
+    virtual bool operator==(const BLEDevice& rhs) const;
+    virtual bool operator!=(const BLEDevice& rhs) const;
+
+protected:
+    friend class ATTClass;
+    BLEDevice(uint16_t handle, uint8_t address[6]);
+
+private:
+    uint16_t m_handle;
+    uint8_t  m_address[6];
+};
+
+
+#endif /* BLEDEVICE_H_ */

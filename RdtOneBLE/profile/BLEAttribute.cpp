@@ -18,22 +18,22 @@ BLEAttribute::~BLEAttribute()
     //
 }
 
-const char* BLEAttribute::uuid() const
+const char* BLEAttribute::uuid()
 {
     return m_uuid.str();
 }
 
-const uint8_t* BLEAttribute::uuidData() const
+const uint8_t* BLEAttribute::uuidData()
 {
     return m_uuid.data();
 }
 
-uint8_t BLEAttribute::uuidLength() const
+uint8_t BLEAttribute::uuidLength()
 {
     return m_uuid.length();
 }
 
-enum BLEAttributeType BLEAttribute::type() const
+enum BLEAttributeType BLEAttribute::type()
 {
     return BATT_UNKNOWN;
 }

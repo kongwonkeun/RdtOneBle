@@ -13,9 +13,8 @@
 #include "../system/XLinkedList.h"
 #include "../peripheral/LocalService.h"
 #include "../peripheral/LocalCharacteristic.h"
-
-class BLEService;
-class BLEAttribute;
+#include "../profile/BLEAttribute.h"
+#include "../profile/BLEService.h"
 
 class GATTClass
 {
@@ -31,9 +30,9 @@ public:
 protected:
     friend class ATTClass;
     friend class LocalCharacteristic;
-    unsigned int  attributeCount() const;
-    BLEAttribute* attribute(unsigned int index) const;
-    uint16_t serviceUuidForCharacteristic(LocalCharacteristic* characteristic) const;
+    unsigned int  attributeCount();
+    BLEAttribute* attribute(unsigned int index);
+    uint16_t serviceUuidForCharacteristic(LocalCharacteristic* characteristic);
 
 private:
     void addService(LocalService* service);

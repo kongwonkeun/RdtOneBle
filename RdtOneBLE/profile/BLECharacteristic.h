@@ -34,11 +34,11 @@ public:
     BLECharacteristic(const char* uuid, uint8_t properties, int valueSize, bool fixedLength = false);
     BLECharacteristic(const char* uuid, uint8_t properties, const char* value);
     virtual ~BLECharacteristic();
-    uint8_t properties() const;
-    int  valueSize() const;
-    const uint8_t* value() const;
-    int  valueLength() const;
-    uint8_t operator[] (int offset) const;
+    uint8_t properties();
+    int  valueSize();
+    const uint8_t* value();
+    int  valueLength();
+    uint8_t operator[] (int offset);
     int  writeValue(const uint8_t value[], int length);
     int  writeValue(const char* value);
     int  setValue(const uint8_t value[], int length) { return writeValue(value, length); }
@@ -47,7 +47,7 @@ public:
     bool written();
     bool subscribed();
     void addDescriptor(BLEDescriptor& descriptor);
-    operator bool() const;
+    operator bool();
     void setEventHandler(int event, BLECharacteristicEventHandler eventHandler);
 
 protected:

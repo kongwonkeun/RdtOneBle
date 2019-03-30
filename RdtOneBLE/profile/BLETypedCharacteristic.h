@@ -10,6 +10,7 @@
 #define BLETYPEDCHARACTERISTIC_H_
 
 #include "../profile/BLECharacteristic.h"
+#include <string.h>
 
 template<typename T> class BLETypedCharacteristic : public BLECharacteristic
 {

@@ -25,10 +25,10 @@ class BLEAttribute
 public:
     BLEAttribute(const char* uuid);
     virtual ~BLEAttribute();
-    virtual enum BLEAttributeType type() const;
-    const char* uuid() const;
-    const uint8_t* uuidData() const;
-    uint8_t uuidLength() const;
+    virtual enum BLEAttributeType type();
+    const char* uuid();
+    const uint8_t* uuidData();
+    uint8_t uuidLength();
     int  retain();
     int  release();
 

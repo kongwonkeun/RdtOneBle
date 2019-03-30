@@ -403,10 +403,10 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
 void HCIClass::dumpPacket(const char* prefix, uint8_t plen, uint8_t pdata[])
 {
     for (uint8_t i = 0; i < plen; i++) {
-        byte b = pdata[i];
+        //byte b = pdata[i];
         // to do something
     }
 }
 
-//HCIClass g_hci;
+HCIClass g_hci;
 

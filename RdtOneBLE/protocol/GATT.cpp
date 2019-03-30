@@ -8,9 +8,7 @@
 
 #include "../protocol/GATT.h"
 #include "../profile/BLEProperty.h"
-#include "../profile/BLEService.h"
 #include "../peripheral/LocalDescriptor.h"
-
 
 GATTClass::GATTClass() :
 m_genericAccessService("1800"), m_deviceNameCharacteristic("2a00", BPP_READ, 20), m_appearanceCharacteristic("2a01", BPP_READ, 2),
@@ -60,17 +58,17 @@ void GATTClass::addService(BLEService& service)
     }
 }
 
-unsigned int GATTClass::attributeCount() const
+unsigned int GATTClass::attributeCount()
 {
     return m_attributes.size();
 }
 
-BLEAttribute* GATTClass::attribute(unsigned int index) const
+BLEAttribute* GATTClass::attribute(unsigned int index)
 {
     return m_attributes.get(index);
 }
 
-uint16_t GATTClass::serviceUuidForCharacteristic(LocalCharacteristic* characteristic) const
+uint16_t GATTClass::serviceUuidForCharacteristic(LocalCharacteristic* characteristic)
 {
     uint16_t serviceUuid = 0x0000;
     LocalService* lastService = NULL;
@@ -128,5 +126,5 @@ void GATTClass::clearAttributes()
     m_attributes.clear();
 }
 
-//GATTClass g_gatt;
+GATTClass g_gatt;
 

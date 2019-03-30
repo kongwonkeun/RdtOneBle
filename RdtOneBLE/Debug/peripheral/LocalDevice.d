@@ -9,11 +9,20 @@ peripheral/LocalDevice.d peripheral/LocalDevice.o: \
  ../peripheral/../protocol/GATT.h \
  ../peripheral/../protocol/../system/XLinkedList.h \
  ../peripheral/../protocol/../peripheral/LocalService.h \
- e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h \
- ../peripheral/../protocol/../peripheral/LocalCharacteristic.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bledescriptor.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bledevice.h \
+ e:\kproembedded\rdtoneble\rdtoneble\peripheral\localdescriptor.h \
+ e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
+ e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
+ ../peripheral/../protocol/../peripheral/LocalCharacteristic.h \
+ ../peripheral/../protocol/../profile/BLEAttribute.h \
+ ../peripheral/../protocol/../profile/BLEService.h \
  ../peripheral/../protocol/GAP.h ../peripheral/../protocol/ATT.h \
  ../peripheral/../protocol/../profile/BLEDevice.h \
  ../peripheral/../protocol/L2CAPSignaling.h \
@@ -46,15 +55,33 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\
 
 ../peripheral/../protocol/../peripheral/LocalService.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
-
 e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
 
 e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h:
 
-../peripheral/../protocol/../peripheral/LocalCharacteristic.h:
+e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
 
 e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bledescriptor.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bledevice.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\peripheral\localdescriptor.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
+
+../peripheral/../protocol/../peripheral/LocalCharacteristic.h:
+
+../peripheral/../protocol/../profile/BLEAttribute.h:
+
+../peripheral/../protocol/../profile/BLEService.h:
 
 ../peripheral/../protocol/GAP.h:
 

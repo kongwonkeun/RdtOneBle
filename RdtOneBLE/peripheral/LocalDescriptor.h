@@ -18,15 +18,15 @@ public:
     LocalDescriptor(const char* uuid, const uint8_t value[], int valueSize);
     LocalDescriptor(const char* uuid, const char* value);
     virtual ~LocalDescriptor();
-    virtual enum BLEAttributeType type() const;
-    int valueSize() const;
-    const uint8_t* value() const;
-    uint8_t operator[] (int offset) const;
+    virtual enum BLEAttributeType type();
+    int valueSize();
+    const uint8_t* value();
+    uint8_t operator[] (int offset);
 
 protected:
     friend class GATTClass;
     void setHandle(uint16_t handle);
-    uint16_t handle() const;
+    uint16_t handle();
 
 private:
     const uint8_t* m_value;

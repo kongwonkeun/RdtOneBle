@@ -21,14 +21,14 @@ public:
     virtual ~LocalDevice();
     int  begin();
     void end();
-    virtual bool connected() const;
+    virtual bool connected();
     virtual bool disconnect();
-    virtual char* address() const; //---- String ----
+    virtual char* address(); //---- String ----
     virtual int rssi();
     void setAdvertisedServiceUuid(const char* advertisedServiceUuid);
-    void setAdvertisedService(const BLEService& service);
+    void setAdvertisedService(BLEService& service);
     void setManufacturerData(const uint8_t manufacturerData[], int manufacturerDataLength);
-    void setLocalName(const char *localName);
+    void setLocalName(const char* localName);
     void setDeviceName(const char* deviceName);
     void setAppearance(uint16_t appearance);
     void addService(BLEService& service);
@@ -38,9 +38,9 @@ public:
     void setAdvertisingInterval(uint16_t advertisingInterval);
     void setConnectionInterval(uint16_t minimumConnectionInterval, uint16_t maximumConnectionInterval);
     void setConnectable(bool connectable);
-    virtual operator bool() const;
-    virtual bool operator==(const BLEDevice& rhs) const;
-    virtual bool operator!=(const BLEDevice& rhs) const;
+    virtual operator bool();
+    virtual bool operator==(BLEDevice& rhs);
+    virtual bool operator!=(BLEDevice& rhs);
     BLEDevice central();
 
 private:

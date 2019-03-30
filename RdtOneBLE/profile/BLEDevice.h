@@ -29,13 +29,13 @@ public:
     virtual ~BLEDevice();
     virtual void poll();
     virtual void poll(unsigned long timeout);
-    virtual bool connected() const;
+    virtual bool connected();
     virtual bool disconnect();
-    virtual char* address() const; //---- String ----
+    virtual char* address(); //---- String ----
     virtual int  rssi();
-    virtual operator bool() const;
-    virtual bool operator==(const BLEDevice& rhs) const;
-    virtual bool operator!=(const BLEDevice& rhs) const;
+    virtual operator bool();
+    virtual bool operator==(BLEDevice& rhs);
+    virtual bool operator!=(BLEDevice& rhs);
 
 protected:
     friend class ATTClass;

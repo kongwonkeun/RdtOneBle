@@ -19,9 +19,9 @@ public:
     BLEService();
     BLEService(const char* uuid);
     virtual ~BLEService();
-    const char* uuid() const;
+    const char* uuid();
     void addCharacteristic(BLECharacteristic& characteristic);
-    operator bool() const;
+    operator bool();
 
 protected:
     friend class GATTClass;

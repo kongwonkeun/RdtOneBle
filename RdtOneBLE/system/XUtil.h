@@ -10,6 +10,8 @@
 #define XUTIL_H_
 
 #include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
 
 #ifndef max
 #define max(a,b) (((a)>(b))?(a):(b))
@@ -30,6 +32,9 @@ typedef uint8_t byte;
 #ifndef word
 typedef uint16_t word;
 #endif
+
+void* operator new(size_t n);
+void  operator delete(void* p);
 
 
 #endif /* XUTIL_H_ */

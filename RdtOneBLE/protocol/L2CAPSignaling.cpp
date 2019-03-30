@@ -116,5 +116,5 @@ void L2CAPSignalingClass::connParamUpdateRes(uint16_t, uint8_t, uint8_t, uint8_t
     //
 }
 
-//L2CAPSignalingClass g_l2capSignaling;
+L2CAPSignalingClass g_l2capSignaling;
 

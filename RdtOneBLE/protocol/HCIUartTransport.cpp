@@ -62,6 +62,6 @@ size_t HCIUartTransportClass::write(const uint8_t* data, size_t length)
     return result;
 }
 
-//HCIUartTransportClass  g_hciUartTransport(g_uart, 115200);
-//HCITransportInterface& g_hciTransport = g_hciUartTransport;
+HCIUartTransportClass  g_hciUartTransport(g_uart, 115200);
+HCITransportInterface& g_hciTransport = g_hciUartTransport;
 

@@ -8,15 +8,23 @@ protocol/ATT.d protocol/ATT.o: ../protocol/ATT.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  ../protocol/../protocol/../peripheral/LocalService.h \
- e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h \
- ../protocol/../protocol/../peripheral/LocalCharacteristic.h \
  e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bledescriptor.h \
+ e:\kproembedded\rdtoneble\rdtoneble\profile\bledevice.h \
+ e:\kproembedded\rdtoneble\rdtoneble\peripheral\localdescriptor.h \
+ e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
+ e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
+ ../protocol/../protocol/../peripheral/LocalCharacteristic.h \
+ ../protocol/../protocol/../profile/BLEAttribute.h \
+ ../protocol/../protocol/../profile/BLEService.h \
  ../protocol/../protocol/HCI.h ../protocol/../profile/BLEProperty.h \
  ../protocol/../profile/BLEDescriptor.h \
  ../protocol/../peripheral/LocalDescriptor.h \
- ../protocol/../peripheral/../profile/BLEAttribute.h \
  ../protocol/../system/XUtil.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h
 
@@ -38,15 +46,33 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\
 
 ../protocol/../protocol/../peripheral/LocalService.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
-
 e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
 
 e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h:
 
-../protocol/../protocol/../peripheral/LocalCharacteristic.h:
+e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
 
 e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bledescriptor.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\profile\bledevice.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\peripheral\localdescriptor.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
+
+e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
+
+../protocol/../protocol/../peripheral/LocalCharacteristic.h:
+
+../protocol/../protocol/../profile/BLEAttribute.h:
+
+../protocol/../protocol/../profile/BLEService.h:
 
 ../protocol/../protocol/HCI.h:
 
@@ -55,8 +81,6 @@ e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
 ../protocol/../profile/BLEDescriptor.h:
 
 ../protocol/../peripheral/LocalDescriptor.h:
-
-../protocol/../peripheral/../profile/BLEAttribute.h:
 
 ../protocol/../system/XUtil.h:
 

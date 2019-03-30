@@ -32,17 +32,17 @@ BLEUUID::BLEUUID(const char * str) : m_str(str)
     }
 }
 
-const char* BLEUUID::str() const
+const char* BLEUUID::str()
 {
     return m_str;
 }
 
-const uint8_t* BLEUUID::data() const
+const uint8_t* BLEUUID::data()
 {
     return m_data;
 }
 
-uint8_t BLEUUID::length() const
+uint8_t BLEUUID::length()
 {
     return m_length;
 }

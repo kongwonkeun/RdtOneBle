@@ -41,7 +41,7 @@ BLECharacteristic::~BLECharacteristic()
     }
 }
 
-uint8_t BLECharacteristic::properties() const
+uint8_t BLECharacteristic::properties()
 {
     if (m_local) {
         return m_local->properties();
@@ -49,7 +49,7 @@ uint8_t BLECharacteristic::properties() const
     return 0;
 }
 
-int BLECharacteristic::valueSize() const
+int BLECharacteristic::valueSize()
 {
     if (m_local) {
         return m_local->valueSize();
@@ -57,7 +57,7 @@ int BLECharacteristic::valueSize() const
     return 0;
 }
 
-const uint8_t* BLECharacteristic::value() const
+const uint8_t* BLECharacteristic::value()
 {
     if (m_local) {
         return m_local->value();
@@ -65,7 +65,7 @@ const uint8_t* BLECharacteristic::value() const
     return NULL;
 }
 
-int BLECharacteristic::valueLength() const
+int BLECharacteristic::valueLength()
 {
     if (m_local) {
         return m_local->valueLength();
@@ -73,7 +73,7 @@ int BLECharacteristic::valueLength() const
     return 0;
 }
 
-uint8_t BLECharacteristic::operator[] (int offset) const
+uint8_t BLECharacteristic::operator[] (int offset)
 {
     if (m_local) {
         return (*m_local)[offset];
@@ -128,7 +128,7 @@ void BLECharacteristic::addDescriptor(BLEDescriptor& descriptor)
     }
 }
 
-BLECharacteristic::operator bool() const
+BLECharacteristic::operator bool()
 {
     return (m_local != NULL);
 }

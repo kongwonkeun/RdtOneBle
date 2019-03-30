@@ -68,7 +68,7 @@ void LocalDevice::end()
     g_hci.end();
 }
 
-bool LocalDevice::connected() const
+bool LocalDevice::connected()
 {
     g_hci.poll();
     return g_att.connected();
@@ -79,7 +79,7 @@ bool LocalDevice::disconnect()
     return g_att.disconnect();
 }
 
-char* LocalDevice::address() const
+char* LocalDevice::address()
 {
     uint8_t addr[6] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
     g_hci.readBDAddr(addr);
@@ -102,7 +102,7 @@ void LocalDevice::setAdvertisedServiceUuid(const char* advertisedServiceUuid)
     g_gap.setAdvertisedServiceUuid(advertisedServiceUuid);
 }
 
-void LocalDevice::setAdvertisedService(const BLEService& service)
+void LocalDevice::setAdvertisedService(BLEService& service)
 {
     setAdvertisedServiceUuid(service.uuid());
 }
@@ -168,20 +168,20 @@ void LocalDevice::setConnectable(bool connectable)
     g_gap.setConnectable(connectable);
 }
 
-LocalDevice::operator bool() const
+LocalDevice::operator bool()
 {
     return true;
 }
 
-bool LocalDevice::operator==(const BLEDevice& rhs) const
+bool LocalDevice::operator==(BLEDevice& rhs)
 {
     return (this == &rhs);
 }
 
-bool LocalDevice::operator!=(const BLEDevice& rhs) const
+bool LocalDevice::operator!=(BLEDevice& rhs)
 {
     return (this != &rhs);
 }
 
-//LocalDevice g_bleDevice;
+LocalDevice g_bleDevice;
 

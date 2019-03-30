@@ -17,9 +17,9 @@ class BLEUUID
 {
 public:
     BLEUUID(const char* str);
-    const char* str() const;
-    const uint8_t* data() const;
-    uint8_t length() const;
+    const char* str();
+    const uint8_t* data();
+    uint8_t length();
 
 private:
     const char* m_str;

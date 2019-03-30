@@ -133,5 +133,5 @@ void GAPClass::setAdvertisedServiceData(uint16_t uuid, const uint8_t data[], int
     m_serviceDataLength = length;
 }
 
-//GAPClass g_gap;
+GAPClass g_gap;
 

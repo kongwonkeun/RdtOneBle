@@ -10,14 +10,12 @@
 #define LOCALCHARACTERISTIC_H_
 
 #include <stdint.h>
-#include "../system/XLinkedList.h"
 #include "../profile/BLEAttribute.h"
 #include "../profile/BLECharacteristic.h"
-
-
-class BLEDevice;
-class BLEDescriptor;
-class LocalDescriptor;
+#include "../profile/BLEDescriptor.h"
+#include "../profile/BLEDevice.h"
+#include "../peripheral/LocalDescriptor.h"
+#include "../system/XLinkedList.h"
 
 class LocalCharacteristic : public BLEAttribute
 {
@@ -25,12 +23,12 @@ public:
     LocalCharacteristic(const char* uuid, uint8_t properties, int valueSize, bool fixedLength = false);
     LocalCharacteristic(const char* uuid, uint8_t properties, const char* value);
     virtual ~LocalCharacteristic();
-    virtual enum BLEAttributeType type() const;
-    uint8_t properties() const;
-    int valueSize() const;
-    const uint8_t* value() const;
-    int  valueLength() const;
-    uint8_t operator[] (int offset) const;
+    virtual enum BLEAttributeType type();
+    uint8_t properties();
+    int valueSize();
+    const uint8_t* value();
+    int  valueLength();
+    uint8_t operator[] (int offset);
     int  writeValue(const uint8_t value[], int length);
     int  writeValue(const char* value);
     int  broadcast();
@@ -43,10 +41,10 @@ protected:
     friend class ATTClass;
     friend class GATTClass;
     void setHandle(uint16_t handle);
-    uint16_t handle() const;
-    uint16_t valueHandle() const;
-    unsigned int descriptorCount() const;
-    LocalDescriptor* descriptor(unsigned int index) const;
+    uint16_t handle();
+    uint16_t valueHandle();
+    unsigned int descriptorCount();
+    LocalDescriptor* descriptor(unsigned int index);
     void readValue(BLEDevice device, uint16_t offset, uint8_t value[], int length);
     void writeValue(BLEDevice device, const uint8_t value[], int length);
     void writeCccdValue(BLEDevice device, uint16_t value);

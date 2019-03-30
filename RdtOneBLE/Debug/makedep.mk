@@ -38,3 +38,11 @@ protocol\HCIUartTransport.cpp
 
 protocol\L2CAPSignaling.cpp
 
+system\XLinkedList.cpp
+
+system\XTimer.cpp
+
+system\XUart.cpp
+
+system\XUtil.cpp
+

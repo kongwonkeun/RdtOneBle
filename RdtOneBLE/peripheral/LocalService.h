@@ -10,28 +10,27 @@
 #define LOCALSERVICE_H_
 
 #include <stdint.h>
-#include "../system/XLinkedList.h"
 #include "../profile/BLEAttribute.h"
-
-class BLECharacteristic;
-class LocalCharacteristic;
+#include "../profile/BLECharacteristic.h"
+#include "../peripheral/LocalCharacteristic.h"
+#include "../system/XLinkedList.h"
 
 class LocalService : public BLEAttribute
 {
 public:
     LocalService(const char* uuid);
     virtual ~LocalService();
-    virtual enum BLEAttributeType type() const;
+    virtual enum BLEAttributeType type();
     void addCharacteristic(BLECharacteristic& characteristic);
 
 protected:
     friend class ATTClass;
     friend class GATTClass;
     void setHandles(uint16_t start, uint16_t end);
-    uint16_t startHandle() const;
-    uint16_t endHandle() const;
-    unsigned int characteristicCount() const;
-    LocalCharacteristic* characteristic(unsigned int index) const;
+    uint16_t startHandle();
+    uint16_t endHandle();
+    unsigned int characteristicCount();
+    LocalCharacteristic* characteristic(unsigned int index);
     void addCharacteristic(LocalCharacteristic* characteristic);
 
 private:

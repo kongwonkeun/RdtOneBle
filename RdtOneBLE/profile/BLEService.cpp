@@ -34,7 +34,7 @@ BLEService::~BLEService()
     }
 }
 
-const char* BLEService::uuid() const
+const char* BLEService::uuid()
 {
     if (m_local) {
         return m_local->uuid();
@@ -47,6 +47,11 @@ void BLEService::addCharacteristic(BLECharacteristic& characteristic)
     if (m_local) {
         m_local->addCharacteristic(characteristic);
     }
+}
+
+BLEService::operator bool()
+{
+    return (m_local != NULL);
 }
 
 LocalService* BLEService::local()

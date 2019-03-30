@@ -9,7 +9,16 @@ main.d main.o: .././main.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
- e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
+ .././profile/BLEProperty.h .././profile/BLETypedCharacteristics.h \
+ .././profile/../system/XUtil.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
+ .././profile/../profile/BLETypedCharacteristic.h \
+ .././profile/../profile/../profile/BLECharacteristic.h \
+ .././profile/BLEService.h .././peripheral/LocalDevice.h \
+ .././peripheral/../profile/BLEDevice.h
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -32,3 +41,25 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h:
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
+
+.././profile/BLEProperty.h:
+
+.././profile/BLETypedCharacteristics.h:
+
+.././profile/../system/XUtil.h:
+
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
+
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
+
+.././profile/../profile/BLETypedCharacteristic.h:
+
+.././profile/../profile/../profile/BLECharacteristic.h:
+
+.././profile/BLEService.h:
+
+.././peripheral/LocalDevice.h:
+
+.././peripheral/../profile/BLEDevice.h:

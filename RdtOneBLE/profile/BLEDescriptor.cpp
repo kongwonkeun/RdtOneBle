@@ -42,7 +42,7 @@ BLEDescriptor::~BLEDescriptor()
     }
 }
 
-int BLEDescriptor::valueSize() const
+int BLEDescriptor::valueSize()
 {
     if (m_local) {
         return m_local->valueSize();
@@ -50,7 +50,7 @@ int BLEDescriptor::valueSize() const
     return 0;
 }
 
-const uint8_t* BLEDescriptor::value() const
+const uint8_t* BLEDescriptor::value()
 {
     if (m_local) {
         return m_local->value();
@@ -58,12 +58,17 @@ const uint8_t* BLEDescriptor::value() const
     return NULL;
 }
 
-uint8_t BLEDescriptor::operator[] (int offset) const
+uint8_t BLEDescriptor::operator[] (int offset)
 {
     if (m_local) {
         return (*m_local)[offset];
     }
     return 0;
+}
+
+BLEDescriptor::operator bool()
+{
+    return (m_local != NULL);
 }
 
 LocalDescriptor* BLEDescriptor::local()

@@ -95,12 +95,12 @@ void ATTClass::removeConnection(uint8_t handle, uint16_t)
     }
 }
 
-bool ATTClass::connected() const
+bool ATTClass::connected()
 {
     return (m_connectionHandle != 0xffff);
 }
 
-bool ATTClass::connected(uint16_t handle, const uint8_t address[6]) const
+bool ATTClass::connected(uint16_t handle, const uint8_t address[6])
 {
     return ((m_connectionHandle == handle) && memcmp(m_peerAddress, address, 6) == 0);
 }
@@ -688,6 +688,6 @@ void ATTClass::setEventHandler(BLEDeviceEvent event, BLEDeviceEventHandler event
     }
 }
 
-//ATTClass g_att;
+ATTClass g_att;
 
 

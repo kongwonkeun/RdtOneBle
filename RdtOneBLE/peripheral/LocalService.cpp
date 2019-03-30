@@ -7,8 +7,6 @@
 
 
 #include "../peripheral/LocalService.h"
-#include "../peripheral/LocalCharacteristic.h"
-#include "../profile/BLEAttribute.h"
 
 LocalService::LocalService(const char* uuid) : BLEAttribute(uuid), m_startHandle(0x0000), m_endHandle(0x0000)
 {
@@ -26,7 +24,7 @@ LocalService::~LocalService()
     m_characteristics.clear();
 }
 
-enum BLEAttributeType LocalService::type() const
+enum BLEAttributeType LocalService::type()
 {
     return BATT_SERVICE;
 }
@@ -45,22 +43,22 @@ void LocalService::setHandles(uint16_t start, uint16_t end)
     m_endHandle = end;
 }
 
-uint16_t LocalService::startHandle() const
+uint16_t LocalService::startHandle()
 {
     return m_startHandle;
 }
 
-uint16_t LocalService::endHandle() const
+uint16_t LocalService::endHandle()
 {
     return m_endHandle;
 }
 
-unsigned int LocalService::characteristicCount() const
+unsigned int LocalService::characteristicCount()
 {
     return m_characteristics.size();
 }
 
-LocalCharacteristic* LocalService::characteristic(unsigned int index) const
+LocalCharacteristic* LocalService::characteristic(unsigned int index)
 {
     return m_characteristics.get(index);
 }

@@ -20,10 +20,10 @@ public:
     BLEDescriptor(const char* uuid, const uint8_t value[], int valueSize);
     BLEDescriptor(const char* uuid, const char* value);
     virtual ~BLEDescriptor();
-    int valueSize() const;
-    const uint8_t* value() const;
-    uint8_t operator[] (int offset) const;
-    operator bool() const;
+    int valueSize();
+    const uint8_t* value();
+    uint8_t operator[] (int offset);
+    operator bool();
 
 protected:
     friend class LocalCharacteristic;

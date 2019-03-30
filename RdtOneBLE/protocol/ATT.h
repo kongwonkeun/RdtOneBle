@@ -24,8 +24,8 @@ public:
     );
     void handleData(uint16_t handle, uint8_t length, uint8_t data[]);
     void removeConnection(uint8_t handle, uint16_t reason);
-    bool connected() const;
-    bool connected(uint16_t handle, const uint8_t address[6]) const;
+    bool connected();
+    bool connected(uint16_t handle, const uint8_t address[6]);
     bool disconnect();
     bool handleNotify(uint16_t handle, const uint8_t* value, int length);
     bool handleInd(uint16_t handle, const uint8_t* value, int length);

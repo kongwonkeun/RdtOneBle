@@ -7,9 +7,7 @@
 
 
 #include "../peripheral/LocalCharacteristic.h"
-#include "../peripheral/LocalDescriptor.h"
 #include "../profile/BLEProperty.h"
-#include "../profile/BLEDescriptor.h"
 #include "../protocol/ATT.h"
 #include "../protocol/GAP.h"
 #include "../protocol/GATT.h"
@@ -47,32 +45,32 @@ LocalCharacteristic::~LocalCharacteristic()
     }
 }
 
-enum BLEAttributeType LocalCharacteristic::type() const
+enum BLEAttributeType LocalCharacteristic::type()
 {
     return BATT_CHRACTERISTIC;
 }
 
-uint8_t LocalCharacteristic::properties() const
+uint8_t LocalCharacteristic::properties()
 {
     return m_properties;
 }
 
-int LocalCharacteristic::valueSize() const
+int LocalCharacteristic::valueSize()
 {
     return m_valueSize;
 }
 
-const uint8_t* LocalCharacteristic::value() const
+const uint8_t* LocalCharacteristic::value()
 {
     return m_value;
 }
 
-int LocalCharacteristic::valueLength() const
+int LocalCharacteristic::valueLength()
 {
     return m_valueLength;
 }
 
-uint8_t LocalCharacteristic::operator[] (int offset) const
+uint8_t LocalCharacteristic::operator[] (int offset)
 {
     return m_value[offset];
 }
@@ -147,22 +145,22 @@ void LocalCharacteristic::setHandle(uint16_t handle)
     m_handle = handle;
 }
 
-uint16_t LocalCharacteristic::handle() const
+uint16_t LocalCharacteristic::handle()
 {
     return m_handle;
 }
 
-uint16_t LocalCharacteristic::valueHandle() const
+uint16_t LocalCharacteristic::valueHandle()
 {
     return (m_handle + 1);
 }
 
-unsigned int LocalCharacteristic::descriptorCount() const
+unsigned int LocalCharacteristic::descriptorCount()
 {
     return m_descriptors.size();
 }
 
-LocalDescriptor* LocalCharacteristic::descriptor(unsigned int index) const
+LocalDescriptor* LocalCharacteristic::descriptor(unsigned int index)
 {
     return m_descriptors.get(index);
 }

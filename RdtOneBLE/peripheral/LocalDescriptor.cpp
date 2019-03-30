@@ -26,22 +26,22 @@ LocalDescriptor::~LocalDescriptor()
     // nothing to do
 }
 
-enum BLEAttributeType LocalDescriptor::type() const
+enum BLEAttributeType LocalDescriptor::type()
 {
     return BATT_DESCRIPTOR;
 }
 
-int LocalDescriptor::valueSize() const
+int LocalDescriptor::valueSize()
 {
     return m_valueSize;
 }
 
-const uint8_t* LocalDescriptor::value() const
+const uint8_t* LocalDescriptor::value()
 {
     return m_value;
 }
 
-uint8_t LocalDescriptor::operator[] (int offset) const
+uint8_t LocalDescriptor::operator[] (int offset)
 {
     return m_value[offset];
 }
@@ -51,7 +51,7 @@ void LocalDescriptor::setHandle(uint16_t handle)
     m_handle = handle;
 }
 
-uint16_t LocalDescriptor::handle() const
+uint16_t LocalDescriptor::handle()
 {
     return m_handle;
 }

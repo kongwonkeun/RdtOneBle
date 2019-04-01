@@ -3,10 +3,9 @@
  *
  * Created: 2019-03-29 17:11:01
  *  Author: kong
- */ 
+ */
 
-
-#include "../profile/BLEAttribute.h"
+#include "profile/BLEAttribute.h"
 
 BLEAttribute::BLEAttribute(const char* uuid) : m_uuid(uuid), m_refCount(0)
 {
@@ -50,3 +49,4 @@ int BLEAttribute::release()
     return m_refCount;
 }
 
+/* EOF */

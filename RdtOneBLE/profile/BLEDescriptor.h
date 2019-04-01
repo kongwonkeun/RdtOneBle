@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef BLEDESCRIPTOR_H_
 #define BLEDESCRIPTOR_H_
 
@@ -33,6 +32,5 @@ protected:
 private:
     LocalDescriptor* m_local;
 };
-
 
 #endif /* BLEDESCRIPTOR_H_ */

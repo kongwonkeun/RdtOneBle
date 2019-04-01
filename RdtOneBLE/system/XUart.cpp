@@ -3,10 +3,9 @@
  *
  * Created: 2019-03-30 12:18:00
  *  Author: kong
- */ 
+ */
 
-
-#include "../system/XUart.h"
+#include "system/XUart.h"
 
 XUart::XUart()
 {
@@ -55,3 +54,4 @@ void XUart::flush()
 
 XUart g_uart;
 
+/* EOF */

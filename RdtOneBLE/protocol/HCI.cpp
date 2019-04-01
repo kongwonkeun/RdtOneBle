@@ -3,17 +3,15 @@
  *
  * Created: 2019-03-29 11:17:17
  *  Author: kong
- */ 
+ */
 
-
-#include "../protocol/HCI.h"
-#include "../protocol/HCITransport.h"
-#include "../protocol/L2CAPSignaling.h"
-#include "../protocol/ATT.h"
-#include "../system/XUtil.h"
-#include "../system/XTimer.h"
 #include <string.h>
-
+#include "system/XUtil.h"
+#include "system/XTimer.h"
+#include "protocol/HCITransport.h"
+#include "protocol/L2CAPSignaling.h"
+#include "protocol/ATT.h"
+#include "protocol/HCI.h"
 
 HCIClass::HCIClass() : m_recvIndex(0), m_pendingPacket(0)
 {
@@ -56,7 +54,7 @@ void HCIClass::poll(unsigned long timeout)
                 m_recvIndex = 0;
                 handleAclDataPacket(pktLen, &m_recvBuffer[1]);
             }
-        } 
+        }
         else if (m_recvBuffer[0] == HCI_EVENT_PKT) {
             if (m_recvIndex > 3 && m_recvIndex >= (3 + m_recvBuffer[2])) {
                 // received full event
@@ -150,7 +148,7 @@ int HCIClass::setLeRandomAddress(uint8_t addr[6])
     return sendCommand(OGF_LE_CTL << 10 | OCF_LE_SET_RANDOM_ADDRESS, 6, addr);
 }
 
-int HCIClass::setLeAdvertisingParams(uint16_t minInterval, uint16_t maxInterval, uint8_t advType, 
+int HCIClass::setLeAdvertisingParams(uint16_t minInterval, uint16_t maxInterval, uint8_t advType,
 uint8_t ownBDAddrType, uint8_t directBDAddrType, uint8_t directBDAddr[6], uint8_t chanMap, uint8_t filter)
 {
     struct __attribute__ ((packed)) HCILeAdvertisingParameters {
@@ -291,7 +289,7 @@ void HCIClass::handleAclDataPacket(uint8_t, uint8_t pdata[])
 
     if (aclHdr->cid == ATT_CID) {
         g_att.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
-    } 
+    }
     else if (aclHdr->cid == SIGNALING_CID) {
         g_l2capSignaling.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
     } else {
@@ -334,7 +332,7 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
         g_att.removeConnection(disconnComplete->handle, disconnComplete->reason);
         g_l2capSignaling.removeConnection(disconnComplete->handle, disconnComplete->reason);
         g_hci.setLeAdvertiseEnable(0x01);
-    } 
+    }
     else if (eventHdr->evt == EVT_CMD_COMPLETE) {
         struct __attribute__ ((packed)) CmdComplete {
             uint8_t  ncmd;
@@ -346,7 +344,7 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
         m_cmdCompleteStatus = cmdCompleteHeader->status;
         m_cmdResponseLength = pdata[1] - sizeof(CmdComplete);
         m_cmdResponse = &pdata[sizeof(HCIEventHdr) + sizeof(CmdComplete)];
-    } 
+    }
     else if (eventHdr->evt == EVT_NUM_COMP_PKTS) {
         uint8_t numHandles = pdata[sizeof(HCIEventHdr)];
         uint16_t* data = (uint16_t*)&pdata[sizeof(HCIEventHdr) + sizeof(numHandles)];
@@ -355,7 +353,7 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
             handleNumCompPackets(data[0], data[1]);
             data += 2;
         }
-    } 
+    }
     else if (eventHdr->evt == EVT_LE_META_EVENT) {
         struct __attribute__ ((packed)) LeMetaEventHeader {
             uint8_t subevent;
@@ -410,3 +408,4 @@ void HCIClass::dumpPacket(const char* prefix, uint8_t plen, uint8_t pdata[])
 
 HCIClass g_hci;
 
+/* EOF */

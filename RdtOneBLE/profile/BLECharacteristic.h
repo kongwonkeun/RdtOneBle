@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef BLECHARACTERISTIC_H_
 #define BLECHARACTERISTIC_H_
 
@@ -15,7 +14,6 @@ class LocalCharacteristic;
 class BLEDescriptor;
 class BLECharacteristic;
 class BLEDevice;
-
 typedef void (*BLECharacteristicEventHandler)(BLEDevice device, BLECharacteristic characteristic);
 
 enum BLECharacteristicEvent
@@ -49,16 +47,13 @@ public:
     void addDescriptor(BLEDescriptor& descriptor);
     operator bool();
     void setEventHandler(int event, BLECharacteristicEventHandler eventHandler);
-
 protected:
     friend class LocalCharacteristic;
     friend class LocalService;
     BLECharacteristic(LocalCharacteristic* local);
     LocalCharacteristic* local();
-
 private:
     LocalCharacteristic* m_local;
 };
-
 
 #endif /* BLECHARACTERISTIC_H_ */

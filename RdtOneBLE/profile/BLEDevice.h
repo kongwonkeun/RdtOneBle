@@ -5,15 +5,10 @@
  *  Author: kong
  */
 
-
 #ifndef BLEDEVICE_H_
 #define BLEDEVICE_H_
 
 #include <stdint.h>
-
-class BLEDevice;
-
-typedef void (*BLEDeviceEventHandler)(BLEDevice device);
 
 enum BLEDeviceEvent
 {
@@ -36,15 +31,15 @@ public:
     virtual operator bool();
     virtual bool operator==(BLEDevice& rhs);
     virtual bool operator!=(BLEDevice& rhs);
-
+    char m_addrString[18];
 protected:
     friend class ATTClass;
     BLEDevice(uint16_t handle, uint8_t address[6]);
-
 private:
     uint16_t m_handle;
     uint8_t  m_address[6];
 };
 
+typedef void (*BLEDeviceEventHandler)(BLEDevice device);
 
 #endif /* BLEDEVICE_H_ */

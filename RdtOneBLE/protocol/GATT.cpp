@@ -3,12 +3,14 @@
  *
  * Created: 2019-03-29 10:36:38
  *  Author: kong
- */ 
+ */
 
-
-#include "../protocol/GATT.h"
-#include "../profile/BLEProperty.h"
-#include "../peripheral/LocalDescriptor.h"
+#include <stdlib.h>
+#include "profile/BLEProperty.h"
+#include "profile/BLEService.h"
+#include "profile/BLEAttribute.h"
+#include "peripheral/LocalDescriptor.h"
+#include "protocol/GATT.h"
 
 GATTClass::GATTClass() :
 m_genericAccessService("1800"), m_deviceNameCharacteristic("2a00", BPP_READ, 20), m_appearanceCharacteristic("2a01", BPP_READ, 2),
@@ -128,3 +130,4 @@ void GATTClass::clearAttributes()
 
 GATTClass g_gatt;
 
+/* EOF */

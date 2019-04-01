@@ -5,12 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef ATT_H_
 #define ATT_H_
 
 #include <stdint.h>
-#include "../profile/BLEDevice.h"
+#include "profile/BLEDevice.h"
 
 class ATTClass
 {
@@ -31,7 +30,6 @@ public:
     bool handleInd(uint16_t handle, const uint8_t* value, int length);
     void setEventHandler(BLEDeviceEvent event, BLEDeviceEventHandler eventHandler);
     BLEDevice central();
-
 private:
     void mtuReq(uint16_t handle, uint8_t length, uint8_t data[]);
     void findInfoReq(uint16_t handle, uint8_t length, uint8_t data[]);
@@ -46,12 +44,12 @@ private:
     void sendError(uint16_t handle, uint8_t opcode, uint16_t errHandle, uint8_t code);
     uint16_t m_maxMtu;
     uint16_t m_connectionHandle;
-    uint8_t  m_peerAddress[6];
     uint16_t m_mtu;
-    volatile bool m_cnf;
     uint16_t m_longWriteHandle;
     uint8_t* m_longWriteValue;
     uint16_t m_longWriteValueLength;
+    uint8_t  m_peerAddress[6];
+    volatile bool m_cnf;
     BLEDeviceEventHandler m_eventHandlers[BD_EVENT_LAST];
 };
 
@@ -105,6 +103,5 @@ extern ATTClass g_att;
 #define ATT_ECODE_INSUFF_ENC           0x0f
 #define ATT_ECODE_UNSUPP_GRP_TYPE      0x10
 #define ATT_ECODE_INSUFF_RESOURCES     0x11
-
 
 #endif /* ATT_H_ */

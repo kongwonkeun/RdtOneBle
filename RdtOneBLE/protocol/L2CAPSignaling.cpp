@@ -3,11 +3,10 @@
  *
  * Created: 2019-03-29 14:47:53
  *  Author: kong
- */ 
+ */
 
-
-#include "../protocol/L2CAPSignaling.h"
-#include "../protocol/HCI.h"
+#include "protocol/HCI.h"
+#include "protocol/L2CAPSignaling.h"
 
 L2CAPSignalingClass::L2CAPSignalingClass() : m_minInterval(0), m_maxInterval(0)
 {
@@ -30,7 +29,7 @@ void L2CAPSignalingClass::addConnection(uint16_t handle, uint8_t role, uint8_t, 
     if (interval >= m_minInterval && interval <= m_maxInterval) { // all good, within interval range
         return;
     }
-    
+
     struct __attribute__ ((packed)) L2CAPConnectionParameterUpdateRequest {
         uint8_t  code;
         uint8_t  identifier;
@@ -118,3 +117,4 @@ void L2CAPSignalingClass::connParamUpdateRes(uint16_t, uint8_t, uint8_t, uint8_t
 
 L2CAPSignalingClass g_l2capSignaling;
 
+/* EOF */

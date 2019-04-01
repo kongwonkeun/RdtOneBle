@@ -3,12 +3,11 @@
  *
  * Created: 2019-03-29 13:49:42
  *  Author: kong
- */ 
+ */
 
-
-#include "../protocol/HCIUartTransport.h"
-#include "../system/XUart.h"
-#include "../system/XTimer.h"
+#include "system/XUart.h"
+#include "system/XTimer.h"
+#include "protocol/HCIUartTransport.h"
 
 HCIUartTransportClass::HCIUartTransportClass(XUart& uart, unsigned long baudrate) : m_uart(&uart), m_baudrate(baudrate)
 {
@@ -65,3 +64,4 @@ size_t HCIUartTransportClass::write(const uint8_t* data, size_t length)
 HCIUartTransportClass  g_hciUartTransport(g_uart, 115200);
 HCITransportInterface& g_hciTransport = g_hciUartTransport;
 
+/* EOF */

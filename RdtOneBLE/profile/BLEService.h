@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef BLESERVICE_H_
 #define BLESERVICE_H_
 
@@ -22,16 +21,13 @@ public:
     const char* uuid();
     void addCharacteristic(BLECharacteristic& characteristic);
     operator bool();
-
 protected:
     friend class GATTClass;
     BLEService(LocalService* local);
     LocalService* local();
     void addCharacteristic(LocalCharacteristic* characteristic);
-
 private:
     LocalService* m_local;
 };
-
 
 #endif /* BLESERVICE_H_ */

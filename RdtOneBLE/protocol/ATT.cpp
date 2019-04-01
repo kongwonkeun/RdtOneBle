@@ -5,15 +5,14 @@
  *  Author: kong
  */
 
-
-#include "../protocol/ATT.h"
-#include "../protocol/GATT.h"
-#include "../protocol/HCI.h"
-#include "../profile/BLEProperty.h"
-#include "../profile/BLEDescriptor.h"
-#include "../peripheral/LocalDescriptor.h"
-#include "../system/XUtil.h"
 #include <string.h>
+#include "system/XUtil.h"
+#include "protocol/GATT.h"
+#include "protocol/HCI.h"
+#include "profile/BLEProperty.h"
+#include "profile/BLEDescriptor.h"
+#include "peripheral/LocalDescriptor.h"
+#include "protocol/ATT.h"
 
 class BLEDevice;
 class BLEAttribute;
@@ -536,9 +535,9 @@ void ATTClass::writeReqOrCmd(uint16_t handle, uint8_t opcode, uint8_t length, ui
     BLEAttribute* attribute = g_gatt.attribute(h - 1);
     if (attribute->type() == BATT_CHRACTERISTIC) {
         LocalCharacteristic* characteristic = (LocalCharacteristic*)attribute;
-        
-        if (h != characteristic->valueHandle() || withResponse ? 
-        ((characteristic->properties() & BPP_WRITE) == 0) : 
+
+        if (h != characteristic->valueHandle() || withResponse ?
+        ((characteristic->properties() & BPP_WRITE) == 0) :
         ((characteristic->properties() & BPP_WRITE_WO_RESPONSE) == 0)) {
             if (withResponse) {
                 sendError(handle, ATT_OP_WRITE_REQ, h, ATT_ECODE_WRITE_NOT_PERM);
@@ -690,4 +689,4 @@ void ATTClass::setEventHandler(BLEDeviceEvent event, BLEDeviceEventHandler event
 
 ATTClass g_att;
 
-
+/* EOF */

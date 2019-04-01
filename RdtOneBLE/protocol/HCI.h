@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef HCI_H_
 #define HCI_H_
 
@@ -45,7 +44,6 @@ public:
     );
     int  sendAclPacket(uint16_t handle, uint8_t cid, uint8_t length, void* data);
     int  disconnect(uint16_t handle);
-
 private:
     int  sendCommand(uint16_t opcode, uint8_t length = 0, void* params = NULL);
     void handleAclDataPacket(uint8_t length, uint8_t packet[]);
@@ -104,6 +102,5 @@ extern HCIClass g_hci;
 #define OCF_LE_CONN_UPDATE                0x0013
 
 #define HCI_OE_USER_ENDED_CONNECTION      0x13
-
 
 #endif /* HCI_H_ */

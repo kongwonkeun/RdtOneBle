@@ -5,12 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef BLEATTRIBUTE_H_
 #define BLEATTRIBUTE_H_
 
 #include <stdint.h>
-#include "../profile/BLEUUID.h"
+#include "profile/BLEUUID.h"
 
 enum BLEAttributeType
 {
@@ -29,13 +28,11 @@ public:
     const char* uuid();
     const uint8_t* uuidData();
     uint8_t uuidLength();
-    int  retain();
-    int  release();
-
+    int retain();
+    int release();
 private:
     BLEUUID m_uuid;
     int m_refCount;
 };
-
 
 #endif /* BLEATTRIBUTE_H_ */

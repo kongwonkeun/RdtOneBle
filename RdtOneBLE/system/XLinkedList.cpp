@@ -3,14 +3,14 @@
  *
  * Created: 2019-03-30 12:25:48
  *  Author: kong
- */ 
+ */
 
-
-#include "../system/XLinkedList.h"
+#include <stdlib.h>
+#include "system/XLinkedList.h"
 
 template <typename T> XLinkedList<T>::XLinkedList() : m_size(0), m_root(NULL), m_last(NULL)
 {
-    // nothing to do
+    //
 }
 
 template <typename T> XLinkedList<T>::~XLinkedList()
@@ -62,4 +62,4 @@ template <typename T> unsigned int XLinkedList<T>::size()
     return m_size;
 }
 
-
+/* EOF */

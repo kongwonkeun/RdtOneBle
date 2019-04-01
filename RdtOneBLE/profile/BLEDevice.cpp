@@ -3,15 +3,13 @@
  *
  * Created: 2019-03-29 17:26:22
  *  Author: kong
- */ 
+ */
 
-
-#include "../profile/BLEDevice.h"
-#include "../protocol/HCI.h"
-#include "../protocol/ATT.h"
-#include <string.h>
 #include <stdio.h>
-
+#include <string.h>
+#include "protocol/HCI.h"
+#include "protocol/ATT.h"
+#include "profile/BLEDevice.h"
 
 BLEDevice::BLEDevice() : m_handle(0xffff)
 {
@@ -57,9 +55,8 @@ bool BLEDevice::disconnect()
 
 char* BLEDevice::address()
 {
-    char result[18];
-    sprintf(result, "%02x:%02x:%02x:%02x:%02x:%02x", m_address[5], m_address[4], m_address[3], m_address[2], m_address[1], m_address[0]);
-    return result;
+    sprintf(m_addrString, "%02x:%02x:%02x:%02x:%02x:%02x", m_address[5], m_address[4], m_address[3], m_address[2], m_address[1], m_address[0]);
+    return  m_addrString;
 }
 
 int BLEDevice::rssi()
@@ -86,4 +83,4 @@ bool BLEDevice::operator!=(BLEDevice& rhs)
     return ((m_handle != rhs.m_handle) || memcmp(m_address, rhs.m_address, sizeof(m_address)) != 0);
 }
 
-
+/* EOF */

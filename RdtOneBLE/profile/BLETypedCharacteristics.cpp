@@ -5,8 +5,7 @@
  *  Author: kong
  */
 
-
-#include "../profile/BLETypedCharacteristics.h"
+#include "BLETypedCharacteristics.h"
 
 BLEBoolCharacteristic::BLEBoolCharacteristic(const char* uuid, unsigned char properties) :       BLETypedCharacteristic<bool>(uuid, properties) { }
 BLEBooleanCharacteristic::BLEBooleanCharacteristic(const char* uuid, unsigned char properties) : BLETypedCharacteristic<bool>(uuid, properties) { }
@@ -23,3 +22,4 @@ BLEUnsignedLongCharacteristic::BLEUnsignedLongCharacteristic(const char* uuid, u
 BLEFloatCharacteristic::BLEFloatCharacteristic(const char* uuid, unsigned char properties) :     BLETypedCharacteristic<float>(uuid, properties) { }
 BLEDoubleCharacteristic::BLEDoubleCharacteristic(const char* uuid, unsigned char properties) :   BLETypedCharacteristic<double>(uuid, properties) { }
 
+/* EOF */

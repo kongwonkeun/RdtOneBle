@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef HCITRANSPORT_H_
 #define HCITRANSPORT_H_
 
@@ -22,9 +21,9 @@ public:
     virtual int  peek() = 0;
     virtual int  read() = 0;
     virtual size_t write(const uint8_t* data, size_t length) = 0;
+private:
 };
 
 extern HCITransportInterface& g_hciTransport;
-
 
 #endif /* HCITRANSPORT_H_ */

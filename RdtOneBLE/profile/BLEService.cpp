@@ -3,12 +3,12 @@
  *
  * Created: 2019-03-29 17:32:50
  *  Author: kong
- */ 
+ */
 
-
-#include "../profile/BLEService.h"
-#include "../profile/BLECharacteristic.h"
-#include "../peripheral/LocalService.h"
+#include <stdlib.h>
+#include "peripheral/LocalService.h"
+#include "profile/BLECharacteristic.h"
+#include "profile/BLEService.h"
 
 BLEService::BLEService() : BLEService((LocalService*)NULL)
 {
@@ -59,3 +59,4 @@ LocalService* BLEService::local()
     return m_local;
 }
 
+/* EOF */

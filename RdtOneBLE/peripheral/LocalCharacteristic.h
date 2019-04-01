@@ -5,17 +5,18 @@
  *  Author: kong
  */
 
-
 #ifndef LOCALCHARACTERISTIC_H_
 #define LOCALCHARACTERISTIC_H_
 
 #include <stdint.h>
-#include "../profile/BLEAttribute.h"
-#include "../profile/BLECharacteristic.h"
-#include "../profile/BLEDescriptor.h"
-#include "../profile/BLEDevice.h"
-#include "../peripheral/LocalDescriptor.h"
-#include "../system/XLinkedList.h"
+//#include "peripheral/LocalDescriptor.h"
+#include "profile/BLEAttribute.h"
+#include "profile/BLECharacteristic.h"
+#include "system/XLinkedList.h"
+
+class LocalDescriptor;
+class BLEDescriptor;
+class BLEDevice;
 
 class LocalCharacteristic : public BLEAttribute
 {
@@ -36,7 +37,6 @@ public:
     bool subscribed();
     void addDescriptor(BLEDescriptor& descriptor);
     void setEventHandler(BLECharacteristicEvent event, BLECharacteristicEventHandler eventHandler);
-
 protected:
     friend class ATTClass;
     friend class GATTClass;
@@ -48,20 +48,18 @@ protected:
     void readValue(BLEDevice device, uint16_t offset, uint8_t value[], int length);
     void writeValue(BLEDevice device, const uint8_t value[], int length);
     void writeCccdValue(BLEDevice device, uint16_t value);
-
 private:
     uint8_t m_properties;
     int m_valueSize;
-    uint8_t* m_value;
     uint8_t  m_valueLength;
     bool m_fixedLength;
     uint16_t m_handle;
     bool m_broadcast;
     bool m_written;
     uint16_t m_cccdValue;
+    uint8_t* m_value;
     XLinkedList<LocalDescriptor*> m_descriptors;
     BLECharacteristicEventHandler m_eventHandlers[BC_EVENT_LAST];
 };
-
 
 #endif /* LOCALCHARACTERISTIC_H_ */

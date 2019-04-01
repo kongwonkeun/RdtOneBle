@@ -3,12 +3,11 @@
  *
  * Created: 2019-03-29 18:01:59
  *  Author: kong
- */ 
+ */
 
-
-#include "BLEUUID.h"
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include "BLEUUID.h"
 
 BLEUUID::BLEUUID(const char * str) : m_str(str)
 {
@@ -47,3 +46,4 @@ uint8_t BLEUUID::length()
     return m_length;
 }
 
+/* EOF */

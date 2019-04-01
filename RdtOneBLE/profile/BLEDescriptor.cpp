@@ -3,12 +3,11 @@
  *
  * Created: 2019-03-29 17:21:00
  *  Author: kong
- */ 
+ */
 
-
-#include "../profile/BLEDescriptor.h"
-#include "../peripheral/LocalDescriptor.h"
 #include <stdlib.h>
+#include "peripheral/LocalDescriptor.h"
+#include "profile/BLEDescriptor.h"
 
 BLEDescriptor::BLEDescriptor() :
 BLEDescriptor(NULL)
@@ -76,3 +75,4 @@ LocalDescriptor* BLEDescriptor::local()
     return m_local;
 }
 
+/* EOF */

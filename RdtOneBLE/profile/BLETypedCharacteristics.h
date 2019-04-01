@@ -5,12 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef BLETYPEDCHARACTERISTICS_H_
 #define BLETYPEDCHARACTERISTICS_H_
 
-#include "../system/XUtil.h"
-#include "../profile/BLETypedCharacteristic.h"
+#include "system/XUtil.h"
+#include "profile/BLETypedCharacteristic.h"
 
 class BLEBoolCharacteristic : public BLETypedCharacteristic<bool>
 {
@@ -95,6 +94,5 @@ class BLEDoubleCharacteristic : public BLETypedCharacteristic<double>
 public:
     BLEDoubleCharacteristic(const char* uuid, unsigned char properties);
 };
-
 
 #endif /* BLETYPEDCHARACTERISTICS_H_ */

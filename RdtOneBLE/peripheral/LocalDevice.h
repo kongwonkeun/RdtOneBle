@@ -5,12 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef LOCALDEVICE_H_
 #define LOCALDEVICE_H_
 
 #include <stdint.h>
-#include "../profile/BLEDevice.h"
+#include "profile/BLEDevice.h"
 
 class BLEService;
 
@@ -42,11 +41,10 @@ public:
     virtual bool operator==(BLEDevice& rhs);
     virtual bool operator!=(BLEDevice& rhs);
     BLEDevice central();
-
+    char m_addrString[18];
 private:
 };
 
 extern LocalDevice g_bleDevice;
-
 
 #endif /* LOCALDEVICE_H_ */

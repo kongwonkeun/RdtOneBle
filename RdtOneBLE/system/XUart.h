@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef XUART_H_
 #define XUART_H_
 
@@ -24,11 +23,9 @@ public:
     int  read();
     size_t write(const uint8_t* data, size_t length);
     void flush();
-
 private:
 };
 
 extern XUart g_uart;
-
 
 #endif /* XUART_H_ */

@@ -1,17 +1,19 @@
 protocol/HCI.d protocol/HCI.o: ../protocol/HCI.cpp \
- ../protocol/../protocol/HCI.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ ../system/XUtil.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../protocol/../protocol/HCITransport.h \
- ../protocol/../protocol/L2CAPSignaling.h ../protocol/../protocol/ATT.h \
- ../protocol/../protocol/../profile/BLEDevice.h \
- ../protocol/../system/XUtil.h \
- e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
- ../protocol/../system/XTimer.h
+ ../system/XTimer.h ../protocol/HCITransport.h \
+ ../protocol/L2CAPSignaling.h ../protocol/ATT.h ../profile/BLEDevice.h \
+ ../protocol/HCI.h
 
-../protocol/../protocol/HCI.h:
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
+
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+../system/XUtil.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h:
 
@@ -19,18 +21,14 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
-e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+../system/XTimer.h:
 
-../protocol/../protocol/HCITransport.h:
+../protocol/HCITransport.h:
 
-../protocol/../protocol/L2CAPSignaling.h:
+../protocol/L2CAPSignaling.h:
 
-../protocol/../protocol/ATT.h:
+../protocol/ATT.h:
 
-../protocol/../protocol/../profile/BLEDevice.h:
+../profile/BLEDevice.h:
 
-../protocol/../system/XUtil.h:
-
-e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
-
-../protocol/../system/XTimer.h:
+../protocol/HCI.h:

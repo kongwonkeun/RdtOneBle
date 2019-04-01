@@ -5,12 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef BLETYPEDCHARACTERISTIC_H_
 #define BLETYPEDCHARACTERISTIC_H_
 
-#include "../profile/BLECharacteristic.h"
 #include <string.h>
+#include "profile/BLECharacteristic.h"
 
 template<typename T> class BLETypedCharacteristic : public BLECharacteristic
 {
@@ -25,7 +24,6 @@ public:
     int writeValueBE(T value);
     int setValueBE(T value) { return writeValueBE(value); }
     T   valueBE(void);
-
 private:
     T   byteSwap(T value);
 };
@@ -79,6 +77,5 @@ template<typename T> T BLETypedCharacteristic<T>::byteSwap(T value)
     }
     return result;
 }
-
 
 #endif /* BLETYPEDCHARACTERISTIC_H_ */

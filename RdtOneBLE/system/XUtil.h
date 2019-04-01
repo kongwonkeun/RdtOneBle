@@ -5,13 +5,11 @@
  *  Author: kong
  */
 
-
 #ifndef XUTIL_H_
 #define XUTIL_H_
 
 #include <stdint.h>
 #include <stdlib.h>
-#include <string.h>
 
 #ifndef max
 #define max(a,b) (((a)>(b))?(a):(b))
@@ -35,6 +33,5 @@ typedef uint16_t word;
 
 void* operator new(size_t n);
 void  operator delete(void* p);
-
 
 #endif /* XUTIL_H_ */

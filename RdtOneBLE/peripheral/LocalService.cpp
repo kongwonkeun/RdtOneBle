@@ -3,10 +3,10 @@
  *
  * Created: 2019-03-29 17:04:48
  *  Author: kong
- */ 
+ */
 
-
-#include "../peripheral/LocalService.h"
+#include "peripheral/LocalCharacteristic.h"
+#include "peripheral/LocalService.h"
 
 LocalService::LocalService(const char* uuid) : BLEAttribute(uuid), m_startHandle(0x0000), m_endHandle(0x0000)
 {
@@ -69,3 +69,4 @@ void LocalService::addCharacteristic(LocalCharacteristic* characteristic)
     m_characteristics.add(characteristic);
 }
 
+/* EOF */

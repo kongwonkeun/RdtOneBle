@@ -3,18 +3,19 @@
  *
  * Created: 2019-03-29 15:35:10
  *  Author: kong
- */ 
+ */
 
-
-#include "../peripheral/LocalCharacteristic.h"
-#include "../profile/BLEProperty.h"
-#include "../protocol/ATT.h"
-#include "../protocol/GAP.h"
-#include "../protocol/GATT.h"
-#include "../system/XUtil.h"
 #include <string.h>
+#include "system/XUtil.h"
+#include "protocol/ATT.h"
+#include "protocol/GAP.h"
+#include "protocol/GATT.h"
+#include "profile/BLEProperty.h"
+#include "profile/BLEDescriptor.h"
+#include "peripheral/LocalDescriptor.h"
+#include "peripheral/LocalCharacteristic.h"
 
-LocalCharacteristic::LocalCharacteristic(const char* uuid, uint8_t properties, int valueSize, bool fixedLength) : BLEAttribute(uuid), 
+LocalCharacteristic::LocalCharacteristic(const char* uuid, uint8_t properties, int valueSize, bool fixedLength) : BLEAttribute(uuid),
 m_properties(properties), m_valueSize(min(valueSize, 512)), m_valueLength(0), m_fixedLength(fixedLength),
 m_handle(0x0000), m_broadcast(false), m_written(false), m_cccdValue(0x0000)
 {
@@ -84,7 +85,7 @@ int LocalCharacteristic::writeValue(const uint8_t value[], int length)
     }
     if ((m_properties & BPP_INDICATE) && (m_cccdValue & 0x0002)) {
         return g_att.handleInd(valueHandle(), m_value, m_valueLength);
-    } 
+    }
     else if ((m_properties & BPP_NOTIPY) && (m_cccdValue & 0x0001)) {
         return g_att.handleNotify(valueHandle(), m_value, m_valueLength);
     }
@@ -194,3 +195,4 @@ void LocalCharacteristic::writeCccdValue(BLEDevice device, uint16_t value)
     }
 }
 
+/* EOF */

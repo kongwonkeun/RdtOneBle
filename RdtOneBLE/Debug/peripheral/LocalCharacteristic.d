@@ -1,87 +1,52 @@
 peripheral/LocalCharacteristic.d peripheral/LocalCharacteristic.o: \
  ../peripheral/LocalCharacteristic.cpp \
- ../peripheral/../peripheral/LocalCharacteristic.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
+ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ ../system/XUtil.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
- ../peripheral/../peripheral/../profile/BLEAttribute.h \
- e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h \
- ../peripheral/../peripheral/../profile/BLECharacteristic.h \
- ../peripheral/../peripheral/../profile/BLEDescriptor.h \
- ../peripheral/../peripheral/../profile/BLEDevice.h \
- ../peripheral/../peripheral/../peripheral/LocalDescriptor.h \
- e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
- ../peripheral/../peripheral/../system/XLinkedList.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../peripheral/../profile/BLEProperty.h ../peripheral/../protocol/ATT.h \
- ../peripheral/../protocol/../profile/BLEDevice.h \
- ../peripheral/../protocol/GAP.h ../peripheral/../protocol/GATT.h \
- ../peripheral/../protocol/../system/XLinkedList.h \
- ../peripheral/../protocol/../peripheral/LocalService.h \
- e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h \
- e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h \
- e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h \
- e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h \
- ../peripheral/../protocol/../peripheral/LocalCharacteristic.h \
- ../peripheral/../protocol/../profile/BLEAttribute.h \
- ../peripheral/../protocol/../profile/BLEService.h \
- ../peripheral/../system/XUtil.h \
- e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h
+ ../protocol/ATT.h ../profile/BLEDevice.h ../protocol/GAP.h \
+ ../protocol/GATT.h ../system/XLinkedList.h \
+ ../peripheral/LocalCharacteristic.h ../profile/BLEAttribute.h \
+ ../profile/BLEUUID.h ../profile/BLECharacteristic.h \
+ ../peripheral/LocalService.h ../profile/BLEProperty.h \
+ ../profile/BLEDescriptor.h ../peripheral/LocalDescriptor.h
 
-../peripheral/../peripheral/LocalCharacteristic.h:
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
+
+e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+../system/XUtil.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h:
 
-../peripheral/../peripheral/../profile/BLEAttribute.h:
-
-e:\kproembedded\rdtoneble\rdtoneble\profile\bleuuid.h:
-
-../peripheral/../peripheral/../profile/BLECharacteristic.h:
-
-../peripheral/../peripheral/../profile/BLEDescriptor.h:
-
-../peripheral/../peripheral/../profile/BLEDevice.h:
-
-../peripheral/../peripheral/../peripheral/LocalDescriptor.h:
-
-e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
-
-../peripheral/../peripheral/../system/XLinkedList.h:
-
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
-e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+../protocol/ATT.h:
 
-../peripheral/../profile/BLEProperty.h:
+../profile/BLEDevice.h:
 
-../peripheral/../protocol/ATT.h:
+../protocol/GAP.h:
 
-../peripheral/../protocol/../profile/BLEDevice.h:
+../protocol/GATT.h:
 
-../peripheral/../protocol/GAP.h:
+../system/XLinkedList.h:
 
-../peripheral/../protocol/GATT.h:
+../peripheral/LocalCharacteristic.h:
 
-../peripheral/../protocol/../system/XLinkedList.h:
+../profile/BLEAttribute.h:
 
-../peripheral/../protocol/../peripheral/LocalService.h:
+../profile/BLEUUID.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\profile\bleattribute.h:
+../profile/BLECharacteristic.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\profile\blecharacteristic.h:
+../peripheral/LocalService.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\peripheral\localcharacteristic.h:
+../profile/BLEProperty.h:
 
-e:\kproembedded\rdtoneble\rdtoneble\system\xlinkedlist.h:
+../profile/BLEDescriptor.h:
 
-../peripheral/../protocol/../peripheral/LocalCharacteristic.h:
-
-../peripheral/../protocol/../profile/BLEAttribute.h:
-
-../peripheral/../protocol/../profile/BLEService.h:
-
-../peripheral/../system/XUtil.h:
-
-e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
+../peripheral/LocalDescriptor.h:

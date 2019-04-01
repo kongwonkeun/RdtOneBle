@@ -3,11 +3,9 @@
  *
  * Created: 2019-03-30 13:28:02
  *  Author: kong
- */ 
+ */
 
-
-#include "../system/XUtil.h"
-
+#include "system/XUtil.h"
 
 void* operator new(size_t n)
 {
@@ -20,3 +18,4 @@ void operator delete(void* p)
     free(p);
 }
 
+/* EOF */

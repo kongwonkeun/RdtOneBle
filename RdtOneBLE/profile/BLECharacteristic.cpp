@@ -3,12 +3,11 @@
  *
  * Created: 2019-03-29 17:14:47
  *  Author: kong
- */ 
+ */
 
-
-#include "../profile/BLECharacteristic.h"
-#include "../peripheral/LocalCharacteristic.h"
-
+#include <stdlib.h>
+#include "peripheral/LocalCharacteristic.h"
+#include "profile/BLECharacteristic.h"
 
 BLECharacteristic::BLECharacteristic() : BLECharacteristic(NULL)
 {
@@ -145,4 +144,4 @@ void BLECharacteristic::setEventHandler(int event, BLECharacteristicEventHandler
     }
 }
 
-
+/* EOF */

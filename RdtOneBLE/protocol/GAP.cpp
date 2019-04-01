@@ -5,23 +5,22 @@
  *  Author: kong
  */
 
-
-#include "../protocol/GAP.h"
-#include "../protocol/HCI.h"
-#include "../profile/BLEUUID.h"
 #include <string.h>
+#include "profile/BLEUUID.h"
+#include "protocol/HCI.h"
+#include "protocol/GAP.h"
 
 GAPClass::GAPClass() :
 m_advertising(false), m_advertisedServiceUuid(NULL),
 m_manufacturerData(NULL), m_manufacturerDataLength(0), m_localName(NULL), m_advertisingInterval(160),
 m_connectable(true), m_serviceData(NULL), m_serviceDataLength(0)
 {
-    // just initialize properties
+    //
 }
 
 GAPClass::~GAPClass()
 {
-    // nothing to do
+    //
 }
 
 void GAPClass::setAdvertisedServiceUuid(const char* advertisedServiceUuid)
@@ -59,7 +58,7 @@ int GAPClass::advertise()
     advertisingData[1] = 0x01;
     advertisingData[2] = 0x06;
     advertisingDataLen += 3;
-    
+
     if (m_advertisedServiceUuid) {
         BLEUUID serviceUuid(m_advertisedServiceUuid);
         int uuidLen = serviceUuid.length();
@@ -87,7 +86,7 @@ int GAPClass::advertise()
     }
     uint8_t scanResponseData[31];
     uint8_t scanResponseDataLen = 0;
-    
+
     if (m_localName) {
         int localNameLen = strlen(m_localName);
         if (localNameLen > 29) {
@@ -135,3 +134,4 @@ void GAPClass::setAdvertisedServiceData(uint16_t uuid, const uint8_t data[], int
 
 GAPClass g_gap;
 
+/* EOF */

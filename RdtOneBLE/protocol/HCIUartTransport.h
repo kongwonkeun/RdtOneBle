@@ -5,13 +5,12 @@
  *  Author: kong
  */
 
-
 #ifndef HCIUARTTRANSPORT_H_
 #define HCIUARTTRANSPORT_H_
 
 #include <stdint.h>
 #include <stdlib.h>
-#include "../protocol/HCITransport.h"
+#include "protocol/HCITransport.h"
 
 class XUart;
 
@@ -27,11 +26,9 @@ public:
     virtual int  peek();
     virtual int  read();
     virtual size_t write(const uint8_t* data, size_t length);
-
 private:
     XUart* m_uart;
     unsigned long m_baudrate;
 };
-
 
 #endif /* HCIUARTTRANSPORT_H_ */

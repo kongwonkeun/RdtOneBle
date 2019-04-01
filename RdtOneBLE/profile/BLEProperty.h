@@ -5,7 +5,6 @@
  *  Author: kong
  */
 
-
 #ifndef BLEPROPERTY_H_
 #define BLEPROPERTY_H_
 
@@ -18,6 +17,5 @@ enum BLEProperty
     BPP_NOTIPY = 0x10,
     BPP_INDICATE = 0x20
 };
-
 
 #endif /* BLEPROPERTY_H_ */

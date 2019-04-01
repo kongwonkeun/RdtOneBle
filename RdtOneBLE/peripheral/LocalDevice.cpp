@@ -3,20 +3,17 @@
  *
  * Created: 2019-03-29 16:25:37
  *  Author: kong
- */ 
-
-
-#include "../peripheral/LocalDevice.h"
-#include "../protocol/HCI.h"
-#include "../protocol/GATT.h"
-#include "../protocol/GAP.h"
-#include "../protocol/ATT.h"
-#include "../protocol/L2CAPSignaling.h"
-#include "../profile/BLEService.h"
-#include "../profile/BLEDevice.h"
-#include <util/delay.h>
+ */
+/*
 #include <stdio.h>
-
+#include <util/delay.h>
+#include "protocol/HCI.h"
+#include "protocol/GATT.h"
+#include "protocol/GAP.h"
+#include "protocol/ATT.h"
+#include "protocol/L2CAPSignaling.h"
+#include "profile/BLEService.h"
+#include "peripheral/LocalDevice.h"
 
 LocalDevice::LocalDevice()
 {
@@ -83,9 +80,8 @@ char* LocalDevice::address()
 {
     uint8_t addr[6] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
     g_hci.readBDAddr(addr);
-    char result[18];
-    sprintf(result, "%02x:%02x:%02x:%02x:%02x:%02x", addr[5], addr[4], addr[3], addr[2], addr[1], addr[0]);
-    return result;
+    sprintf(m_addrString, "%02x:%02x:%02x:%02x:%02x:%02x", addr[5], addr[4], addr[3], addr[2], addr[1], addr[0]);
+    return  m_addrString;
 }
 
 int LocalDevice::rssi()
@@ -184,4 +180,5 @@ bool LocalDevice::operator!=(BLEDevice& rhs)
 }
 
 LocalDevice g_bleDevice;
-
+*/
+/* EOF */

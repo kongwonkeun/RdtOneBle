@@ -59,7 +59,9 @@ C_SRCS +=  \
 ../protocol/HCI.cpp \
 ../protocol/HCIUartTransport.cpp \
 ../protocol/L2CAPSignaling.cpp \
-../system/XLinkedList.cpp \
+../system/XConsole.cpp \
+../system/XDistance.cpp \
+../system/XRotation.cpp \
 ../system/XTimer.cpp \
 ../system/XUart.cpp \
 ../system/XUtil.cpp
@@ -90,7 +92,9 @@ protocol/GATT.o \
 protocol/HCI.o \
 protocol/HCIUartTransport.o \
 protocol/L2CAPSignaling.o \
-system/XLinkedList.o \
+system/XConsole.o \
+system/XDistance.o \
+system/XRotation.o \
 system/XTimer.o \
 system/XUart.o \
 system/XUtil.o
@@ -114,7 +118,9 @@ protocol/GATT.o \
 protocol/HCI.o \
 protocol/HCIUartTransport.o \
 protocol/L2CAPSignaling.o \
-system/XLinkedList.o \
+system/XConsole.o \
+system/XDistance.o \
+system/XRotation.o \
 system/XTimer.o \
 system/XUart.o \
 system/XUtil.o
@@ -138,7 +144,9 @@ protocol/GATT.d \
 protocol/HCI.d \
 protocol/HCIUartTransport.d \
 protocol/L2CAPSignaling.d \
-system/XLinkedList.d \
+system/XConsole.d \
+system/XDistance.d \
+system/XRotation.d \
 system/XTimer.d \
 system/XUart.d \
 system/XUtil.d
@@ -162,7 +170,9 @@ protocol/GATT.d \
 protocol/HCI.d \
 protocol/HCIUartTransport.d \
 protocol/L2CAPSignaling.d \
-system/XLinkedList.d \
+system/XConsole.d \
+system/XDistance.d \
+system/XRotation.d \
 system/XTimer.d \
 system/XUart.d \
 system/XUtil.d
@@ -307,7 +317,21 @@ protocol/L2CAPSignaling.o: ../protocol/L2CAPSignaling.cpp
 	@echo Finished building: $<
 	
 
-system/XLinkedList.o: ../system/XLinkedList.cpp
+system/XConsole.o: ../system/XConsole.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+system/XDistance.o: ../system/XDistance.cpp
+	@echo Building file: $<
+	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
+	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+system/XRotation.o: ../system/XRotation.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

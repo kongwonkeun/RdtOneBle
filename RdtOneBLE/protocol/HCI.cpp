@@ -272,7 +272,7 @@ int HCIClass::sendCommand(uint16_t opcode, uint8_t plen, void* parameters)
     g_hciTransport.write(txBuffer, sizeof(pktHdr) + plen);
     m_cmdCompleteOpcode = 0xffff;
     m_cmdCompleteStatus = -1;
-    for (unsigned long start = millis(); m_cmdCompleteOpcode != opcode && millis() < (start + 1000); ) {
+    for (unsigned long start = g_timer0.millisec(); m_cmdCompleteOpcode != opcode && g_timer0.millisec() < (start + 1000); ) {
         poll();
     }
     return m_cmdCompleteStatus;

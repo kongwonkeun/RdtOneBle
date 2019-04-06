@@ -4,7 +4,7 @@
  * Created: 2019-03-29 16:25:37
  *  Author: kong
  */
-/*
+
 #include <stdio.h>
 #include <util/delay.h>
 #include "protocol/HCI.h"
@@ -180,5 +180,5 @@ bool LocalDevice::operator!=(BLEDevice& rhs)
 }
 
 LocalDevice g_bleDevice;
-*/
+
 /* EOF */

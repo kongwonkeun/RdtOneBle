@@ -6,7 +6,12 @@
  */
 
 #include <avr/io.h>
-/*
+#include <avr/interrupt.h>
+
+#include "system/XTimer.h"
+#include "system/XConsole.h"
+#include "system/XUart.h"
+
 #include "profile/BLEProperty.h"
 #include "profile/BLETypedCharacteristics.h"
 #include "profile/BLEService.h"
@@ -14,10 +19,12 @@
 
 BLEService g_xService("180F");
 BLEUnsignedCharCharacteristic g_xLevelChar("2A19", BPP_READ | BPP_NOTIPY);
-*/
 
 int main(void)
 {
+    g_console.begin(115200UL);
+    g_uart.begin(115200UL);
+    g_timer0.begin(0);
     /*
     g_bleDevice.setLocalName("xService");
     g_bleDevice.setAdvertisedService(g_xService);

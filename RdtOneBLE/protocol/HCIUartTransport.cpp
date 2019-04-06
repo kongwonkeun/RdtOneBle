@@ -32,7 +32,7 @@ void HCIUartTransportClass::end()
 
 void HCIUartTransportClass::wait(unsigned long timeout)
 {
-    for (unsigned long start = millis(); (millis() - start) < timeout;) {
+    for (unsigned long start = g_timer0.millisec(); (g_timer0.millisec() - start) < timeout;) {
         if (available()) {
             break;
         }

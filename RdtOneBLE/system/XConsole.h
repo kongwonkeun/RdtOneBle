@@ -1,23 +1,23 @@
 ﻿/*
- * XUart.h
+ * XConsole.h
  *
- * Created: 2019-03-27 13:06:53
+ * Created: 2019-04-03 18:24:20
  *  Author: kong
  */
 
-#ifndef XUART_H_
-#define XUART_H_
+#ifndef XCONSOLE_H_
+#define XCONSOLE_H_
 
 #include <stdint.h>
 #include <stdlib.h>
 
-#define UART_BUF_SIZE 64
+#define CONSOLE_BUF_SIZE 64
 
-class XUart
+class XConsole
 {
 public:
-    XUart();
-    virtual ~XUart();
+    XConsole();
+    virtual ~XConsole();
     int  begin(unsigned long baudrate);
     void end();
     int  available();
@@ -32,13 +32,13 @@ public:
 private:
     uint8_t m_rx_head;
     uint8_t m_rx_tail;
-    unsigned char m_rx_buff[UART_BUF_SIZE];
+    unsigned char m_rx_buff[CONSOLE_BUF_SIZE];
     uint8_t m_tx_head;
     uint8_t m_tx_tail;
-    unsigned char m_tx_buff[UART_BUF_SIZE];
+    unsigned char m_tx_buff[CONSOLE_BUF_SIZE];
     bool m_tx_flag;
 };
 
-extern XUart g_uart;
+extern XConsole g_console;
 
-#endif /* XUART_H_ */
+#endif /* XCONSOLE_H_ */

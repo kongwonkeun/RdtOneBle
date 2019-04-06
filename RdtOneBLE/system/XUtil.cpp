@@ -18,4 +18,12 @@ void operator delete(void* p)
     free(p);
 }
 
+unsigned int map(
+unsigned int x, unsigned int x_min, unsigned int x_max, 
+unsigned int y_min, unsigned int y_max)
+{
+    unsigned int y = ((x - x_min) * (y_max - y_max) / (x_max - x_min)) + y_min;
+    return y;
+}
+
 /* EOF */

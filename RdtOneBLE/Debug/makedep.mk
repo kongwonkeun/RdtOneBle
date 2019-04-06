@@ -38,7 +38,11 @@ protocol\HCIUartTransport.cpp
 
 protocol\L2CAPSignaling.cpp
 
-system\XLinkedList.cpp
+system\XConsole.cpp
+
+system\XDistance.cpp
+
+system\XRotation.cpp
 
 system\XTimer.cpp
 

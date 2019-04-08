@@ -6,7 +6,7 @@
  */
 
 #include <string.h>
-#include "system/XUtil.h"
+#include "system/Util.h"
 #include "peripheral/LocalDescriptor.h"
 
 LocalDescriptor::LocalDescriptor(const char* uuid, const uint8_t value[], int valueSize) : BLEAttribute(uuid),

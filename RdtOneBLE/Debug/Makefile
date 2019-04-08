@@ -59,12 +59,12 @@ C_SRCS +=  \
 ../protocol/HCI.cpp \
 ../protocol/HCIUartTransport.cpp \
 ../protocol/L2CAPSignaling.cpp \
-../system/XConsole.cpp \
-../system/XDistance.cpp \
-../system/XRotation.cpp \
-../system/XTimer.cpp \
-../system/XUart.cpp \
-../system/XUtil.cpp
+../system/BluetoothUART.cpp \
+../system/ConsoleUART.cpp \
+../system/DistanceADC.cpp \
+../system/RotationINTR.cpp \
+../system/TickTIMER.cpp \
+../system/Util.cpp
 
 
 PREPROCESSING_SRCS += 
@@ -92,12 +92,12 @@ protocol/GATT.o \
 protocol/HCI.o \
 protocol/HCIUartTransport.o \
 protocol/L2CAPSignaling.o \
-system/XConsole.o \
-system/XDistance.o \
-system/XRotation.o \
-system/XTimer.o \
-system/XUart.o \
-system/XUtil.o
+system/BluetoothUART.o \
+system/ConsoleUART.o \
+system/DistanceADC.o \
+system/RotationINTR.o \
+system/TickTIMER.o \
+system/Util.o
 
 OBJS_AS_ARGS +=  \
 main.o \
@@ -118,12 +118,12 @@ protocol/GATT.o \
 protocol/HCI.o \
 protocol/HCIUartTransport.o \
 protocol/L2CAPSignaling.o \
-system/XConsole.o \
-system/XDistance.o \
-system/XRotation.o \
-system/XTimer.o \
-system/XUart.o \
-system/XUtil.o
+system/BluetoothUART.o \
+system/ConsoleUART.o \
+system/DistanceADC.o \
+system/RotationINTR.o \
+system/TickTIMER.o \
+system/Util.o
 
 C_DEPS +=  \
 main.d \
@@ -144,12 +144,12 @@ protocol/GATT.d \
 protocol/HCI.d \
 protocol/HCIUartTransport.d \
 protocol/L2CAPSignaling.d \
-system/XConsole.d \
-system/XDistance.d \
-system/XRotation.d \
-system/XTimer.d \
-system/XUart.d \
-system/XUtil.d
+system/BluetoothUART.d \
+system/ConsoleUART.d \
+system/DistanceADC.d \
+system/RotationINTR.d \
+system/TickTIMER.d \
+system/Util.d
 
 C_DEPS_AS_ARGS +=  \
 main.d \
@@ -170,12 +170,12 @@ protocol/GATT.d \
 protocol/HCI.d \
 protocol/HCIUartTransport.d \
 protocol/L2CAPSignaling.d \
-system/XConsole.d \
-system/XDistance.d \
-system/XRotation.d \
-system/XTimer.d \
-system/XUart.d \
-system/XUtil.d
+system/BluetoothUART.d \
+system/ConsoleUART.d \
+system/DistanceADC.d \
+system/RotationINTR.d \
+system/TickTIMER.d \
+system/Util.d
 
 OUTPUT_FILE_PATH +=RdtOneBLE.elf
 
@@ -317,42 +317,42 @@ protocol/L2CAPSignaling.o: ../protocol/L2CAPSignaling.cpp
 	@echo Finished building: $<
 	
 
-system/XConsole.o: ../system/XConsole.cpp
+system/BluetoothUART.o: ../system/BluetoothUART.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
-system/XDistance.o: ../system/XDistance.cpp
+system/ConsoleUART.o: ../system/ConsoleUART.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
-system/XRotation.o: ../system/XRotation.cpp
+system/DistanceADC.o: ../system/DistanceADC.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
-system/XTimer.o: ../system/XTimer.cpp
+system/RotationINTR.o: ../system/RotationINTR.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
-system/XUart.o: ../system/XUart.cpp
+system/TickTIMER.o: ../system/TickTIMER.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
 
-system/XUtil.o: ../system/XUtil.cpp
+system/Util.o: ../system/Util.cpp
 	@echo Building file: $<
 	@echo Invoking: AVR8/GNU C Compiler : 5.4.0
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -funsigned-char -funsigned-bitfields -DDEBUG -DF_CPU=16000000  -I"E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\include"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128a -B "E:\AtmelStudio7\7.0\Packs\Atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128a" -c -std=c++11 -iquote..\ -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

@@ -40,7 +40,7 @@ void L2CAPSignalingClass::addConnection(uint16_t handle, uint8_t role, uint8_t, 
         uint16_t supervisionTimeout;
     } request = { CONNECTION_PARAMETER_UPDATE_REQUEST, 0x01, 8, m_minInterval, m_maxInterval, 0x0000, 0x00c8 };
 
-    g_hci.sendAclPacket(handle, SIGNALING_CID, sizeof(request), &request);
+    x_hci.sendAclPacket(handle, SIGNALING_CID, sizeof(request), &request);
 }
 
 void L2CAPSignalingClass::handleData(uint16_t handle, uint8_t length, uint8_t data[])
@@ -104,9 +104,9 @@ void L2CAPSignalingClass::connParamUpdateReq(uint16_t handle, uint8_t identifier
             response.value = 0x0001; // reject
         }
     }
-    g_hci.sendAclPacket(handle, SIGNALING_CID, sizeof(response), &response);
+    x_hci.sendAclPacket(handle, SIGNALING_CID, sizeof(response), &response);
     if (response.value == 0x0000) {
-        g_hci.updateLeConnection(handle, request->minInterval, request->maxInterval, request->latency, request->supervisionTimeout);
+        x_hci.updateLeConnection(handle, request->minInterval, request->maxInterval, request->latency, request->supervisionTimeout);
     }
 }
 
@@ -115,6 +115,6 @@ void L2CAPSignalingClass::connParamUpdateRes(uint16_t, uint8_t, uint8_t, uint8_t
     //
 }
 
-L2CAPSignalingClass g_l2capSignaling;
+L2CAPSignalingClass x_l2capSignaling;
 
 /* EOF */

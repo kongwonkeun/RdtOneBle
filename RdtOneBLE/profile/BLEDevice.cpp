@@ -28,27 +28,27 @@ BLEDevice::~BLEDevice()
 
 void BLEDevice::poll()
 {
-    g_hci.poll();
+    x_hci.poll();
 }
 
 void BLEDevice::poll(unsigned long timeout)
 {
-    g_hci.poll(timeout);
+    x_hci.poll(timeout);
 }
 
 bool BLEDevice::connected()
 {
-    g_hci.poll();
+    x_hci.poll();
     if (!(*this)) {
         return false;
     }
-    return g_att.connected(m_handle, m_address);
+    return x_att.connected(m_handle, m_address);
 }
 
 bool BLEDevice::disconnect()
 {
     if (m_handle != 0xffff) {
-        return g_hci.disconnect(m_handle);
+        return x_hci.disconnect(m_handle);
     }
     return false;
 }
@@ -62,7 +62,7 @@ char* BLEDevice::address()
 int BLEDevice::rssi()
 {
     if (m_handle != 0xffff) {
-        return g_hci.readRssi(m_handle);
+        return x_hci.readRssi(m_handle);
     }
     return 127;
 }

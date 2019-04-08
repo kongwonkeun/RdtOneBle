@@ -1,4 +1,5 @@
-system/XUart.d system/XUart.o: ../system/XUart.cpp \
+system/BluetoothUART.d system/BluetoothUART.o: \
+ ../system/BluetoothUART.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
@@ -14,9 +15,9 @@ system/XUart.d system/XUart.o: ../system/XUart.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\atomic.h \
- ../system/XUtil.h \
+ ../system/Util.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- ../system/XUart.h
+ ../system/ConsoleUART.h ../system/BluetoothUART.h ../main.h
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
@@ -48,8 +49,12 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\atomic.h:
 
-../system/XUtil.h:
+../system/Util.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
-../system/XUart.h:
+../system/ConsoleUART.h:
+
+../system/BluetoothUART.h:
+
+../main.h:

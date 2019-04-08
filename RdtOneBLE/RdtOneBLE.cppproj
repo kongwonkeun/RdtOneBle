@@ -276,43 +276,43 @@
     <Compile Include="protocol\L2CAPSignaling.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XConsole.cpp">
+    <Compile Include="system\BluetoothUART.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XConsole.h">
+    <Compile Include="system\BluetoothUART.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XDistance.cpp">
+    <Compile Include="system\ConsoleUART.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XDistance.h">
+    <Compile Include="system\ConsoleUART.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XLinkedList.h">
+    <Compile Include="system\DistanceADC.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XRotation.cpp">
+    <Compile Include="system\DistanceADC.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XRotation.h">
+    <Compile Include="system\LinkedList.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XTimer.cpp">
+    <Compile Include="system\RotationINTR.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XTimer.h">
+    <Compile Include="system\RotationINTR.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XUart.cpp">
+    <Compile Include="system\TickTIMER.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XUart.h">
+    <Compile Include="system\TickTIMER.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XUtil.cpp">
+    <Compile Include="system\Util.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="system\XUtil.h">
+    <Compile Include="system\Util.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

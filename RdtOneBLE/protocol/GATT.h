@@ -9,7 +9,7 @@
 #define GATT_H_
 
 #include <stdint.h>
-#include "system/XLinkedList.h"
+#include "system/LinkedList.h"
 #include "peripheral/LocalCharacteristic.h"
 #include "peripheral/LocalService.h"
 
@@ -40,9 +40,9 @@ private:
     LocalCharacteristic m_appearanceCharacteristic;
     LocalService        m_genericAttributeService;
     LocalCharacteristic m_servicesChangedCharacteristic;
-    XLinkedList<BLEAttribute*> m_attributes; //----
+    LinkedList<BLEAttribute*> m_attributes; //----
 };
 
-extern GATTClass g_gatt;
+extern GATTClass x_gatt;
 
 #endif /* GATT_H_ */

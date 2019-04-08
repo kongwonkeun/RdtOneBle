@@ -12,12 +12,12 @@
 #include <stdlib.h>
 #include "protocol/HCITransport.h"
 
-class XUart;
+class BluetoothUART;
 
 class HCIUartTransportClass : public HCITransportInterface
 {
 public:
-    HCIUartTransportClass(XUart& uart, unsigned long baudrate);
+    HCIUartTransportClass(BluetoothUART& uart, unsigned long baudrate);
     virtual ~HCIUartTransportClass();
     virtual int  begin();
     virtual void end();
@@ -27,7 +27,7 @@ public:
     virtual int  read();
     virtual size_t write(const uint8_t* data, size_t length);
 private:
-    XUart* m_uart;
+    BluetoothUART* m_uart;
     unsigned long m_baudrate;
 };
 

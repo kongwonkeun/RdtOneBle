@@ -6,7 +6,7 @@
  */
 
 #include <string.h>
-#include "system/XUtil.h"
+#include "system/Util.h"
 #include "protocol/ATT.h"
 #include "protocol/GAP.h"
 #include "protocol/GATT.h"
@@ -84,16 +84,16 @@ int LocalCharacteristic::writeValue(const uint8_t value[], int length)
         m_valueLength = m_valueSize;
     }
     if ((m_properties & BPP_INDICATE) && (m_cccdValue & 0x0002)) {
-        return g_att.handleInd(valueHandle(), m_value, m_valueLength);
+        return x_att.handleInd(valueHandle(), m_value, m_valueLength);
     }
     else if ((m_properties & BPP_NOTIPY) && (m_cccdValue & 0x0001)) {
-        return g_att.handleNotify(valueHandle(), m_value, m_valueLength);
+        return x_att.handleNotify(valueHandle(), m_value, m_valueLength);
     }
     if (m_broadcast) {
-        uint16_t serviceUuid = g_gatt.serviceUuidForCharacteristic(this);
-        g_gap.setAdvertisedServiceData(serviceUuid, value, length);
-        if (!g_att.connected() && g_gap.advertising()) {
-            g_gap.advertise();
+        uint16_t serviceUuid = x_gatt.serviceUuidForCharacteristic(this);
+        x_gap.setAdvertisedServiceData(serviceUuid, value, length);
+        if (!x_att.connected() && x_gap.advertising()) {
+            x_gap.advertise();
         }
     }
     return 1;

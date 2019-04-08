@@ -53,7 +53,7 @@ private:
     BLEDeviceEventHandler m_eventHandlers[BD_EVENT_LAST];
 };
 
-extern ATTClass g_att;
+extern ATTClass x_att;
 
 #define ATT_CID 0x0004
 

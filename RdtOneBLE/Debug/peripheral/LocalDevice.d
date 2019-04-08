@@ -11,7 +11,7 @@ peripheral/LocalDevice.d peripheral/LocalDevice.o: \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  ../protocol/HCI.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
- ../protocol/GATT.h ../system/XLinkedList.h \
+ ../protocol/GATT.h ../system/LinkedList.h \
  ../peripheral/LocalCharacteristic.h ../profile/BLEAttribute.h \
  ../profile/BLEUUID.h ../profile/BLECharacteristic.h \
  ../peripheral/LocalService.h ../protocol/GAP.h ../protocol/ATT.h \
@@ -42,7 +42,7 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 ../protocol/GATT.h:
 
-../system/XLinkedList.h:
+../system/LinkedList.h:
 
 ../peripheral/LocalCharacteristic.h:
 

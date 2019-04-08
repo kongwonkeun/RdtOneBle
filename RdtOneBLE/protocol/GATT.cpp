@@ -128,6 +128,6 @@ void GATTClass::clearAttributes()
     m_attributes.clear();
 }
 
-GATTClass g_gatt;
+GATTClass x_gatt;
 
 /* EOF */

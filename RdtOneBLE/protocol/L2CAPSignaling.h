@@ -29,7 +29,7 @@ private:
     uint16_t m_maxInterval;
 };
 
-extern L2CAPSignalingClass g_l2capSignaling;
+extern L2CAPSignalingClass x_l2capSignaling;
 
 #define SIGNALING_CID 0x0005
 #define CONNECTION_PARAMETER_UPDATE_REQUEST  0x12

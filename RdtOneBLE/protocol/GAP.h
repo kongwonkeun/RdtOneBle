@@ -39,6 +39,6 @@ private:
     uint16_t m_serviceDataUuid;
 };
 
-extern GAPClass g_gap;
+extern GAPClass x_gap;
 
 #endif /* GAP_H_ */

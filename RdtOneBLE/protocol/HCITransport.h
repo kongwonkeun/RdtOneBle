@@ -24,6 +24,6 @@ public:
 private:
 };
 
-extern HCITransportInterface& g_hciTransport;
+extern HCITransportInterface& x_hciTransport;
 
 #endif /* HCITRANSPORT_H_ */

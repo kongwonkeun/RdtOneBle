@@ -1,33 +1,33 @@
 ﻿/*
- * XDistance.h
+ * DistanceADC.h
  *
- * Created: 2019-04-03 14:11:21
+ * Created: 2019-04-06 11:50:31
  *  Author: kong
- */ 
+ */
 
-#ifndef XDISTANCE_H_
-#define XDISTANCE_H_
+#ifndef DISTANCEADC_H_
+#define DISTANCEADC_H_
 
-class XDistance
+class DistanceADC
 {
 public:
-    XDistance();
-    ~XDistance();
+    DistanceADC();
+    ~DistanceADC();
     void begin();
     void end();
     unsigned int  getDistance();
     void isr();
-private:
+    private:
     unsigned int  readAdc0();
     unsigned int  calculateMilliVolt(unsigned int value);
     unsigned int  calculateCentiMeter(unsigned int millivolt);
     unsigned char m_channel;
     unsigned int  m_centimeter;
-    unsigned int  m_maxValue;
-    unsigned int  m_maxMilliVolt;
+    unsigned long m_maxValue;
+    unsigned long m_maxMilliVolt;
     unsigned int  m_value;
 };
 
-extern XDistance g_distance;
+extern DistanceADC x_distance;
 
-#endif /* XDISTANCE_H_ */
+#endif /* DISTANCEADC_H_ */

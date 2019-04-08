@@ -1,7 +1,7 @@
 protocol/HCI.d protocol/HCI.o: ../protocol/HCI.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../system/XUtil.h \
+ ../system/Util.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
@@ -14,7 +14,7 @@ protocol/HCI.d protocol/HCI.o: ../protocol/HCI.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
- ../system/XTimer.h ../protocol/HCITransport.h \
+ ../system/TickTIMER.h ../protocol/HCITransport.h \
  ../protocol/L2CAPSignaling.h ../protocol/ATT.h ../profile/BLEDevice.h \
  ../protocol/HCI.h
 
@@ -22,7 +22,7 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
 
-../system/XUtil.h:
+../system/Util.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdint.h:
 
@@ -48,7 +48,7 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
-../system/XTimer.h:
+../system/TickTIMER.h:
 
 ../protocol/HCITransport.h:
 

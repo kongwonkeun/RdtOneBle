@@ -45,6 +45,6 @@ public:
 private:
 };
 
-extern LocalDevice g_bleDevice;
+extern LocalDevice x_device;
 
 #endif /* LOCALDEVICE_H_ */

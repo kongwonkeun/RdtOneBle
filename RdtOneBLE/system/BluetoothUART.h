@@ -1,23 +1,23 @@
 ﻿/*
- * XUart.h
+ * BluetoothUART.h
  *
- * Created: 2019-03-27 13:06:53
+ * Created: 2019-04-06 11:01:18
  *  Author: kong
- */
+ */ 
 
-#ifndef XUART_H_
-#define XUART_H_
+#ifndef BLUETOOTHUART_H_
+#define BLUETOOTHUART_H_
 
 #include <stdint.h>
 #include <stdlib.h>
 
-#define UART_BUF_SIZE 64
+#define BLUETOOTH_BUF_SIZE 64
 
-class XUart
+class BluetoothUART
 {
 public:
-    XUart();
-    virtual ~XUart();
+    BluetoothUART();
+    ~BluetoothUART();
     int  begin(unsigned long baudrate);
     void end();
     int  available();
@@ -32,13 +32,12 @@ public:
 private:
     uint8_t m_rx_head;
     uint8_t m_rx_tail;
-    unsigned char m_rx_buff[UART_BUF_SIZE];
+    unsigned char m_rx_buff[BLUETOOTH_BUF_SIZE];
     uint8_t m_tx_head;
     uint8_t m_tx_tail;
-    unsigned char m_tx_buff[UART_BUF_SIZE];
-    bool m_tx_flag;
+    unsigned char m_tx_buff[BLUETOOTH_BUF_SIZE];
 };
 
-extern XUart g_uart;
+extern BluetoothUART x_bluetooth;
 
-#endif /* XUART_H_ */
+#endif /* BLUETOOTHUART_H_ */

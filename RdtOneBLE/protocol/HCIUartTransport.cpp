@@ -5,11 +5,11 @@
  *  Author: kong
  */
 
-#include "system/XUart.h"
-#include "system/XTimer.h"
+#include "system/BluetoothUART.h"
+#include "system/TickTIMER.h"
 #include "protocol/HCIUartTransport.h"
 
-HCIUartTransportClass::HCIUartTransportClass(XUart& uart, unsigned long baudrate) : m_uart(&uart), m_baudrate(baudrate)
+HCIUartTransportClass::HCIUartTransportClass(BluetoothUART& uart, unsigned long baudrate) : m_uart(&uart), m_baudrate(baudrate)
 {
     // just initialize properties
 }
@@ -32,7 +32,7 @@ void HCIUartTransportClass::end()
 
 void HCIUartTransportClass::wait(unsigned long timeout)
 {
-    for (unsigned long start = g_timer0.millisec(); (g_timer0.millisec() - start) < timeout;) {
+    for (unsigned long start = x_tick.getMillisec(); (x_tick.getMillisec() - start) < timeout;) {
         if (available()) {
             break;
         }
@@ -61,7 +61,7 @@ size_t HCIUartTransportClass::write(const uint8_t* data, size_t length)
     return result;
 }
 
-HCIUartTransportClass  g_hciUartTransport(g_uart, 115200);
-HCITransportInterface& g_hciTransport = g_hciUartTransport;
+HCIUartTransportClass  x_hciUartTransport(x_bluetooth, 115200);
+HCITransportInterface& x_hciTransport = x_hciUartTransport;
 
 /* EOF */

@@ -12,7 +12,7 @@
 //#include "peripheral/LocalCharacteristic.h"
 //#include "profile/BLECharacteristic.h"
 #include "profile/BLEAttribute.h"
-#include "system/XLinkedList.h"
+#include "system/LinkedList.h"
 
 class LocalCharacteristic;
 class BLECharacteristic;
@@ -36,7 +36,7 @@ protected:
 private:
     uint16_t m_startHandle;
     uint16_t m_endHandle;
-    XLinkedList<LocalCharacteristic*> m_characteristics;
+    LinkedList<LocalCharacteristic*> m_characteristics;
 };
 
 #endif /* LOCALSERVICE_H_ */

@@ -6,8 +6,8 @@
  */
 
 #include <string.h>
-#include "system/XUtil.h"
-#include "system/XTimer.h"
+#include "system/Util.h"
+#include "system/TickTIMER.h"
 #include "protocol/HCITransport.h"
 #include "protocol/L2CAPSignaling.h"
 #include "protocol/ATT.h"
@@ -26,12 +26,12 @@ HCIClass::~HCIClass()
 int HCIClass::begin()
 {
     m_recvIndex = 0;
-    return g_hciTransport.begin();
+    return x_hciTransport.begin();
 }
 
 void HCIClass::end()
 {
-    g_hciTransport.end();
+    x_hciTransport.end();
 }
 
 void HCIClass::poll()
@@ -42,10 +42,10 @@ void HCIClass::poll()
 void HCIClass::poll(unsigned long timeout)
 {
     if (timeout) {
-        g_hciTransport.wait(timeout);
+        x_hciTransport.wait(timeout);
     }
-    while (g_hciTransport.available()) {
-        byte b = g_hciTransport.read();
+    while (x_hciTransport.available()) {
+        byte b = x_hciTransport.read();
         m_recvBuffer[m_recvIndex++] = b;
 
         if (m_recvBuffer[0] == HCI_ACLDATA_PKT) {
@@ -137,7 +137,7 @@ int HCIClass::readLeBufferSize(uint16_t& pktLen, uint8_t& maxPkt)
         pktLen = leBufferSize->pktLen;
         m_maxPacket = maxPkt = leBufferSize->maxPkt;
         #ifndef __AVR__
-        g_att.setMaxMtu(pktLen - 9); // max pkt len - ACL header size
+        x_att.setMaxMtu(pktLen - 9); // max pkt len - ACL header size
         #endif
     }
     return result;
@@ -244,7 +244,7 @@ int HCIClass::sendAclPacket(uint16_t handle, uint8_t cid, uint8_t plen, void* da
     memcpy(txBuffer, &aclHdr, sizeof(aclHdr));
     memcpy(&txBuffer[sizeof(aclHdr)], data, plen);
     m_pendingPacket++;
-    g_hciTransport.write(txBuffer, sizeof(aclHdr) + plen);
+    x_hciTransport.write(txBuffer, sizeof(aclHdr) + plen);
     return 0;
 }
 
@@ -269,10 +269,10 @@ int HCIClass::sendCommand(uint16_t opcode, uint8_t plen, void* parameters)
     uint8_t txBuffer[sizeof(pktHdr) + plen];
     memcpy(txBuffer, &pktHdr, sizeof(pktHdr));
     memcpy(&txBuffer[sizeof(pktHdr)], parameters, plen);
-    g_hciTransport.write(txBuffer, sizeof(pktHdr) + plen);
+    x_hciTransport.write(txBuffer, sizeof(pktHdr) + plen);
     m_cmdCompleteOpcode = 0xffff;
     m_cmdCompleteStatus = -1;
-    for (unsigned long start = g_timer0.millisec(); m_cmdCompleteOpcode != opcode && g_timer0.millisec() < (start + 1000); ) {
+    for (unsigned long start = x_tick.getMillisec(); m_cmdCompleteOpcode != opcode && x_tick.getMillisec() < (start + 1000); ) {
         poll();
     }
     return m_cmdCompleteStatus;
@@ -288,10 +288,10 @@ void HCIClass::handleAclDataPacket(uint8_t, uint8_t pdata[])
     } *aclHdr = (HCIACLHdr*)pdata;
 
     if (aclHdr->cid == ATT_CID) {
-        g_att.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
+        x_att.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
     }
     else if (aclHdr->cid == SIGNALING_CID) {
-        g_l2capSignaling.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
+        x_l2capSignaling.handleData(aclHdr->handle & 0x0fff, aclHdr->len, &m_recvBuffer[1 + sizeof(HCIACLHdr)]);
     } else {
         struct __attribute__ ((packed)) {
             uint8_t  op;
@@ -329,9 +329,9 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
             uint8_t  reason;
         } *disconnComplete = (DisconnComplete*)&pdata[sizeof(HCIEventHdr)];
 
-        g_att.removeConnection(disconnComplete->handle, disconnComplete->reason);
-        g_l2capSignaling.removeConnection(disconnComplete->handle, disconnComplete->reason);
-        g_hci.setLeAdvertiseEnable(0x01);
+        x_att.removeConnection(disconnComplete->handle, disconnComplete->reason);
+        x_l2capSignaling.removeConnection(disconnComplete->handle, disconnComplete->reason);
+        x_hci.setLeAdvertiseEnable(0x01);
     }
     else if (eventHdr->evt == EVT_CMD_COMPLETE) {
         struct __attribute__ ((packed)) CmdComplete {
@@ -373,7 +373,7 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
             } *leConnectionComplete = (EvtLeConnectionComplete*)&pdata[sizeof(HCIEventHdr) + sizeof(LeMetaEventHeader)];
 
             if (leConnectionComplete->status == 0x00) {
-                g_att.addConnection(
+                x_att.addConnection(
                     leConnectionComplete->handle,
                     leConnectionComplete->role,
                     leConnectionComplete->peerBdaddrType,
@@ -383,7 +383,7 @@ void HCIClass::handleEventPacket(uint8_t, uint8_t pdata[])
                     leConnectionComplete->supervisionTimeout,
                     leConnectionComplete->masterClockAccuracy
                 );
-                g_l2capSignaling.addConnection(
+                x_l2capSignaling.addConnection(
                     leConnectionComplete->handle,
                     leConnectionComplete->role,
                     leConnectionComplete->peerBdaddrType,
@@ -406,6 +406,6 @@ void HCIClass::dumpPacket(const char* prefix, uint8_t plen, uint8_t pdata[])
     }
 }
 
-HCIClass g_hci;
+HCIClass x_hci;
 
 /* EOF */

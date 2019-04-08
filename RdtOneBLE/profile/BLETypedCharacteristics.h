@@ -8,7 +8,7 @@
 #ifndef BLETYPEDCHARACTERISTICS_H_
 #define BLETYPEDCHARACTERISTICS_H_
 
-#include "system/XUtil.h"
+#include "system/Util.h"
 #include "profile/BLETypedCharacteristic.h"
 
 class BLEBoolCharacteristic : public BLETypedCharacteristic<bool>

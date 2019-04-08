@@ -1,23 +1,23 @@
 ﻿/*
- * XConsole.h
+ * ConsoleUART.h
  *
- * Created: 2019-04-03 18:24:20
+ * Created: 2019-04-06 11:17:33
  *  Author: kong
- */
+ */ 
 
-#ifndef XCONSOLE_H_
-#define XCONSOLE_H_
+#ifndef CONSOLEUART_H_
+#define CONSOLEUART_H_
 
 #include <stdint.h>
 #include <stdlib.h>
 
 #define CONSOLE_BUF_SIZE 64
 
-class XConsole
+class ConsoleUART
 {
 public:
-    XConsole();
-    virtual ~XConsole();
+    ConsoleUART();
+    ~ConsoleUART();
     int  begin(unsigned long baudrate);
     void end();
     int  available();
@@ -36,9 +36,8 @@ private:
     uint8_t m_tx_head;
     uint8_t m_tx_tail;
     unsigned char m_tx_buff[CONSOLE_BUF_SIZE];
-    bool m_tx_flag;
 };
 
-extern XConsole g_console;
+extern ConsoleUART x_console;
 
-#endif /* XCONSOLE_H_ */
+#endif /* CONSOLEUART_H_ */

@@ -1,4 +1,4 @@
-system/XTimer.d system/XTimer.o: ../system/XTimer.cpp \
+system/RotationINTR.d system/RotationINTR.o: ../system/RotationINTR.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\inttypes.h \
@@ -11,10 +11,11 @@ system/XTimer.d system/XTimer.o: ../system/XTimer.cpp \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
- ../system/XUtil.h \
+ ../system/Util.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
- ../system/XConsole.h ../system/XTimer.h
+ ../system/TickTIMER.h ../system/ConsoleUART.h ../system/BluetoothUART.h \
+ ../system/RotationINTR.h ../main.h
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
@@ -40,12 +41,18 @@ e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
-../system/XUtil.h:
+../system/Util.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 e:\atmelstudio7\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
 
-../system/XConsole.h:
+../system/TickTIMER.h:
 
-../system/XTimer.h:
+../system/ConsoleUART.h:
+
+../system/BluetoothUART.h:
+
+../system/RotationINTR.h:
+
+../main.h:

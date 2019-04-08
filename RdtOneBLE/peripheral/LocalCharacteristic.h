@@ -12,7 +12,7 @@
 //#include "peripheral/LocalDescriptor.h"
 #include "profile/BLEAttribute.h"
 #include "profile/BLECharacteristic.h"
-#include "system/XLinkedList.h"
+#include "system/LinkedList.h"
 
 class LocalDescriptor;
 class BLEDescriptor;
@@ -58,7 +58,7 @@ private:
     bool m_written;
     uint16_t m_cccdValue;
     uint8_t* m_value;
-    XLinkedList<LocalDescriptor*> m_descriptors;
+    LinkedList<LocalDescriptor*> m_descriptors;
     BLECharacteristicEventHandler m_eventHandlers[BC_EVENT_LAST];
 };
 

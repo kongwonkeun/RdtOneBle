@@ -6,7 +6,7 @@
  */
 
 #include <string.h>
-#include "system/XUtil.h"
+#include "system/Util.h"
 #include "protocol/GATT.h"
 #include "protocol/HCI.h"
 #include "profile/BLEProperty.h"
@@ -77,8 +77,8 @@ void ATTClass::removeConnection(uint8_t handle, uint16_t)
 {
     if (m_connectionHandle == handle) {
         BLEDevice bleDevice(m_connectionHandle, m_peerAddress);
-        for (uint16_t i = 0; i < g_gatt.attributeCount(); i++) {
-            BLEAttribute* attribute = g_gatt.attribute(i);
+        for (uint16_t i = 0; i < x_gatt.attributeCount(); i++) {
+            BLEAttribute* attribute = x_gatt.attribute(i);
             if (attribute->type() == BATT_CHRACTERISTIC) {
                 LocalCharacteristic* characteristic = (LocalCharacteristic*)attribute;
                 characteristic->writeCccdValue(bleDevice, 0x0000);
@@ -107,7 +107,7 @@ bool ATTClass::connected(uint16_t handle, const uint8_t address[6])
 bool ATTClass::disconnect()
 {
     if (m_connectionHandle != 0xffff) {
-        if (g_hci.disconnect(m_connectionHandle) != 0) {
+        if (x_hci.disconnect(m_connectionHandle) != 0) {
             return false;
         }
         m_connectionHandle = 0xffff;
@@ -137,7 +137,7 @@ bool ATTClass::handleNotify(uint16_t handle, const uint8_t* value, int length)
         length = min((uint16_t)(m_mtu - noticationLength), (uint16_t)length);
         memcpy(&notication[noticationLength], value, length);
         noticationLength += length;
-        g_hci.sendAclPacket(m_connectionHandle, ATT_CID, noticationLength, notication);
+        x_hci.sendAclPacket(m_connectionHandle, ATT_CID, noticationLength, notication);
         return true;
     }
     return false;
@@ -157,9 +157,9 @@ bool ATTClass::handleInd(uint16_t handle, const uint8_t* value, int length)
         indicationLength += length;
 
         m_cnf = false;
-        g_hci.sendAclPacket(m_connectionHandle, ATT_CID, indicationLength, indication);
+        x_hci.sendAclPacket(m_connectionHandle, ATT_CID, indicationLength, indication);
         while (!m_cnf) {
-            g_hci.poll();
+            x_hci.poll();
             if (!connected()) {
                 return false;
             }
@@ -186,7 +186,7 @@ void ATTClass::mtuReq(uint16_t handle, uint8_t length, uint8_t data[])
         uint16_t mtu;
     } mtuResp = { ATT_OP_MTU_RESP, mtu };
 
-    g_hci.sendAclPacket(handle, ATT_CID, sizeof(mtuResp), &mtuResp);
+    x_hci.sendAclPacket(handle, ATT_CID, sizeof(mtuResp), &mtuResp);
 }
 
 void ATTClass::findInfoReq(uint16_t handle, uint8_t length, uint8_t data[])
@@ -206,8 +206,8 @@ void ATTClass::findInfoReq(uint16_t handle, uint8_t length, uint8_t data[])
     response[1] = 0x00;
     responseLength = 2;
 
-    for (uint16_t i = (findInfoReq->startHandle - 1); i < g_gatt.attributeCount() && i <= (findInfoReq->endHandle - 1); i++) {
-        BLEAttribute* attribute = g_gatt.attribute(i);
+    for (uint16_t i = (findInfoReq->startHandle - 1); i < x_gatt.attributeCount() && i <= (findInfoReq->endHandle - 1); i++) {
+        BLEAttribute* attribute = x_gatt.attribute(i);
         uint16_t h = (i + 1);
         bool isValueHandle = (attribute->type() == BATT_CHRACTERISTIC) && (((LocalCharacteristic*)attribute)->valueHandle() == h);
         int uuidLen = isValueHandle ? 2 : attribute->uuidLength();
@@ -240,7 +240,7 @@ void ATTClass::findInfoReq(uint16_t handle, uint8_t length, uint8_t data[])
     if (responseLength == 2) {
         sendError(handle, ATT_OP_FIND_INFO_REQ, findInfoReq->startHandle, ATT_ECODE_ATTR_NOT_FOUND);
     } else {
-        g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+        x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
     }
 }
 
@@ -264,8 +264,8 @@ void ATTClass::findByTypeReq(uint16_t handle, uint8_t length, uint8_t data[])
     responseLength = 1;
 
     if (findByTypeReq->type == BATT_SERVICE) {
-        for (uint16_t i = (findByTypeReq->startHandle - 1); i < g_gatt.attributeCount() && i <= (findByTypeReq->endHandle - 1); i++) {
-            BLEAttribute* attribute = g_gatt.attribute(i);
+        for (uint16_t i = (findByTypeReq->startHandle - 1); i < x_gatt.attributeCount() && i <= (findByTypeReq->endHandle - 1); i++) {
+            BLEAttribute* attribute = x_gatt.attribute(i);
             if ((attribute->type() == findByTypeReq->type) && (attribute->uuidLength() == valueLength) && memcmp(attribute->uuidData(), value, valueLength) == 0) {
                 LocalService* service = (LocalService*)attribute;
                 // add the start handle
@@ -285,7 +285,7 @@ void ATTClass::findByTypeReq(uint16_t handle, uint8_t length, uint8_t data[])
     if (responseLength == 1) {
         sendError(handle, ATT_OP_FIND_BY_TYPE_RESP, findByTypeReq->startHandle, ATT_ECODE_ATTR_NOT_FOUND);
     } else {
-        g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+        x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
     }
 }
 
@@ -307,8 +307,8 @@ void ATTClass::readByGroupReq(uint16_t handle, uint8_t length, uint8_t data[])
     response[1] = 0x00;
     responseLength = 2;
 
-    for (uint16_t i = (readByGroupReq->startHandle - 1); i < g_gatt.attributeCount() && i <= (readByGroupReq->endHandle - 1); i++) {
-        BLEAttribute* attribute = g_gatt.attribute(i);
+    for (uint16_t i = (readByGroupReq->startHandle - 1); i < x_gatt.attributeCount() && i <= (readByGroupReq->endHandle - 1); i++) {
+        BLEAttribute* attribute = x_gatt.attribute(i);
         if (readByGroupReq->uuid != attribute->type()) {
             // not the type
             continue;
@@ -341,7 +341,7 @@ void ATTClass::readByGroupReq(uint16_t handle, uint8_t length, uint8_t data[])
     if (responseLength == 2) {
         sendError(handle, ATT_OP_READ_BY_GROUP_REQ, readByGroupReq->startHandle, ATT_ECODE_ATTR_NOT_FOUND);
     } else {
-        g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+        x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
     }
 }
 
@@ -360,7 +360,7 @@ void ATTClass::readOrReadBlobReq(uint16_t handle, uint8_t opcode, uint8_t length
     }
     uint16_t h = *(uint16_t*)data;
     uint16_t offset = (opcode == ATT_OP_READ_REQ) ? 0 : *(uint16_t*)&data[sizeof(h)];
-    if ((uint16_t)(h - 1) > g_gatt.attributeCount()) {
+    if ((uint16_t)(h - 1) > x_gatt.attributeCount()) {
         sendError(handle, opcode, h, ATT_ECODE_ATTR_NOT_FOUND);
         return;
     }
@@ -368,7 +368,7 @@ void ATTClass::readOrReadBlobReq(uint16_t handle, uint8_t opcode, uint8_t length
     uint16_t responseLength;
     response[0] = (opcode == ATT_OP_READ_REQ) ? ATT_OP_READ_RESP : ATT_OP_READ_BLOB_RESP;
     responseLength = 1;
-    BLEAttribute* attribute = g_gatt.attribute(h - 1);
+    BLEAttribute* attribute = x_gatt.attribute(h - 1);
     enum BLEAttributeType attributeType = attribute->type();
     if (attributeType == BATT_SERVICE) {
         if (offset) {
@@ -424,7 +424,7 @@ void ATTClass::readOrReadBlobReq(uint16_t handle, uint8_t opcode, uint8_t length
         memcpy(&response[responseLength], descriptor->value() + offset, valueLength);
         responseLength += valueLength;
     }
-    g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+    x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
 }
 
 void ATTClass::readByTypeReq(uint16_t handle, uint8_t length, uint8_t data[])
@@ -444,8 +444,8 @@ void ATTClass::readByTypeReq(uint16_t handle, uint8_t length, uint8_t data[])
     response[0] = ATT_OP_READ_BY_TYPE_RESP;
     response[1] = 0x00;
     responseLength = 2;
-    for (uint16_t i = (readByTypeReq->startHandle - 1); i < g_gatt.attributeCount() && i <= (readByTypeReq->endHandle - 1); i++) {
-        BLEAttribute* attribute = g_gatt.attribute(i);
+    for (uint16_t i = (readByTypeReq->startHandle - 1); i < x_gatt.attributeCount() && i <= (readByTypeReq->endHandle - 1); i++) {
+        BLEAttribute* attribute = x_gatt.attribute(i);
         uint16_t h = (i + 1);
         if (attribute->type() == readByTypeReq->uuid) {
             if (attribute->type() == BATT_CHRACTERISTIC) {
@@ -510,7 +510,7 @@ void ATTClass::readByTypeReq(uint16_t handle, uint8_t length, uint8_t data[])
     if (responseLength == 2) {
         sendError(handle, ATT_OP_READ_BY_TYPE_REQ, readByTypeReq->startHandle, ATT_ECODE_ATTR_NOT_FOUND);
     } else {
-        g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+        x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
     }
 }
 
@@ -524,7 +524,7 @@ void ATTClass::writeReqOrCmd(uint16_t handle, uint8_t opcode, uint8_t length, ui
         return;
     }
     uint16_t h = *(uint16_t*)data;
-    if ((uint16_t)(h - 1) > g_gatt.attributeCount()) {
+    if ((uint16_t)(h - 1) > x_gatt.attributeCount()) {
         if (withResponse) {
             sendError(handle, ATT_OP_WRITE_REQ, h, ATT_ECODE_ATTR_NOT_FOUND);
         }
@@ -532,7 +532,7 @@ void ATTClass::writeReqOrCmd(uint16_t handle, uint8_t opcode, uint8_t length, ui
     }
     uint8_t  valueLength = length - sizeof(h);
     uint8_t* value = &data[sizeof(h)];
-    BLEAttribute* attribute = g_gatt.attribute(h - 1);
+    BLEAttribute* attribute = x_gatt.attribute(h - 1);
     if (attribute->type() == BATT_CHRACTERISTIC) {
         LocalCharacteristic* characteristic = (LocalCharacteristic*)attribute;
 
@@ -558,7 +558,7 @@ void ATTClass::writeReqOrCmd(uint16_t handle, uint8_t opcode, uint8_t length, ui
             return;
         }
         // get the previous handle, should be the characteristic for the CCCD
-        attribute = g_gatt.attribute(h - 2);
+        attribute = x_gatt.attribute(h - 2);
         if (attribute->type() != BATT_CHRACTERISTIC) {
             if (withResponse) {
                 sendError(handle, ATT_OP_WRITE_REQ, h, ATT_ECODE_WRITE_NOT_PERM);
@@ -580,7 +580,7 @@ void ATTClass::writeReqOrCmd(uint16_t handle, uint8_t opcode, uint8_t length, ui
         uint16_t responseLength;
         response[0] = ATT_OP_WRITE_RESP;
         responseLength = 1;
-        g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+        x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
     }
 }
 
@@ -597,11 +597,11 @@ void ATTClass::prepWriteReq(uint16_t handle, uint8_t length, uint8_t data[])
     }
     uint16_t h = prepWriteReq->handle;
     uint16_t o = prepWriteReq->offset;
-    if ((uint16_t)(h - 1) > g_gatt.attributeCount()) {
+    if ((uint16_t)(h - 1) > x_gatt.attributeCount()) {
         sendError(handle, ATT_OP_PREP_WRITE_REQ, h, ATT_ECODE_ATTR_NOT_FOUND);
         return;
     }
-    BLEAttribute* attribute = g_gatt.attribute(h - 1);
+    BLEAttribute* attribute = x_gatt.attribute(h - 1);
     if (attribute->type() != BATT_CHRACTERISTIC) {
         sendError(handle, ATT_OP_PREP_WRITE_REQ, h, ATT_ECODE_ATTR_NOT_LONG);
         return;
@@ -638,7 +638,7 @@ void ATTClass::prepWriteReq(uint16_t handle, uint8_t length, uint8_t data[])
     response[0] = ATT_OP_PREP_WRITE_RESP;
     memcpy(&response[1], data, length);
     responseLength = length + 1;
-    g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+    x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
 }
 
 void ATTClass::execWriteReq(uint16_t handle, uint8_t length, uint8_t data[])
@@ -649,7 +649,7 @@ void ATTClass::execWriteReq(uint16_t handle, uint8_t length, uint8_t data[])
     }
     uint8_t flag = data[0];
     if (m_longWriteHandle && (flag & 0x01)) {
-        LocalCharacteristic* characteristic = (LocalCharacteristic*)g_gatt.attribute(m_longWriteHandle - 1);
+        LocalCharacteristic* characteristic = (LocalCharacteristic*)x_gatt.attribute(m_longWriteHandle - 1);
         if (handle == m_connectionHandle) {
             characteristic->writeValue(BLEDevice(handle, m_peerAddress), m_longWriteValue, m_longWriteValueLength);
         }
@@ -660,7 +660,7 @@ void ATTClass::execWriteReq(uint16_t handle, uint8_t length, uint8_t data[])
     uint16_t responseLength;
     response[0] = ATT_OP_EXEC_WRITE_RESP;
     responseLength = 1;
-    g_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
+    x_hci.sendAclPacket(handle, ATT_CID, responseLength, response);
 }
 
 void ATTClass::handleCnf(uint16_t, uint8_t, uint8_t[])
@@ -677,7 +677,7 @@ void ATTClass::sendError(uint16_t handle, uint8_t opcode, uint16_t errHandle, ui
         uint8_t  code;
     } attError = { ATT_OP_ERROR, opcode, errHandle, code };
 
-    g_hci.sendAclPacket(handle, ATT_CID, sizeof(attError), &attError);
+    x_hci.sendAclPacket(handle, ATT_CID, sizeof(attError), &attError);
 }
 
 void ATTClass::setEventHandler(BLEDeviceEvent event, BLEDeviceEventHandler eventHandler)
@@ -687,6 +687,6 @@ void ATTClass::setEventHandler(BLEDeviceEvent event, BLEDeviceEventHandler event
     }
 }
 
-ATTClass g_att;
+ATTClass x_att;
 
 /* EOF */

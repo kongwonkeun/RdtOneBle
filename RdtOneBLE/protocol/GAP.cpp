@@ -49,7 +49,7 @@ int GAPClass::advertise()
     uint8_t directBDAddr[6] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
     uint8_t type = (m_connectable) ? 0x00 : (m_localName ? 0x02 : 0x03);
     m_advertising = false;
-    if (g_hci.setLeAdvertisingParams(m_advertisingInterval, m_advertisingInterval, type, 0x00, 0x00, directBDAddr, 0x07, 0) != 0) {
+    if (x_hci.setLeAdvertisingParams(m_advertisingInterval, m_advertisingInterval, type, 0x00, 0x00, directBDAddr, 0x07, 0) != 0) {
         return 0;
     }
     uint8_t advertisingData[31];
@@ -81,7 +81,7 @@ int GAPClass::advertise()
         memcpy(&advertisingData[advertisingDataLen],m_serviceData, m_serviceDataLength);
         advertisingDataLen += m_serviceDataLength;
     }
-    if (g_hci.setLeAdvertisingData(advertisingDataLen, advertisingData) != 0) {
+    if (x_hci.setLeAdvertisingData(advertisingDataLen, advertisingData) != 0) {
         return 0;
     }
     uint8_t scanResponseData[31];
@@ -99,10 +99,10 @@ int GAPClass::advertise()
         memcpy(&scanResponseData[2], m_localName, localNameLen);
         scanResponseDataLen += (2 + localNameLen);
     }
-    if (g_hci.setLeScanResponseData(scanResponseDataLen, scanResponseData) != 0) {
+    if (x_hci.setLeScanResponseData(scanResponseDataLen, scanResponseData) != 0) {
         return 0;
     }
-    if (g_hci.setLeAdvertiseEnable(0x01) != 0) {
+    if (x_hci.setLeAdvertiseEnable(0x01) != 0) {
         return 0;
     }
     m_advertising = false;
@@ -112,7 +112,7 @@ int GAPClass::advertise()
 void GAPClass::stopAdvertise()
 {
     m_advertising = false;
-    g_hci.setLeAdvertiseEnable(0x00);
+    x_hci.setLeAdvertiseEnable(0x00);
 }
 
 void GAPClass::setAdvertisingInterval(uint16_t advertisingInterval)
@@ -132,6 +132,6 @@ void GAPClass::setAdvertisedServiceData(uint16_t uuid, const uint8_t data[], int
     m_serviceDataLength = length;
 }
 
-GAPClass g_gap;
+GAPClass x_gap;
 
 /* EOF */

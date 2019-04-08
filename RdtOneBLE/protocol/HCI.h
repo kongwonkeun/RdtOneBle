@@ -60,7 +60,7 @@ private:
     uint8_t  m_pendingPacket;
 };
 
-extern HCIClass g_hci;
+extern HCIClass x_hci;
 
 // HCI PACKET TYPE
 #define HCI_COMMAND_PKT        0x01

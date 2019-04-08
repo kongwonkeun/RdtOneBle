@@ -1,9 +1,41 @@
 Archive member included to satisfy reference by file (symbol)
 
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                              system/BluetoothUART.o (__subsf3)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o) (__addsf3x)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              system/BluetoothUART.o (__divsf3)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              system/BluetoothUART.o (__fixunssfsi)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              system/BluetoothUART.o (__floatunsisf)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_inf)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_nan)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscA)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscB)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o) (__fp_round)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_split3)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_zero)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              system/BluetoothUART.o (__mulsf3)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__mulsf3x)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
                               (vfprintf)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+                              system/Util.o (__mulsi3)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                              system/XConsole.o (__udivmodsi4)
+                              system/DistanceADC.o (__udivmodsi4)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
                               E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o (exit)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
@@ -16,6 +48,10 @@ e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/a
                               main.o (__do_global_ctors)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
                               main.o (__do_global_dtors)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+                              system/Util.o (__umulhisi3)
+e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o) (__muluhisi3)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
                               peripheral/LocalCharacteristic.o (malloc)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(realloc.o)
@@ -46,12 +82,6 @@ e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strtoul.o) (errno)
 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
                               e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o) (__ctype_isfalse)
-e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
-                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strtoul.o) (__mulsi3)
-e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
-                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o) (__muluhisi3)
-e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
-                              e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o) (__umulhisi3)
 
 Allocating common symbols
 Common symbol       size              file
@@ -534,7 +564,7 @@ Discarded input sections
                 0x00000000       0x2a protocol/GATT.o
  .text._ZN9GATTClass3endEv
                 0x00000000        0xa protocol/GATT.o
- .text._ZN11XLinkedListIP12BLEAttributeE3addES1_
+ .text._ZN10LinkedListIP12BLEAttributeE3addES1_
                 0x00000000       0x4c protocol/GATT.o
  .text._ZN9GATTClass10addServiceEP12LocalService
                 0x00000000       0xf6 protocol/GATT.o
@@ -570,9 +600,9 @@ Discarded input sections
  .text          0x00000000        0x0 protocol/HCIUartTransport.o
  .data          0x00000000        0x0 protocol/HCIUartTransport.o
  .bss           0x00000000        0x0 protocol/HCIUartTransport.o
- .text._ZN21HCIUartTransportClassC2ER5XUartm
+ .text._ZN21HCIUartTransportClassC2ER13BluetoothUARTm
                 0x00000000       0x18 protocol/HCIUartTransport.o
- .text._GLOBAL__sub_D__ZN21HCIUartTransportClassC2ER5XUartm
+ .text._GLOBAL__sub_D__ZN21HCIUartTransportClassC2ER13BluetoothUARTm
                 0x00000000        0x2 protocol/HCIUartTransport.o
  .group         0x00000000        0x8 protocol/L2CAPSignaling.o
  .text          0x00000000        0x0 protocol/L2CAPSignaling.o
@@ -586,73 +616,120 @@ Discarded input sections
                 0x00000000        0x2 protocol/L2CAPSignaling.o
  .text._GLOBAL__sub_D__ZN19L2CAPSignalingClassC2Ev
                 0x00000000        0x2 protocol/L2CAPSignaling.o
- .group         0x00000000        0x8 system/XConsole.o
- .text          0x00000000        0x0 system/XConsole.o
- .data          0x00000000        0x0 system/XConsole.o
- .bss           0x00000000        0x0 system/XConsole.o
- .text._ZN8XConsoleC2Ev
-                0x00000000        0xc system/XConsole.o
- .text._ZN8XConsole9availableEv
-                0x00000000       0x24 system/XConsole.o
- .text._ZN8XConsole4peekEv
-                0x00000000       0x1a system/XConsole.o
- .text._ZN8XConsole4readEv
-                0x00000000       0x3a system/XConsole.o
- .text._ZN8XConsole5flushEv
-                0x00000000       0x5e system/XConsole.o
- .text._ZN8XConsole3endEv
-                0x00000000       0x30 system/XConsole.o
- .text._GLOBAL__sub_D___vector_30
-                0x00000000        0x2 system/XConsole.o
- .text          0x00000000        0x0 system/XDistance.o
- .data          0x00000000        0x0 system/XDistance.o
- .bss           0x00000000        0x0 system/XDistance.o
- .text._ZN9XDistanceC2Ev
-                0x00000000       0x1a system/XDistance.o
- .text._ZN9XDistanceD2Ev
-                0x00000000        0x2 system/XDistance.o
- .text._ZN9XDistance5beginEv
-                0x00000000        0xc system/XDistance.o
- .text._ZN9XDistance3endEv
-                0x00000000        0x2 system/XDistance.o
- .text._ZN9XDistance8readAdc0Ev
-                0x00000000       0x1c system/XDistance.o
- .text._ZN9XDistance11getDistanceEv
-                0x00000000       0x2e system/XDistance.o
- .text._ZN9XDistance19calculateCentiMeterEj
-                0x00000000       0x1a system/XDistance.o
- .text          0x00000000        0x0 system/XRotation.o
- .data          0x00000000        0x0 system/XRotation.o
- .bss           0x00000000        0x0 system/XRotation.o
- .text._ZN9XRotationC2Ev
-                0x00000000        0x2 system/XRotation.o
- .text._ZN9XRotationD2Ev
-                0x00000000        0x2 system/XRotation.o
- .text._ZN9XRotation5beginEv
-                0x00000000       0x1c system/XRotation.o
- .text          0x00000000        0x0 system/XTimer.o
- .data          0x00000000        0x0 system/XTimer.o
- .bss           0x00000000        0x0 system/XTimer.o
- .text._ZN6XTimerC2Ev
-                0x00000000       0x14 system/XTimer.o
- .text._ZN6XTimer3secEv
-                0x00000000        0xc system/XTimer.o
- .group         0x00000000        0x8 system/XUart.o
- .text          0x00000000        0x0 system/XUart.o
- .data          0x00000000        0x0 system/XUart.o
- .bss           0x00000000        0x0 system/XUart.o
- .text._ZN5XUartC2Ev
-                0x00000000        0xc system/XUart.o
- .text._ZN5XUart5writeEPKc
-                0x00000000       0x22 system/XUart.o
- .text._GLOBAL__sub_D___vector_18
-                0x00000000        0x2 system/XUart.o
- .text          0x00000000        0x0 system/XUtil.o
- .data          0x00000000        0x0 system/XUtil.o
- .bss           0x00000000        0x0 system/XUtil.o
+ .text          0x00000000        0x0 system/BluetoothUART.o
+ .data          0x00000000        0x0 system/BluetoothUART.o
+ .bss           0x00000000        0x0 system/BluetoothUART.o
+ .text._ZN13BluetoothUARTC2Ev
+                0x00000000       0x12 system/BluetoothUART.o
+ .text._ZN13BluetoothUARTD2Ev
+                0x00000000        0x2 system/BluetoothUART.o
+ .text          0x00000000        0x0 system/ConsoleUART.o
+ .data          0x00000000        0x0 system/ConsoleUART.o
+ .bss           0x00000000        0x0 system/ConsoleUART.o
+ .text._ZN11ConsoleUARTC2Ev
+                0x00000000       0x12 system/ConsoleUART.o
+ .text._ZN11ConsoleUARTD2Ev
+                0x00000000        0x2 system/ConsoleUART.o
+ .text._ZN11ConsoleUART9availableEv
+                0x00000000       0x24 system/ConsoleUART.o
+ .text._ZN11ConsoleUART4peekEv
+                0x00000000       0x1a system/ConsoleUART.o
+ .text._ZN11ConsoleUART5flushEv
+                0x00000000       0x52 system/ConsoleUART.o
+ .text._ZN11ConsoleUART3endEv
+                0x00000000       0x22 system/ConsoleUART.o
+ .text          0x00000000        0x0 system/DistanceADC.o
+ .data          0x00000000        0x0 system/DistanceADC.o
+ .bss           0x00000000        0x0 system/DistanceADC.o
+ .text._ZN11DistanceADCD2Ev
+                0x00000000        0x2 system/DistanceADC.o
+ .text._ZN11DistanceADC3endEv
+                0x00000000        0x2 system/DistanceADC.o
+ .text._ZN11DistanceADC19calculateCentiMeterEj
+                0x00000000       0x1a system/DistanceADC.o
+ .text          0x00000000        0x0 system/RotationINTR.o
+ .data          0x00000000        0x0 system/RotationINTR.o
+ .bss           0x00000000        0x0 system/RotationINTR.o
+ .text._ZN12RotationINTRD2Ev
+                0x00000000        0x2 system/RotationINTR.o
+ .text          0x00000000        0x0 system/TickTIMER.o
+ .data          0x00000000        0x0 system/TickTIMER.o
+ .bss           0x00000000        0x0 system/TickTIMER.o
+ .text._ZN9TickTIMERC2Ev
+                0x00000000       0x14 system/TickTIMER.o
+ .text._ZN9TickTIMERD2Ev
+                0x00000000        0x6 system/TickTIMER.o
+ .text._ZN9TickTIMER6getSecEv
+                0x00000000        0xc system/TickTIMER.o
+ .text          0x00000000        0x0 system/Util.o
+ .data          0x00000000        0x0 system/Util.o
+ .bss           0x00000000        0x0 system/Util.o
+ .text._Z12byteToStringhPc
+                0x00000000       0x82 system/Util.o
+ .text._Z12wordToStringcjPc
+                0x00000000      0x136 system/Util.o
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
  .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
  .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
  .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
  .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
  .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
@@ -762,6 +839,34 @@ Discarded input sections
                 0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
  .text.libgcc.fixed
                 0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
  .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
  .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
  .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(realloc.o)
@@ -806,48 +911,6 @@ Discarded input sections
  .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
  .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
  .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
- .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
- .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
- .text          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .data          0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .bss           0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.div
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.prologue
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.builtins
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.fmul
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
- .text.libgcc.fixed
-                0x00000000        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
 
 Memory Configuration
 
@@ -883,12 +946,12 @@ LOAD protocol/GATT.o
 LOAD protocol/HCI.o
 LOAD protocol/HCIUartTransport.o
 LOAD protocol/L2CAPSignaling.o
-LOAD system/XConsole.o
-LOAD system/XDistance.o
-LOAD system/XRotation.o
-LOAD system/XTimer.o
-LOAD system/XUart.o
-LOAD system/XUtil.o
+LOAD system/BluetoothUART.o
+LOAD system/ConsoleUART.o
+LOAD system/DistanceADC.o
+LOAD system/RotationINTR.o
+LOAD system/TickTIMER.o
+LOAD system/Util.o
 START GROUP
 LOAD e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a
 END GROUP
@@ -999,7 +1062,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x5578
+.text           0x00000000     0x5f54
  *(.vectors)
  .vectors       0x00000000       0x8c E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
                 0x00000000                __vector_default
@@ -1034,784 +1097,874 @@ END GROUP
  .ctors         0x0000023a        0x2 protocol/HCI.o
  .ctors         0x0000023c        0x2 protocol/HCIUartTransport.o
  .ctors         0x0000023e        0x2 protocol/L2CAPSignaling.o
- .ctors         0x00000240        0x2 system/XConsole.o
- .ctors         0x00000242        0x2 system/XDistance.o
- .ctors         0x00000244        0x2 system/XTimer.o
- .ctors         0x00000246        0x2 system/XUart.o
-                0x00000248                __ctors_end = .
-                0x00000248                __dtors_start = .
+ .ctors         0x00000240        0x2 system/BluetoothUART.o
+ .ctors         0x00000242        0x2 system/ConsoleUART.o
+ .ctors         0x00000244        0x2 system/DistanceADC.o
+ .ctors         0x00000246        0x2 system/RotationINTR.o
+ .ctors         0x00000248        0x2 system/TickTIMER.o
+                0x0000024a                __ctors_end = .
+                0x0000024a                __dtors_start = .
  *(.dtors)
- .dtors         0x00000248        0x2 main.o
- .dtors         0x0000024a        0x2 peripheral/LocalDevice.o
- .dtors         0x0000024c        0x2 protocol/ATT.o
- .dtors         0x0000024e        0x2 protocol/GATT.o
- .dtors         0x00000250        0x2 system/XTimer.o
-                0x00000252                __dtors_end = .
+ .dtors         0x0000024a        0x2 main.o
+ .dtors         0x0000024c        0x2 peripheral/LocalDevice.o
+ .dtors         0x0000024e        0x2 protocol/ATT.o
+ .dtors         0x00000250        0x2 protocol/GATT.o
+ .dtors         0x00000252        0x2 system/TickTIMER.o
+                0x00000254                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000252        0x0 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
-                0x00000252                __init
+ .init0         0x00000254        0x0 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x00000254                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000252        0xc E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .init2         0x00000254        0xc E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000025e       0x1a e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
-                0x0000025e                __do_copy_data
- .init4         0x00000278       0x10 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
-                0x00000278                __do_clear_bss
+ .init4         0x00000260       0x1a e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_copy_data.o)
+                0x00000260                __do_copy_data
+ .init4         0x0000027a       0x10 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_clear_bss.o)
+                0x0000027a                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x00000288       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
-                0x00000288                __do_global_ctors
+ .init6         0x0000028a       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_ctors.o)
+                0x0000028a                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000029e        0x6 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
+ .init9         0x000002a0        0x6 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
  *(.init9)
  *(.text)
- .text          0x000002a4        0x2 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
-                0x000002a4                __vector_22
-                0x000002a4                __vector_28
-                0x000002a4                __vector_32
-                0x000002a4                __vector_34
-                0x000002a4                __vector_24
-                0x000002a4                __vector_12
-                0x000002a4                __bad_interrupt
-                0x000002a4                __vector_6
-                0x000002a4                __vector_3
-                0x000002a4                __vector_23
-                0x000002a4                __vector_25
-                0x000002a4                __vector_11
-                0x000002a4                __vector_13
-                0x000002a4                __vector_17
-                0x000002a4                __vector_7
-                0x000002a4                __vector_27
-                0x000002a4                __vector_5
-                0x000002a4                __vector_33
-                0x000002a4                __vector_4
-                0x000002a4                __vector_9
-                0x000002a4                __vector_2
-                0x000002a4                __vector_29
-                0x000002a4                __vector_8
-                0x000002a4                __vector_26
-                0x000002a4                __vector_14
-                0x000002a4                __vector_10
-                0x000002a4                __vector_16
-                0x000002a4                __vector_20
-                0x000002a6                . = ALIGN (0x2)
+ .text          0x000002a6        0x2 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
+                0x000002a6                __vector_22
+                0x000002a6                __vector_28
+                0x000002a6                __vector_34
+                0x000002a6                __vector_24
+                0x000002a6                __vector_12
+                0x000002a6                __bad_interrupt
+                0x000002a6                __vector_6
+                0x000002a6                __vector_3
+                0x000002a6                __vector_23
+                0x000002a6                __vector_25
+                0x000002a6                __vector_11
+                0x000002a6                __vector_13
+                0x000002a6                __vector_17
+                0x000002a6                __vector_7
+                0x000002a6                __vector_27
+                0x000002a6                __vector_5
+                0x000002a6                __vector_33
+                0x000002a6                __vector_4
+                0x000002a6                __vector_9
+                0x000002a6                __vector_2
+                0x000002a6                __vector_29
+                0x000002a6                __vector_8
+                0x000002a6                __vector_26
+                0x000002a6                __vector_14
+                0x000002a6                __vector_10
+                0x000002a6                __vector_16
+                0x000002a8                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN22BLETypedCharacteristicIhED2Ev
-                0x000002a6        0xe main.o
-                0x000002a6                _ZN22BLETypedCharacteristicIhED2Ev
-                0x000002a6                _ZN22BLETypedCharacteristicIhED1Ev
+                0x000002a8        0xe main.o
+                0x000002a8                _ZN22BLETypedCharacteristicIhED2Ev
+                0x000002a8                _ZN22BLETypedCharacteristicIhED1Ev
  .text._ZN22BLETypedCharacteristicIhED0Ev
-                0x000002b4       0x1e main.o
-                0x000002b4                _ZN22BLETypedCharacteristicIhED0Ev
+                0x000002b6       0x1e main.o
+                0x000002b6                _ZN22BLETypedCharacteristicIhED0Ev
  .text._ZN29BLEUnsignedCharCharacteristicD2Ev
-                0x000002d2        0xe main.o
-                0x000002d2                _ZN29BLEUnsignedCharCharacteristicD1Ev
-                0x000002d2                _ZN29BLEUnsignedCharCharacteristicD2Ev
+                0x000002d4        0xe main.o
+                0x000002d4                _ZN29BLEUnsignedCharCharacteristicD1Ev
+                0x000002d4                _ZN29BLEUnsignedCharCharacteristicD2Ev
  .text._ZN29BLEUnsignedCharCharacteristicD0Ev
-                0x000002e0       0x1e main.o
-                0x000002e0                _ZN29BLEUnsignedCharCharacteristicD0Ev
- .text.main     0x000002fe       0x2e main.o
-                0x000002fe                main
- .text._GLOBAL__sub_I_g_xService
-                0x0000032c       0x18 main.o
- .text._GLOBAL__sub_D_g_xService
-                0x00000344       0x1a main.o
+                0x000002e2       0x1e main.o
+                0x000002e2                _ZN29BLEUnsignedCharCharacteristicD0Ev
+ .text._Z4helpv
+                0x00000300       0x4a main.o
+                0x00000300                _Z4helpv
+ .text._Z12toggleShowupv
+                0x0000034a       0x2e main.o
+                0x0000034a                _Z12toggleShowupv
+ .text._Z16toggleManualModev
+                0x00000378       0x2e main.o
+                0x00000378                _Z16toggleManualModev
+ .text.main     0x000003a6       0xac main.o
+                0x000003a6                main
+ .text._GLOBAL__sub_I_x_showup
+                0x00000452       0x18 main.o
+ .text._GLOBAL__sub_D_x_showup
+                0x0000046a       0x1a main.o
  .text._ZN19LocalCharacteristic4typeEv
-                0x0000035e        0x6 peripheral/LocalCharacteristic.o
-                0x0000035e                _ZN19LocalCharacteristic4typeEv
+                0x00000484        0x6 peripheral/LocalCharacteristic.o
+                0x00000484                _ZN19LocalCharacteristic4typeEv
  .text._ZN19LocalCharacteristic10propertiesEv
-                0x00000364        0x6 peripheral/LocalCharacteristic.o
-                0x00000364                _ZN19LocalCharacteristic10propertiesEv
+                0x0000048a        0x6 peripheral/LocalCharacteristic.o
+                0x0000048a                _ZN19LocalCharacteristic10propertiesEv
  .text._ZN19LocalCharacteristic9valueSizeEv
-                0x0000036a        0x8 peripheral/LocalCharacteristic.o
-                0x0000036a                _ZN19LocalCharacteristic9valueSizeEv
+                0x00000490        0x8 peripheral/LocalCharacteristic.o
+                0x00000490                _ZN19LocalCharacteristic9valueSizeEv
  .text._ZN19LocalCharacteristic5valueEv
-                0x00000372        0x8 peripheral/LocalCharacteristic.o
-                0x00000372                _ZN19LocalCharacteristic5valueEv
+                0x00000498        0x8 peripheral/LocalCharacteristic.o
+                0x00000498                _ZN19LocalCharacteristic5valueEv
  .text._ZN19LocalCharacteristic11valueLengthEv
-                0x0000037a        0x8 peripheral/LocalCharacteristic.o
-                0x0000037a                _ZN19LocalCharacteristic11valueLengthEv
+                0x000004a0        0x8 peripheral/LocalCharacteristic.o
+                0x000004a0                _ZN19LocalCharacteristic11valueLengthEv
  .text._ZN19LocalCharacteristic10writeValueEPKhi
-                0x00000382       0xe4 peripheral/LocalCharacteristic.o
-                0x00000382                _ZN19LocalCharacteristic10writeValueEPKhi
+                0x000004a8       0xe4 peripheral/LocalCharacteristic.o
+                0x000004a8                _ZN19LocalCharacteristic10writeValueEPKhi
  .text._ZN19LocalCharacteristic6handleEv
-                0x00000466        0x8 peripheral/LocalCharacteristic.o
-                0x00000466                _ZN19LocalCharacteristic6handleEv
+                0x0000058c        0x8 peripheral/LocalCharacteristic.o
+                0x0000058c                _ZN19LocalCharacteristic6handleEv
  .text._ZN19LocalCharacteristic11valueHandleEv
-                0x0000046e        0xa peripheral/LocalCharacteristic.o
-                0x0000046e                _ZN19LocalCharacteristic11valueHandleEv
+                0x00000594        0xa peripheral/LocalCharacteristic.o
+                0x00000594                _ZN19LocalCharacteristic11valueHandleEv
  .text._ZN19LocalCharacteristic10descriptorEj
-                0x00000478       0x3c peripheral/LocalCharacteristic.o
-                0x00000478                _ZN19LocalCharacteristic10descriptorEj
- .text._ZN11XLinkedListIP15LocalDescriptorE3addES1_
-                0x000004b4       0x4c peripheral/LocalCharacteristic.o
-                0x000004b4                _ZN11XLinkedListIP15LocalDescriptorE3addES1_
+                0x0000059e       0x3c peripheral/LocalCharacteristic.o
+                0x0000059e                _ZN19LocalCharacteristic10descriptorEj
+ .text._ZN10LinkedListIP15LocalDescriptorE3addES1_
+                0x000005da       0x4c peripheral/LocalCharacteristic.o
+                0x000005da                _ZN10LinkedListIP15LocalDescriptorE3addES1_
  .text._ZN19LocalCharacteristicC2EPKchib
-                0x00000500       0x9c peripheral/LocalCharacteristic.o
-                0x00000500                _ZN19LocalCharacteristicC1EPKchib
-                0x00000500                _ZN19LocalCharacteristicC2EPKchib
- .text._ZN11XLinkedListIP15LocalDescriptorE5clearEv
-                0x0000059c       0x58 peripheral/LocalCharacteristic.o
-                0x0000059c                _ZN11XLinkedListIP15LocalDescriptorE5clearEv
+                0x00000626       0x9c peripheral/LocalCharacteristic.o
+                0x00000626                _ZN19LocalCharacteristicC1EPKchib
+                0x00000626                _ZN19LocalCharacteristicC2EPKchib
+ .text._ZN10LinkedListIP15LocalDescriptorE5clearEv
+                0x000006c2       0x58 peripheral/LocalCharacteristic.o
+                0x000006c2                _ZN10LinkedListIP15LocalDescriptorE5clearEv
  .text._ZN19LocalCharacteristicD2Ev
-                0x000005f4       0x8e peripheral/LocalCharacteristic.o
-                0x000005f4                _ZN19LocalCharacteristicD2Ev
-                0x000005f4                _ZN19LocalCharacteristicD1Ev
+                0x0000071a       0x8e peripheral/LocalCharacteristic.o
+                0x0000071a                _ZN19LocalCharacteristicD2Ev
+                0x0000071a                _ZN19LocalCharacteristicD1Ev
  .text._ZN19LocalCharacteristicD0Ev
-                0x00000682       0x14 peripheral/LocalCharacteristic.o
-                0x00000682                _ZN19LocalCharacteristicD0Ev
+                0x000007a8       0x14 peripheral/LocalCharacteristic.o
+                0x000007a8                _ZN19LocalCharacteristicD0Ev
  .text._ZN19LocalCharacteristic9readValueE9BLEDevicejPhi
-                0x00000696       0xd2 peripheral/LocalCharacteristic.o
-                0x00000696                _ZN19LocalCharacteristic9readValueE9BLEDevicejPhi
+                0x000007bc       0xd2 peripheral/LocalCharacteristic.o
+                0x000007bc                _ZN19LocalCharacteristic9readValueE9BLEDevicejPhi
  .text._ZN19LocalCharacteristic10writeValueE9BLEDevicePKhi
-                0x00000768       0xb2 peripheral/LocalCharacteristic.o
-                0x00000768                _ZN19LocalCharacteristic10writeValueE9BLEDevicePKhi
+                0x0000088e       0xb2 peripheral/LocalCharacteristic.o
+                0x0000088e                _ZN19LocalCharacteristic10writeValueE9BLEDevicePKhi
  .text._ZN19LocalCharacteristic14writeCccdValueE9BLEDevicej
-                0x0000081a       0xc6 peripheral/LocalCharacteristic.o
-                0x0000081a                _ZN19LocalCharacteristic14writeCccdValueE9BLEDevicej
+                0x00000940       0xc6 peripheral/LocalCharacteristic.o
+                0x00000940                _ZN19LocalCharacteristic14writeCccdValueE9BLEDevicej
  .text._ZN15LocalDescriptor4typeEv
-                0x000008e0        0x6 peripheral/LocalDescriptor.o
-                0x000008e0                _ZN15LocalDescriptor4typeEv
+                0x00000a06        0x6 peripheral/LocalDescriptor.o
+                0x00000a06                _ZN15LocalDescriptor4typeEv
  .text._ZN15LocalDescriptorD2Ev
-                0x000008e6        0xe peripheral/LocalDescriptor.o
-                0x000008e6                _ZN15LocalDescriptorD1Ev
-                0x000008e6                _ZN15LocalDescriptorD2Ev
+                0x00000a0c        0xe peripheral/LocalDescriptor.o
+                0x00000a0c                _ZN15LocalDescriptorD1Ev
+                0x00000a0c                _ZN15LocalDescriptorD2Ev
  .text._ZN15LocalDescriptorD0Ev
-                0x000008f4       0x14 peripheral/LocalDescriptor.o
-                0x000008f4                _ZN15LocalDescriptorD0Ev
+                0x00000a1a       0x14 peripheral/LocalDescriptor.o
+                0x00000a1a                _ZN15LocalDescriptorD0Ev
  .text._ZN15LocalDescriptorC2EPKcPKhi
-                0x00000908       0x48 peripheral/LocalDescriptor.o
-                0x00000908                _ZN15LocalDescriptorC2EPKcPKhi
-                0x00000908                _ZN15LocalDescriptorC1EPKcPKhi
+                0x00000a2e       0x48 peripheral/LocalDescriptor.o
+                0x00000a2e                _ZN15LocalDescriptorC2EPKcPKhi
+                0x00000a2e                _ZN15LocalDescriptorC1EPKcPKhi
  .text._ZN15LocalDescriptor9valueSizeEv
-                0x00000950        0x8 peripheral/LocalDescriptor.o
-                0x00000950                _ZN15LocalDescriptor9valueSizeEv
+                0x00000a76        0x8 peripheral/LocalDescriptor.o
+                0x00000a76                _ZN15LocalDescriptor9valueSizeEv
  .text._ZN15LocalDescriptor5valueEv
-                0x00000958        0x8 peripheral/LocalDescriptor.o
-                0x00000958                _ZN15LocalDescriptor5valueEv
+                0x00000a7e        0x8 peripheral/LocalDescriptor.o
+                0x00000a7e                _ZN15LocalDescriptor5valueEv
  .text._ZN11LocalDevicecvbEv
-                0x00000960        0x4 peripheral/LocalDevice.o
-                0x00000960                _ZN11LocalDevicecvbEv
+                0x00000a86        0x4 peripheral/LocalDevice.o
+                0x00000a86                _ZN11LocalDevicecvbEv
  .text._ZN11LocalDeviceeqER9BLEDevice
-                0x00000964        0xe peripheral/LocalDevice.o
-                0x00000964                _ZN11LocalDeviceeqER9BLEDevice
+                0x00000a8a        0xe peripheral/LocalDevice.o
+                0x00000a8a                _ZN11LocalDeviceeqER9BLEDevice
  .text._ZN11LocalDeviceneER9BLEDevice
-                0x00000972        0xe peripheral/LocalDevice.o
-                0x00000972                _ZN11LocalDeviceneER9BLEDevice
+                0x00000a98        0xe peripheral/LocalDevice.o
+                0x00000a98                _ZN11LocalDeviceneER9BLEDevice
  .text._ZN11LocalDeviceD2Ev
-                0x00000980        0xe peripheral/LocalDevice.o
-                0x00000980                _ZN11LocalDeviceD2Ev
-                0x00000980                _ZN11LocalDeviceD1Ev
+                0x00000aa6        0xe peripheral/LocalDevice.o
+                0x00000aa6                _ZN11LocalDeviceD2Ev
+                0x00000aa6                _ZN11LocalDeviceD1Ev
  .text._ZN11LocalDeviceD0Ev
-                0x0000098e       0x14 peripheral/LocalDevice.o
-                0x0000098e                _ZN11LocalDeviceD0Ev
+                0x00000ab4       0x14 peripheral/LocalDevice.o
+                0x00000ab4                _ZN11LocalDeviceD0Ev
  .text._ZN11LocalDevice9connectedEv
-                0x000009a2       0x10 peripheral/LocalDevice.o
-                0x000009a2                _ZN11LocalDevice9connectedEv
+                0x00000ac8       0x10 peripheral/LocalDevice.o
+                0x00000ac8                _ZN11LocalDevice9connectedEv
  .text._ZN11LocalDevice10disconnectEv
-                0x000009b2        0x8 peripheral/LocalDevice.o
-                0x000009b2                _ZN11LocalDevice10disconnectEv
+                0x00000ad8        0x8 peripheral/LocalDevice.o
+                0x00000ad8                _ZN11LocalDevice10disconnectEv
  .text._ZN11LocalDevice7addressEv
-                0x000009ba       0x86 peripheral/LocalDevice.o
-                0x000009ba                _ZN11LocalDevice7addressEv
+                0x00000ae0       0x86 peripheral/LocalDevice.o
+                0x00000ae0                _ZN11LocalDevice7addressEv
  .text._ZN11LocalDeviceC2Ev
-                0x00000a40       0x16 peripheral/LocalDevice.o
-                0x00000a40                _ZN11LocalDeviceC2Ev
-                0x00000a40                _ZN11LocalDeviceC1Ev
+                0x00000b66       0x16 peripheral/LocalDevice.o
+                0x00000b66                _ZN11LocalDeviceC2Ev
+                0x00000b66                _ZN11LocalDeviceC1Ev
  .text._GLOBAL__sub_I__ZN11LocalDeviceC2Ev
-                0x00000a56        0x8 peripheral/LocalDevice.o
+                0x00000b7c        0x8 peripheral/LocalDevice.o
  .text._GLOBAL__sub_D__ZN11LocalDeviceC2Ev
-                0x00000a5e        0x8 peripheral/LocalDevice.o
+                0x00000b84        0x8 peripheral/LocalDevice.o
  .text._ZN11LocalDevice4rssiEv
-                0x00000a66       0x58 peripheral/LocalDevice.o
-                0x00000a66                _ZN11LocalDevice4rssiEv
+                0x00000b8c       0x58 peripheral/LocalDevice.o
+                0x00000b8c                _ZN11LocalDevice4rssiEv
  .text._ZN12LocalService4typeEv
-                0x00000abe        0x6 peripheral/LocalService.o
-                0x00000abe                _ZN12LocalService4typeEv
+                0x00000be4        0x6 peripheral/LocalService.o
+                0x00000be4                _ZN12LocalService4typeEv
  .text._ZN12LocalServiceC2EPKc
-                0x00000ac4       0x2a peripheral/LocalService.o
-                0x00000ac4                _ZN12LocalServiceC1EPKc
-                0x00000ac4                _ZN12LocalServiceC2EPKc
+                0x00000bea       0x2a peripheral/LocalService.o
+                0x00000bea                _ZN12LocalServiceC1EPKc
+                0x00000bea                _ZN12LocalServiceC2EPKc
  .text._ZN12LocalService11startHandleEv
-                0x00000aee        0x8 peripheral/LocalService.o
-                0x00000aee                _ZN12LocalService11startHandleEv
+                0x00000c14        0x8 peripheral/LocalService.o
+                0x00000c14                _ZN12LocalService11startHandleEv
  .text._ZN12LocalService9endHandleEv
-                0x00000af6        0x8 peripheral/LocalService.o
-                0x00000af6                _ZN12LocalService9endHandleEv
+                0x00000c1c        0x8 peripheral/LocalService.o
+                0x00000c1c                _ZN12LocalService9endHandleEv
  .text._ZN12LocalService14characteristicEj
-                0x00000afe       0x3c peripheral/LocalService.o
-                0x00000afe                _ZN12LocalService14characteristicEj
+                0x00000c24       0x3c peripheral/LocalService.o
+                0x00000c24                _ZN12LocalService14characteristicEj
  .text._ZN12LocalService17addCharacteristicEP19LocalCharacteristic
-                0x00000b3a       0x50 peripheral/LocalService.o
-                0x00000b3a                _ZN12LocalService17addCharacteristicEP19LocalCharacteristic
- .text._ZN11XLinkedListIP19LocalCharacteristicE5clearEv
-                0x00000b8a       0x58 peripheral/LocalService.o
-                0x00000b8a                _ZN11XLinkedListIP19LocalCharacteristicE5clearEv
+                0x00000c60       0x50 peripheral/LocalService.o
+                0x00000c60                _ZN12LocalService17addCharacteristicEP19LocalCharacteristic
+ .text._ZN10LinkedListIP19LocalCharacteristicE5clearEv
+                0x00000cb0       0x58 peripheral/LocalService.o
+                0x00000cb0                _ZN10LinkedListIP19LocalCharacteristicE5clearEv
  .text._ZN12LocalServiceD2Ev
-                0x00000be2       0x7c peripheral/LocalService.o
-                0x00000be2                _ZN12LocalServiceD1Ev
-                0x00000be2                _ZN12LocalServiceD2Ev
+                0x00000d08       0x7c peripheral/LocalService.o
+                0x00000d08                _ZN12LocalServiceD1Ev
+                0x00000d08                _ZN12LocalServiceD2Ev
  .text._ZN12LocalServiceD0Ev
-                0x00000c5e       0x14 peripheral/LocalService.o
-                0x00000c5e                _ZN12LocalServiceD0Ev
+                0x00000d84       0x14 peripheral/LocalService.o
+                0x00000d84                _ZN12LocalServiceD0Ev
  .text._ZN12BLEAttributeD2Ev
-                0x00000c72        0x2 profile/BLEAttribute.o
-                0x00000c72                _ZN12BLEAttributeD2Ev
-                0x00000c72                _ZN12BLEAttributeD1Ev
+                0x00000d98        0x2 profile/BLEAttribute.o
+                0x00000d98                _ZN12BLEAttributeD2Ev
+                0x00000d98                _ZN12BLEAttributeD1Ev
  .text._ZN12BLEAttribute4typeEv
-                0x00000c74        0x6 profile/BLEAttribute.o
-                0x00000c74                _ZN12BLEAttribute4typeEv
+                0x00000d9a        0x6 profile/BLEAttribute.o
+                0x00000d9a                _ZN12BLEAttribute4typeEv
  .text._ZN12BLEAttributeD0Ev
-                0x00000c7a        0x6 profile/BLEAttribute.o
-                0x00000c7a                _ZN12BLEAttributeD0Ev
+                0x00000da0        0x6 profile/BLEAttribute.o
+                0x00000da0                _ZN12BLEAttributeD0Ev
  .text._ZN12BLEAttributeC2EPKc
-                0x00000c80       0x1e profile/BLEAttribute.o
-                0x00000c80                _ZN12BLEAttributeC1EPKc
-                0x00000c80                _ZN12BLEAttributeC2EPKc
+                0x00000da6       0x1e profile/BLEAttribute.o
+                0x00000da6                _ZN12BLEAttributeC1EPKc
+                0x00000da6                _ZN12BLEAttributeC2EPKc
  .text._ZN12BLEAttribute8uuidDataEv
-                0x00000c9e        0x6 profile/BLEAttribute.o
-                0x00000c9e                _ZN12BLEAttribute8uuidDataEv
+                0x00000dc4        0x6 profile/BLEAttribute.o
+                0x00000dc4                _ZN12BLEAttribute8uuidDataEv
  .text._ZN12BLEAttribute10uuidLengthEv
-                0x00000ca4        0x6 profile/BLEAttribute.o
-                0x00000ca4                _ZN12BLEAttribute10uuidLengthEv
+                0x00000dca        0x6 profile/BLEAttribute.o
+                0x00000dca                _ZN12BLEAttribute10uuidLengthEv
  .text._ZN12BLEAttribute6retainEv
-                0x00000caa       0x10 profile/BLEAttribute.o
-                0x00000caa                _ZN12BLEAttribute6retainEv
+                0x00000dd0       0x10 profile/BLEAttribute.o
+                0x00000dd0                _ZN12BLEAttribute6retainEv
  .text._ZN12BLEAttribute7releaseEv
-                0x00000cba       0x10 profile/BLEAttribute.o
-                0x00000cba                _ZN12BLEAttribute7releaseEv
+                0x00000de0       0x10 profile/BLEAttribute.o
+                0x00000de0                _ZN12BLEAttribute7releaseEv
  .text._ZN17BLECharacteristicD2Ev
-                0x00000cca       0x3c profile/BLECharacteristic.o
-                0x00000cca                _ZN17BLECharacteristicD1Ev
-                0x00000cca                _ZN17BLECharacteristicD2Ev
+                0x00000df0       0x3c profile/BLECharacteristic.o
+                0x00000df0                _ZN17BLECharacteristicD1Ev
+                0x00000df0                _ZN17BLECharacteristicD2Ev
  .text._ZN17BLECharacteristicD0Ev
-                0x00000d06       0x14 profile/BLECharacteristic.o
-                0x00000d06                _ZN17BLECharacteristicD0Ev
+                0x00000e2c       0x14 profile/BLECharacteristic.o
+                0x00000e2c                _ZN17BLECharacteristicD0Ev
  .text._ZN17BLECharacteristicC2EP19LocalCharacteristic
-                0x00000d1a       0x1a profile/BLECharacteristic.o
-                0x00000d1a                _ZN17BLECharacteristicC2EP19LocalCharacteristic
-                0x00000d1a                _ZN17BLECharacteristicC1EP19LocalCharacteristic
+                0x00000e40       0x1a profile/BLECharacteristic.o
+                0x00000e40                _ZN17BLECharacteristicC2EP19LocalCharacteristic
+                0x00000e40                _ZN17BLECharacteristicC1EP19LocalCharacteristic
  .text._ZN17BLECharacteristicC2EPKchib
-                0x00000d34       0x4a profile/BLECharacteristic.o
-                0x00000d34                _ZN17BLECharacteristicC1EPKchib
-                0x00000d34                _ZN17BLECharacteristicC2EPKchib
+                0x00000e5a       0x4a profile/BLECharacteristic.o
+                0x00000e5a                _ZN17BLECharacteristicC1EPKchib
+                0x00000e5a                _ZN17BLECharacteristicC2EPKchib
  .text._ZN17BLECharacteristic10writeValueEPKhi
-                0x00000d7e       0x14 profile/BLECharacteristic.o
-                0x00000d7e                _ZN17BLECharacteristic10writeValueEPKhi
+                0x00000ea4       0x14 profile/BLECharacteristic.o
+                0x00000ea4                _ZN17BLECharacteristic10writeValueEPKhi
  .text._ZN9BLEDeviceD2Ev
-                0x00000d92        0x2 profile/BLEDevice.o
-                0x00000d92                _ZN9BLEDeviceD2Ev
-                0x00000d92                _ZN9BLEDeviceD1Ev
+                0x00000eb8        0x2 profile/BLEDevice.o
+                0x00000eb8                _ZN9BLEDeviceD2Ev
+                0x00000eb8                _ZN9BLEDeviceD1Ev
  .text._ZN9BLEDevice4pollEv
-                0x00000d94        0xa profile/BLEDevice.o
-                0x00000d94                _ZN9BLEDevice4pollEv
+                0x00000eba        0xa profile/BLEDevice.o
+                0x00000eba                _ZN9BLEDevice4pollEv
  .text._ZN9BLEDevice4pollEm
-                0x00000d9e        0xa profile/BLEDevice.o
-                0x00000d9e                _ZN9BLEDevice4pollEm
+                0x00000ec4        0xa profile/BLEDevice.o
+                0x00000ec4                _ZN9BLEDevice4pollEm
  .text._ZN9BLEDevice9connectedEv
-                0x00000da8       0x36 profile/BLEDevice.o
-                0x00000da8                _ZN9BLEDevice9connectedEv
+                0x00000ece       0x36 profile/BLEDevice.o
+                0x00000ece                _ZN9BLEDevice9connectedEv
  .text._ZN9BLEDevice10disconnectEv
-                0x00000dde       0x26 profile/BLEDevice.o
-                0x00000dde                _ZN9BLEDevice10disconnectEv
+                0x00000f04       0x26 profile/BLEDevice.o
+                0x00000f04                _ZN9BLEDevice10disconnectEv
  .text._ZN9BLEDevice7addressEv
-                0x00000e04       0x56 profile/BLEDevice.o
-                0x00000e04                _ZN9BLEDevice7addressEv
+                0x00000f2a       0x56 profile/BLEDevice.o
+                0x00000f2a                _ZN9BLEDevice7addressEv
  .text._ZN9BLEDevice4rssiEv
-                0x00000e5a       0x1e profile/BLEDevice.o
-                0x00000e5a                _ZN9BLEDevice4rssiEv
+                0x00000f80       0x1e profile/BLEDevice.o
+                0x00000f80                _ZN9BLEDevice4rssiEv
  .text._ZN9BLEDevicecvbEv
-                0x00000e78       0x58 profile/BLEDevice.o
-                0x00000e78                _ZN9BLEDevicecvbEv
+                0x00000f9e       0x58 profile/BLEDevice.o
+                0x00000f9e                _ZN9BLEDevicecvbEv
  .text._ZN9BLEDeviceeqERS_
-                0x00000ed0       0x30 profile/BLEDevice.o
-                0x00000ed0                _ZN9BLEDeviceeqERS_
+                0x00000ff6       0x30 profile/BLEDevice.o
+                0x00000ff6                _ZN9BLEDeviceeqERS_
  .text._ZN9BLEDeviceneERS_
-                0x00000f00       0x30 profile/BLEDevice.o
-                0x00000f00                _ZN9BLEDeviceneERS_
+                0x00001026       0x30 profile/BLEDevice.o
+                0x00001026                _ZN9BLEDeviceneERS_
  .text._ZN9BLEDeviceD0Ev
-                0x00000f30        0x6 profile/BLEDevice.o
-                0x00000f30                _ZN9BLEDeviceD0Ev
+                0x00001056        0x6 profile/BLEDevice.o
+                0x00001056                _ZN9BLEDeviceD0Ev
  .text._ZN9BLEDeviceC2Ev
-                0x00000f36       0x28 profile/BLEDevice.o
-                0x00000f36                _ZN9BLEDeviceC1Ev
-                0x00000f36                _ZN9BLEDeviceC2Ev
+                0x0000105c       0x28 profile/BLEDevice.o
+                0x0000105c                _ZN9BLEDeviceC1Ev
+                0x0000105c                _ZN9BLEDeviceC2Ev
  .text._ZN9BLEDeviceC2EjPh
-                0x00000f5e       0x24 profile/BLEDevice.o
-                0x00000f5e                _ZN9BLEDeviceC1EjPh
-                0x00000f5e                _ZN9BLEDeviceC2EjPh
+                0x00001084       0x24 profile/BLEDevice.o
+                0x00001084                _ZN9BLEDeviceC1EjPh
+                0x00001084                _ZN9BLEDeviceC2EjPh
  .text._ZN10BLEServiceD2Ev
-                0x00000f82       0x3c profile/BLEService.o
-                0x00000f82                _ZN10BLEServiceD1Ev
-                0x00000f82                _ZN10BLEServiceD2Ev
+                0x000010a8       0x3c profile/BLEService.o
+                0x000010a8                _ZN10BLEServiceD1Ev
+                0x000010a8                _ZN10BLEServiceD2Ev
  .text._ZN10BLEServiceD0Ev
-                0x00000fbe       0x14 profile/BLEService.o
-                0x00000fbe                _ZN10BLEServiceD0Ev
+                0x000010e4       0x14 profile/BLEService.o
+                0x000010e4                _ZN10BLEServiceD0Ev
  .text._ZN10BLEServiceC2EPKc
-                0x00000fd2       0x42 profile/BLEService.o
-                0x00000fd2                _ZN10BLEServiceC2EPKc
-                0x00000fd2                _ZN10BLEServiceC1EPKc
+                0x000010f8       0x42 profile/BLEService.o
+                0x000010f8                _ZN10BLEServiceC2EPKc
+                0x000010f8                _ZN10BLEServiceC1EPKc
  .text._ZN22BLETypedCharacteristicIhEC2EPKch
-                0x00001014       0x42 profile/BLETypedCharacteristics.o
-                0x00001014                _ZN22BLETypedCharacteristicIhEC1EPKch
-                0x00001014                _ZN22BLETypedCharacteristicIhEC2EPKch
+                0x0000113a       0x42 profile/BLETypedCharacteristics.o
+                0x0000113a                _ZN22BLETypedCharacteristicIhEC1EPKch
+                0x0000113a                _ZN22BLETypedCharacteristicIhEC2EPKch
  .text._ZN29BLEUnsignedCharCharacteristicC2EPKch
-                0x00001056       0x16 profile/BLETypedCharacteristics.o
-                0x00001056                _ZN29BLEUnsignedCharCharacteristicC1EPKch
-                0x00001056                _ZN29BLEUnsignedCharCharacteristicC2EPKch
+                0x0000117c       0x16 profile/BLETypedCharacteristics.o
+                0x0000117c                _ZN29BLEUnsignedCharCharacteristicC1EPKch
+                0x0000117c                _ZN29BLEUnsignedCharCharacteristicC2EPKch
  .text._ZN7BLEUUIDC2EPKc
-                0x0000106c       0xd6 profile/BLEUUID.o
-                0x0000106c                _ZN7BLEUUIDC2EPKc
-                0x0000106c                _ZN7BLEUUIDC1EPKc
+                0x00001192       0xd6 profile/BLEUUID.o
+                0x00001192                _ZN7BLEUUIDC2EPKc
+                0x00001192                _ZN7BLEUUIDC1EPKc
  .text._ZN7BLEUUID4dataEv
-                0x00001142        0x4 profile/BLEUUID.o
-                0x00001142                _ZN7BLEUUID4dataEv
+                0x00001268        0x4 profile/BLEUUID.o
+                0x00001268                _ZN7BLEUUID4dataEv
  .text._ZN7BLEUUID6lengthEv
-                0x00001146        0x6 profile/BLEUUID.o
-                0x00001146                _ZN7BLEUUID6lengthEv
+                0x0000126c        0x6 profile/BLEUUID.o
+                0x0000126c                _ZN7BLEUUID6lengthEv
  .text._ZN8ATTClassD2Ev
-                0x0000114c       0x18 protocol/ATT.o
-                0x0000114c                _ZN8ATTClassD2Ev
-                0x0000114c                _ZN8ATTClassD1Ev
+                0x00001272       0x18 protocol/ATT.o
+                0x00001272                _ZN8ATTClassD2Ev
+                0x00001272                _ZN8ATTClassD1Ev
  .text._ZN8ATTClassD0Ev
-                0x00001164       0x14 protocol/ATT.o
-                0x00001164                _ZN8ATTClassD0Ev
+                0x0000128a       0x14 protocol/ATT.o
+                0x0000128a                _ZN8ATTClassD0Ev
  .text._ZN8ATTClassC2Ev
-                0x00001178       0x4e protocol/ATT.o
-                0x00001178                _ZN8ATTClassC1Ev
-                0x00001178                _ZN8ATTClassC2Ev
+                0x0000129e       0x4e protocol/ATT.o
+                0x0000129e                _ZN8ATTClassC1Ev
+                0x0000129e                _ZN8ATTClassC2Ev
  .text._ZN8ATTClass13addConnectionEjhhPhjjjh
-                0x000011c6       0x74 protocol/ATT.o
-                0x000011c6                _ZN8ATTClass13addConnectionEjhhPhjjjh
+                0x000012ec       0x74 protocol/ATT.o
+                0x000012ec                _ZN8ATTClass13addConnectionEjhhPhjjjh
  .text._ZN8ATTClass16removeConnectionEhj
-                0x0000123a      0x18c protocol/ATT.o
-                0x0000123a                _ZN8ATTClass16removeConnectionEhj
+                0x00001360      0x18c protocol/ATT.o
+                0x00001360                _ZN8ATTClass16removeConnectionEhj
  .text._ZN8ATTClass9connectedEv
-                0x000013c6       0x12 protocol/ATT.o
-                0x000013c6                _ZN8ATTClass9connectedEv
+                0x000014ec       0x12 protocol/ATT.o
+                0x000014ec                _ZN8ATTClass9connectedEv
  .text._ZN8ATTClass9connectedEjPKh
-                0x000013d8       0x28 protocol/ATT.o
-                0x000013d8                _ZN8ATTClass9connectedEjPKh
+                0x000014fe       0x28 protocol/ATT.o
+                0x000014fe                _ZN8ATTClass9connectedEjPKh
  .text._ZN8ATTClass10disconnectEv
-                0x00001400       0x44 protocol/ATT.o
-                0x00001400                _ZN8ATTClass10disconnectEv
+                0x00001526       0x44 protocol/ATT.o
+                0x00001526                _ZN8ATTClass10disconnectEv
  .text._ZN8ATTClass7centralEv
-                0x00001444       0x2e protocol/ATT.o
-                0x00001444                _ZN8ATTClass7centralEv
+                0x0000156a       0x2e protocol/ATT.o
+                0x0000156a                _ZN8ATTClass7centralEv
  .text._ZN8ATTClass12handleNotifyEjPKhi
-                0x00001472       0xd0 protocol/ATT.o
-                0x00001472                _ZN8ATTClass12handleNotifyEjPKhi
+                0x00001598       0xd0 protocol/ATT.o
+                0x00001598                _ZN8ATTClass12handleNotifyEjPKhi
  .text._ZN8ATTClass9handleIndEjPKhi
-                0x00001542       0xec protocol/ATT.o
-                0x00001542                _ZN8ATTClass9handleIndEjPKhi
+                0x00001668       0xec protocol/ATT.o
+                0x00001668                _ZN8ATTClass9handleIndEjPKhi
  .text._ZN8ATTClass9sendErrorEjhjh
-                0x0000162e       0x4e protocol/ATT.o
-                0x0000162e                _ZN8ATTClass9sendErrorEjhjh
+                0x00001754       0x4e protocol/ATT.o
+                0x00001754                _ZN8ATTClass9sendErrorEjhjh
  .text._ZN8ATTClass6mtuReqEjhPh
-                0x0000167c       0x64 protocol/ATT.o
-                0x0000167c                _ZN8ATTClass6mtuReqEjhPh
+                0x000017a2       0x64 protocol/ATT.o
+                0x000017a2                _ZN8ATTClass6mtuReqEjhPh
  .text._ZN8ATTClass11findInfoReqEjhPh
-                0x000016e0      0x266 protocol/ATT.o
-                0x000016e0                _ZN8ATTClass11findInfoReqEjhPh
+                0x00001806      0x266 protocol/ATT.o
+                0x00001806                _ZN8ATTClass11findInfoReqEjhPh
  .text._ZN8ATTClass13findByTypeReqEjhPh
-                0x00001946      0x1e6 protocol/ATT.o
-                0x00001946                _ZN8ATTClass13findByTypeReqEjhPh
+                0x00001a6c      0x1e6 protocol/ATT.o
+                0x00001a6c                _ZN8ATTClass13findByTypeReqEjhPh
  .text._ZN8ATTClass14readByGroupReqEjhPh
-                0x00001b2c      0x22a protocol/ATT.o
-                0x00001b2c                _ZN8ATTClass14readByGroupReqEjhPh
+                0x00001c52      0x22a protocol/ATT.o
+                0x00001c52                _ZN8ATTClass14readByGroupReqEjhPh
  .text._ZN8ATTClass17readOrReadBlobReqEjhhPh
-                0x00001d56      0x344 protocol/ATT.o
-                0x00001d56                _ZN8ATTClass17readOrReadBlobReqEjhhPh
+                0x00001e7c      0x344 protocol/ATT.o
+                0x00001e7c                _ZN8ATTClass17readOrReadBlobReqEjhhPh
  .text._ZN8ATTClass13readByTypeReqEjhPh
-                0x0000209a      0x39e protocol/ATT.o
-                0x0000209a                _ZN8ATTClass13readByTypeReqEjhPh
+                0x000021c0      0x39e protocol/ATT.o
+                0x000021c0                _ZN8ATTClass13readByTypeReqEjhPh
  .text._ZN8ATTClass13writeReqOrCmdEjhhPh
-                0x00002438      0x298 protocol/ATT.o
-                0x00002438                _ZN8ATTClass13writeReqOrCmdEjhhPh
+                0x0000255e      0x298 protocol/ATT.o
+                0x0000255e                _ZN8ATTClass13writeReqOrCmdEjhhPh
  .text._ZN8ATTClass12prepWriteReqEjhPh
-                0x000026d0      0x246 protocol/ATT.o
-                0x000026d0                _ZN8ATTClass12prepWriteReqEjhPh
+                0x000027f6      0x246 protocol/ATT.o
+                0x000027f6                _ZN8ATTClass12prepWriteReqEjhPh
  .text._ZN8ATTClass12execWriteReqEjhPh
-                0x00002916      0x130 protocol/ATT.o
-                0x00002916                _ZN8ATTClass12execWriteReqEjhPh
+                0x00002a3c      0x130 protocol/ATT.o
+                0x00002a3c                _ZN8ATTClass12execWriteReqEjhPh
  .text._ZN8ATTClass10handleDataEjhPh
-                0x00002a46       0x90 protocol/ATT.o
-                0x00002a46                _ZN8ATTClass10handleDataEjhPh
+                0x00002b6c       0x90 protocol/ATT.o
+                0x00002b6c                _ZN8ATTClass10handleDataEjhPh
  .text._GLOBAL__sub_I__ZN8ATTClassC2Ev
-                0x00002ad6        0xa protocol/ATT.o
+                0x00002bfc        0xa protocol/ATT.o
  .text._GLOBAL__sub_D__ZN8ATTClassC2Ev
-                0x00002ae0        0xa protocol/ATT.o
+                0x00002c06        0xa protocol/ATT.o
  .text._ZN8GAPClassD2Ev
-                0x00002aea        0x2 protocol/GAP.o
-                0x00002aea                _ZN8GAPClassD2Ev
-                0x00002aea                _ZN8GAPClassD1Ev
+                0x00002c10        0x2 protocol/GAP.o
+                0x00002c10                _ZN8GAPClassD2Ev
+                0x00002c10                _ZN8GAPClassD1Ev
  .text._ZN8GAPClassD0Ev
-                0x00002aec        0x6 protocol/GAP.o
-                0x00002aec                _ZN8GAPClassD0Ev
+                0x00002c12        0x6 protocol/GAP.o
+                0x00002c12                _ZN8GAPClassD0Ev
  .text._ZN8GAPClassC2Ev
-                0x00002af2       0x32 protocol/GAP.o
-                0x00002af2                _ZN8GAPClassC2Ev
-                0x00002af2                _ZN8GAPClassC1Ev
+                0x00002c18       0x32 protocol/GAP.o
+                0x00002c18                _ZN8GAPClassC2Ev
+                0x00002c18                _ZN8GAPClassC1Ev
  .text._ZN8GAPClass11advertisingEv
-                0x00002b24        0x6 protocol/GAP.o
-                0x00002b24                _ZN8GAPClass11advertisingEv
+                0x00002c4a        0x6 protocol/GAP.o
+                0x00002c4a                _ZN8GAPClass11advertisingEv
  .text._ZN8GAPClass9advertiseEv
-                0x00002b2a      0x268 protocol/GAP.o
-                0x00002b2a                _ZN8GAPClass9advertiseEv
+                0x00002c50      0x268 protocol/GAP.o
+                0x00002c50                _ZN8GAPClass9advertiseEv
  .text._ZN8GAPClass24setAdvertisedServiceDataEjPKhi
-                0x00002d92       0x10 protocol/GAP.o
-                0x00002d92                _ZN8GAPClass24setAdvertisedServiceDataEjPKhi
+                0x00002eb8       0x10 protocol/GAP.o
+                0x00002eb8                _ZN8GAPClass24setAdvertisedServiceDataEjPKhi
  .text._GLOBAL__sub_I__ZN8GAPClassC2Ev
-                0x00002da2        0x8 protocol/GAP.o
+                0x00002ec8        0x8 protocol/GAP.o
  .text._ZN9GATTClassC2Ev
-                0x00002daa       0xde protocol/GATT.o
-                0x00002daa                _ZN9GATTClassC2Ev
-                0x00002daa                _ZN9GATTClassC1Ev
+                0x00002ed0       0xde protocol/GATT.o
+                0x00002ed0                _ZN9GATTClassC2Ev
+                0x00002ed0                _ZN9GATTClassC1Ev
  .text._ZN9GATTClass14attributeCountEv
-                0x00002e88        0xc protocol/GATT.o
-                0x00002e88                _ZN9GATTClass14attributeCountEv
+                0x00002fae        0xc protocol/GATT.o
+                0x00002fae                _ZN9GATTClass14attributeCountEv
  .text._ZN9GATTClass9attributeEj
-                0x00002e94       0x3a protocol/GATT.o
-                0x00002e94                _ZN9GATTClass9attributeEj
+                0x00002fba       0x3a protocol/GATT.o
+                0x00002fba                _ZN9GATTClass9attributeEj
  .text._ZN9GATTClass28serviceUuidForCharacteristicEP19LocalCharacteristic
-                0x00002ece       0xb8 protocol/GATT.o
-                0x00002ece                _ZN9GATTClass28serviceUuidForCharacteristicEP19LocalCharacteristic
- .text._ZN11XLinkedListIP12BLEAttributeE5clearEv
-                0x00002f86       0x58 protocol/GATT.o
-                0x00002f86                _ZN11XLinkedListIP12BLEAttributeE5clearEv
+                0x00002ff4       0xb8 protocol/GATT.o
+                0x00002ff4                _ZN9GATTClass28serviceUuidForCharacteristicEP19LocalCharacteristic
+ .text._ZN10LinkedListIP12BLEAttributeE5clearEv
+                0x000030ac       0x58 protocol/GATT.o
+                0x000030ac                _ZN10LinkedListIP12BLEAttributeE5clearEv
  .text._ZN9GATTClass15clearAttributesEv
-                0x00002fde       0x76 protocol/GATT.o
-                0x00002fde                _ZN9GATTClass15clearAttributesEv
+                0x00003104       0x76 protocol/GATT.o
+                0x00003104                _ZN9GATTClass15clearAttributesEv
  .text._GLOBAL__sub_I__ZN9GATTClassC2Ev
-                0x00003054        0x8 protocol/GATT.o
+                0x0000317a        0x8 protocol/GATT.o
  .text._ZN9GATTClassD2Ev
-                0x0000305c       0x4e protocol/GATT.o
-                0x0000305c                _ZN9GATTClassD1Ev
-                0x0000305c                _ZN9GATTClassD2Ev
+                0x00003182       0x4e protocol/GATT.o
+                0x00003182                _ZN9GATTClassD1Ev
+                0x00003182                _ZN9GATTClassD2Ev
  .text._ZN9GATTClassD0Ev
-                0x000030aa       0x14 protocol/GATT.o
-                0x000030aa                _ZN9GATTClassD0Ev
+                0x000031d0       0x14 protocol/GATT.o
+                0x000031d0                _ZN9GATTClassD0Ev
  .text._GLOBAL__sub_D__ZN9GATTClassC2Ev
-                0x000030be        0x8 protocol/GATT.o
+                0x000031e4        0x8 protocol/GATT.o
  .text._ZN8HCIClassD2Ev
-                0x000030c6        0x2 protocol/HCI.o
-                0x000030c6                _ZN8HCIClassD2Ev
-                0x000030c6                _ZN8HCIClassD1Ev
+                0x000031ec        0x2 protocol/HCI.o
+                0x000031ec                _ZN8HCIClassD2Ev
+                0x000031ec                _ZN8HCIClassD1Ev
  .text._ZN8HCIClassD0Ev
-                0x000030c8        0x6 protocol/HCI.o
-                0x000030c8                _ZN8HCIClassD0Ev
+                0x000031ee        0x6 protocol/HCI.o
+                0x000031ee                _ZN8HCIClassD0Ev
  .text._ZN8HCIClass20handleNumCompPacketsEjj
-                0x000030ce       0x28 protocol/HCI.o
-                0x000030ce                _ZN8HCIClass20handleNumCompPacketsEjj
+                0x000031f4       0x28 protocol/HCI.o
+                0x000031f4                _ZN8HCIClass20handleNumCompPacketsEjj
  .text._ZN8HCIClass17handleEventPacketEhPh
-                0x000030f6      0x10c protocol/HCI.o
-                0x000030f6                _ZN8HCIClass17handleEventPacketEhPh
+                0x0000321c      0x10c protocol/HCI.o
+                0x0000321c                _ZN8HCIClass17handleEventPacketEhPh
  .text._ZN8HCIClass4pollEm
-                0x00003202       0xe0 protocol/HCI.o
-                0x00003202                _ZN8HCIClass4pollEm
+                0x00003328       0xe0 protocol/HCI.o
+                0x00003328                _ZN8HCIClass4pollEm
  .text._ZN8HCIClass4pollEv
-                0x000032e2        0xa protocol/HCI.o
-                0x000032e2                _ZN8HCIClass4pollEv
+                0x00003408        0xa protocol/HCI.o
+                0x00003408                _ZN8HCIClass4pollEv
  .text._ZN8HCIClass13sendAclPacketEjhhPv
-                0x000032ec      0x116 protocol/HCI.o
-                0x000032ec                _ZN8HCIClass13sendAclPacketEjhhPv
+                0x00003412      0x116 protocol/HCI.o
+                0x00003412                _ZN8HCIClass13sendAclPacketEjhhPv
  .text._ZN8HCIClass19handleAclDataPacketEhPh
-                0x00003402       0xa0 protocol/HCI.o
-                0x00003402                _ZN8HCIClass19handleAclDataPacketEhPh
+                0x00003528       0xa0 protocol/HCI.o
+                0x00003528                _ZN8HCIClass19handleAclDataPacketEhPh
  .text._ZN8HCIClass11sendCommandEjhPv
-                0x000034a2      0x106 protocol/HCI.o
-                0x000034a2                _ZN8HCIClass11sendCommandEjhPv
+                0x000035c8      0x106 protocol/HCI.o
+                0x000035c8                _ZN8HCIClass11sendCommandEjhPv
  .text._ZN8HCIClass10readBDAddrEPh
-                0x000035a8       0x3a protocol/HCI.o
-                0x000035a8                _ZN8HCIClass10readBDAddrEPh
+                0x000036ce       0x3a protocol/HCI.o
+                0x000036ce                _ZN8HCIClass10readBDAddrEPh
  .text._ZN8HCIClass8readRssiEj
-                0x000035e2       0x62 protocol/HCI.o
-                0x000035e2                _ZN8HCIClass8readRssiEj
+                0x00003708       0x62 protocol/HCI.o
+                0x00003708                _ZN8HCIClass8readRssiEj
  .text._ZN8HCIClass22setLeAdvertisingParamsEjjhhhPhhh
-                0x00003644       0x6e protocol/HCI.o
-                0x00003644                _ZN8HCIClass22setLeAdvertisingParamsEjjhhhPhhh
+                0x0000376a       0x6e protocol/HCI.o
+                0x0000376a                _ZN8HCIClass22setLeAdvertisingParamsEjjhhhPhhh
  .text._ZN8HCIClass20setLeAdvertisingDataEhPh
-                0x000036b2       0x66 protocol/HCI.o
-                0x000036b2                _ZN8HCIClass20setLeAdvertisingDataEhPh
+                0x000037d8       0x66 protocol/HCI.o
+                0x000037d8                _ZN8HCIClass20setLeAdvertisingDataEhPh
  .text._ZN8HCIClass21setLeScanResponseDataEhPh
-                0x00003718       0x66 protocol/HCI.o
-                0x00003718                _ZN8HCIClass21setLeScanResponseDataEhPh
+                0x0000383e       0x66 protocol/HCI.o
+                0x0000383e                _ZN8HCIClass21setLeScanResponseDataEhPh
  .text._ZN8HCIClass20setLeAdvertiseEnableEh
-                0x0000377e       0x22 protocol/HCI.o
-                0x0000377e                _ZN8HCIClass20setLeAdvertiseEnableEh
+                0x000038a4       0x22 protocol/HCI.o
+                0x000038a4                _ZN8HCIClass20setLeAdvertiseEnableEh
  .text._ZN8HCIClass18updateLeConnectionEjjjjj
-                0x000037a0       0x68 protocol/HCI.o
-                0x000037a0                _ZN8HCIClass18updateLeConnectionEjjjjj
+                0x000038c6       0x68 protocol/HCI.o
+                0x000038c6                _ZN8HCIClass18updateLeConnectionEjjjjj
  .text._ZN8HCIClass10disconnectEj
-                0x00003808       0x2e protocol/HCI.o
-                0x00003808                _ZN8HCIClass10disconnectEj
+                0x0000392e       0x2e protocol/HCI.o
+                0x0000392e                _ZN8HCIClass10disconnectEj
  .text._GLOBAL__sub_I__ZN8HCIClassC2Ev
-                0x00003836       0x16 protocol/HCI.o
+                0x0000395c       0x16 protocol/HCI.o
  .text._ZN21HCIUartTransportClassD2Ev
-                0x0000384c        0x2 protocol/HCIUartTransport.o
-                0x0000384c                _ZN21HCIUartTransportClassD2Ev
-                0x0000384c                _ZN21HCIUartTransportClassD1Ev
+                0x00003972        0x2 protocol/HCIUartTransport.o
+                0x00003972                _ZN21HCIUartTransportClassD2Ev
+                0x00003972                _ZN21HCIUartTransportClassD1Ev
  .text._ZN21HCIUartTransportClass5beginEv
-                0x0000384e       0x16 protocol/HCIUartTransport.o
-                0x0000384e                _ZN21HCIUartTransportClass5beginEv
+                0x00003974       0x16 protocol/HCIUartTransport.o
+                0x00003974                _ZN21HCIUartTransportClass5beginEv
  .text._ZN21HCIUartTransportClass3endEv
-                0x00003864        0xa protocol/HCIUartTransport.o
-                0x00003864                _ZN21HCIUartTransportClass3endEv
+                0x0000398a        0xa protocol/HCIUartTransport.o
+                0x0000398a                _ZN21HCIUartTransportClass3endEv
  .text._ZN21HCIUartTransportClass4waitEm
-                0x0000386e       0x68 protocol/HCIUartTransport.o
-                0x0000386e                _ZN21HCIUartTransportClass4waitEm
+                0x00003994       0x68 protocol/HCIUartTransport.o
+                0x00003994                _ZN21HCIUartTransportClass4waitEm
  .text._ZN21HCIUartTransportClass9availableEv
-                0x000038d6        0xa protocol/HCIUartTransport.o
-                0x000038d6                _ZN21HCIUartTransportClass9availableEv
+                0x000039fc        0xa protocol/HCIUartTransport.o
+                0x000039fc                _ZN21HCIUartTransportClass9availableEv
  .text._ZN21HCIUartTransportClass4peekEv
-                0x000038e0        0xa protocol/HCIUartTransport.o
-                0x000038e0                _ZN21HCIUartTransportClass4peekEv
+                0x00003a06        0xa protocol/HCIUartTransport.o
+                0x00003a06                _ZN21HCIUartTransportClass4peekEv
  .text._ZN21HCIUartTransportClass4readEv
-                0x000038ea        0xa protocol/HCIUartTransport.o
-                0x000038ea                _ZN21HCIUartTransportClass4readEv
+                0x00003a10        0xa protocol/HCIUartTransport.o
+                0x00003a10                _ZN21HCIUartTransportClass4readEv
  .text._ZN21HCIUartTransportClass5writeEPKhj
-                0x000038f4       0x24 protocol/HCIUartTransport.o
-                0x000038f4                _ZN21HCIUartTransportClass5writeEPKhj
+                0x00003a1a       0x24 protocol/HCIUartTransport.o
+                0x00003a1a                _ZN21HCIUartTransportClass5writeEPKhj
  .text._ZN21HCIUartTransportClassD0Ev
-                0x00003918        0x4 protocol/HCIUartTransport.o
-                0x00003918                _ZN21HCIUartTransportClassD0Ev
- .text._GLOBAL__sub_I__ZN21HCIUartTransportClassC2ER5XUartm
-                0x0000391c       0x26 protocol/HCIUartTransport.o
+                0x00003a3e        0x4 protocol/HCIUartTransport.o
+                0x00003a3e                _ZN21HCIUartTransportClassD0Ev
+ .text._GLOBAL__sub_I__ZN21HCIUartTransportClassC2ER13BluetoothUARTm
+                0x00003a42       0x26 protocol/HCIUartTransport.o
  .text._ZN19L2CAPSignalingClassD2Ev
-                0x00003942        0x2 protocol/L2CAPSignaling.o
-                0x00003942                _ZN19L2CAPSignalingClassD1Ev
-                0x00003942                _ZN19L2CAPSignalingClassD2Ev
+                0x00003a68        0x2 protocol/L2CAPSignaling.o
+                0x00003a68                _ZN19L2CAPSignalingClassD1Ev
+                0x00003a68                _ZN19L2CAPSignalingClassD2Ev
  .text._ZN19L2CAPSignalingClassD0Ev
-                0x00003944        0x4 protocol/L2CAPSignaling.o
-                0x00003944                _ZN19L2CAPSignalingClassD0Ev
+                0x00003a6a        0x4 protocol/L2CAPSignaling.o
+                0x00003a6a                _ZN19L2CAPSignalingClassD0Ev
  .text._ZN19L2CAPSignalingClass13addConnectionEjhhPhjjjh
-                0x00003948       0x94 protocol/L2CAPSignaling.o
-                0x00003948                _ZN19L2CAPSignalingClass13addConnectionEjhhPhjjjh
+                0x00003a6e       0x94 protocol/L2CAPSignaling.o
+                0x00003a6e                _ZN19L2CAPSignalingClass13addConnectionEjhhPhjjjh
  .text._ZN19L2CAPSignalingClass16removeConnectionEjj
-                0x000039dc        0x2 protocol/L2CAPSignaling.o
-                0x000039dc                _ZN19L2CAPSignalingClass16removeConnectionEjj
+                0x00003b02        0x2 protocol/L2CAPSignaling.o
+                0x00003b02                _ZN19L2CAPSignalingClass16removeConnectionEjj
  .text._ZN19L2CAPSignalingClass18connParamUpdateReqEjhhPh
-                0x000039de       0xd0 protocol/L2CAPSignaling.o
-                0x000039de                _ZN19L2CAPSignalingClass18connParamUpdateReqEjhhPh
+                0x00003b04       0xd0 protocol/L2CAPSignaling.o
+                0x00003b04                _ZN19L2CAPSignalingClass18connParamUpdateReqEjhhPh
  .text._ZN19L2CAPSignalingClass10handleDataEjhPh
-                0x00003aae       0x34 protocol/L2CAPSignaling.o
-                0x00003aae                _ZN19L2CAPSignalingClass10handleDataEjhPh
+                0x00003bd4       0x34 protocol/L2CAPSignaling.o
+                0x00003bd4                _ZN19L2CAPSignalingClass10handleDataEjhPh
  .text._GLOBAL__sub_I__ZN19L2CAPSignalingClassC2Ev
-                0x00003ae2       0x16 protocol/L2CAPSignaling.o
- .text._ZN8XConsoleD2Ev
-                0x00003af8        0x2 system/XConsole.o
-                0x00003af8                _ZN8XConsoleD2Ev
-                0x00003af8                _ZN8XConsoleD1Ev
- .text._ZN8XConsoleD0Ev
-                0x00003afa        0x4 system/XConsole.o
-                0x00003afa                _ZN8XConsoleD0Ev
- .text._ZN8XConsole5beginEm
-                0x00003afe       0x60 system/XConsole.o
-                0x00003afe                _ZN8XConsole5beginEm
- .text._ZN8XConsole5rxIsrEv
-                0x00003b5e       0x52 system/XConsole.o
-                0x00003b5e                _ZN8XConsole5rxIsrEv
- .text.__vector_30
-                0x00003bb0       0x52 system/XConsole.o
-                0x00003bb0                __vector_30
- .text._ZN8XConsole5txIsrEv
-                0x00003c02       0x5e system/XConsole.o
-                0x00003c02                _ZN8XConsole5txIsrEv
- .text.__vector_31
-                0x00003c60       0x52 system/XConsole.o
-                0x00003c60                __vector_31
- .text._ZN8XConsole5writeEh
-                0x00003cb2       0xd2 system/XConsole.o
-                0x00003cb2                _ZN8XConsole5writeEh
- .text._ZN8XConsole5writeEPKhj
-                0x00003d84       0x52 system/XConsole.o
-                0x00003d84                _ZN8XConsole5writeEPKhj
- .text._ZN8XConsole5writeEPKc
-                0x00003dd6       0x20 system/XConsole.o
-                0x00003dd6                _ZN8XConsole5writeEPKc
- .text._GLOBAL__sub_I___vector_30
-                0x00003df6        0xe system/XConsole.o
- .text._ZN9XDistance18calculateMilliVoltEj
-                0x00003e04       0x20 system/XDistance.o
-                0x00003e04                _ZN9XDistance18calculateMilliVoltEj
- .text._ZN9XDistance3isrEv
-                0x00003e24       0x2e system/XDistance.o
-                0x00003e24                _ZN9XDistance3isrEv
- .text.__vector_21
-                0x00003e52       0x52 system/XDistance.o
-                0x00003e52                __vector_21
- .text._GLOBAL__sub_I___vector_21
-                0x00003ea4       0x1c system/XDistance.o
- .text._ZN9XRotation3isrEv
-                0x00003ec0       0x26 system/XRotation.o
-                0x00003ec0                _ZN9XRotation3isrEv
- .text.__vector_1
-                0x00003ee6       0x52 system/XRotation.o
-                0x00003ee6                __vector_1
- .text._ZN6XTimer5beginEi
-                0x00003f38       0x1e system/XTimer.o
-                0x00003f38                _ZN6XTimer5beginEi
- .text._ZN6XTimer3endEi
-                0x00003f56        0xc system/XTimer.o
-                0x00003f56                _ZN6XTimer3endEi
- .text._ZN6XTimerD2Ev
-                0x00003f62        0xa system/XTimer.o
-                0x00003f62                _ZN6XTimerD2Ev
-                0x00003f62                _ZN6XTimerD1Ev
- .text._ZN6XTimer8millisecEv
-                0x00003f6c        0xc system/XTimer.o
-                0x00003f6c                _ZN6XTimer8millisecEv
- .text._ZN6XTimer3isrEv
-                0x00003f78       0x5a system/XTimer.o
-                0x00003f78                _ZN6XTimer3isrEv
- .text.__vector_15
-                0x00003fd2       0x52 system/XTimer.o
-                0x00003fd2                __vector_15
- .text._GLOBAL__sub_I___vector_15
-                0x00004024       0x16 system/XTimer.o
- .text._GLOBAL__sub_D___vector_15
-                0x0000403a        0x8 system/XTimer.o
- .text._ZN5XUartD2Ev
-                0x00004042        0x2 system/XUart.o
-                0x00004042                _ZN5XUartD1Ev
-                0x00004042                _ZN5XUartD2Ev
- .text._ZN5XUartD0Ev
-                0x00004044        0x4 system/XUart.o
-                0x00004044                _ZN5XUartD0Ev
- .text._ZN5XUart5beginEm
-                0x00004048       0x4a system/XUart.o
-                0x00004048                _ZN5XUart5beginEm
- .text._ZN5XUart9availableEv
-                0x00004092       0x24 system/XUart.o
-                0x00004092                _ZN5XUart9availableEv
- .text._ZN5XUart4peekEv
-                0x000040b6       0x1a system/XUart.o
-                0x000040b6                _ZN5XUart4peekEv
- .text._ZN5XUart4readEv
-                0x000040d0       0x3a system/XUart.o
-                0x000040d0                _ZN5XUart4readEv
- .text._ZN5XUart5rxIsrEv
-                0x0000410a       0x4a system/XUart.o
-                0x0000410a                _ZN5XUart5rxIsrEv
+                0x00003c08       0x16 protocol/L2CAPSignaling.o
+ .text._ZN13BluetoothUART5beginEm
+                0x00003c1e       0x4a system/BluetoothUART.o
+                0x00003c1e                _ZN13BluetoothUART5beginEm
+ .text._ZN13BluetoothUART9availableEv
+                0x00003c68       0x24 system/BluetoothUART.o
+                0x00003c68                _ZN13BluetoothUART9availableEv
+ .text._ZN13BluetoothUART4peekEv
+                0x00003c8c       0x1a system/BluetoothUART.o
+                0x00003c8c                _ZN13BluetoothUART4peekEv
+ .text._ZN13BluetoothUART4readEv
+                0x00003ca6       0x42 system/BluetoothUART.o
+                0x00003ca6                _ZN13BluetoothUART4readEv
+ .text._ZN13BluetoothUART5writeEh
+                0x00003ce8       0x70 system/BluetoothUART.o
+                0x00003ce8                _ZN13BluetoothUART5writeEh
+ .text._ZN13BluetoothUART5writeEPKhj
+                0x00003d58       0x52 system/BluetoothUART.o
+                0x00003d58                _ZN13BluetoothUART5writeEPKhj
+ .text._ZN13BluetoothUART5writeEPKc
+                0x00003daa       0x20 system/BluetoothUART.o
+                0x00003daa                _ZN13BluetoothUART5writeEPKc
+ .text._ZN13BluetoothUART5rxIsrEv
+                0x00003dca       0x36 system/BluetoothUART.o
+                0x00003dca                _ZN13BluetoothUART5rxIsrEv
  .text.__vector_18
-                0x00004154       0x52 system/XUart.o
-                0x00004154                __vector_18
- .text._ZN5XUart5txIsrEv
-                0x000041a6       0x50 system/XUart.o
-                0x000041a6                _ZN5XUart5txIsrEv
+                0x00003e00       0x52 system/BluetoothUART.o
+                0x00003e00                __vector_18
+ .text._ZN13BluetoothUART5txIsrEv
+                0x00003e52       0x46 system/BluetoothUART.o
+                0x00003e52                _ZN13BluetoothUART5txIsrEv
  .text.__vector_19
-                0x000041f6       0x52 system/XUart.o
-                0x000041f6                __vector_19
- .text._ZN5XUart5writeEh
-                0x00004248       0xaa system/XUart.o
-                0x00004248                _ZN5XUart5writeEh
- .text._ZN5XUart5writeEPKhj
-                0x000042f2       0x52 system/XUart.o
-                0x000042f2                _ZN5XUart5writeEPKhj
- .text._ZN5XUart5flushEv
-                0x00004344       0x5c system/XUart.o
-                0x00004344                _ZN5XUart5flushEv
- .text._ZN5XUart3endEv
-                0x000043a0       0x1a system/XUart.o
-                0x000043a0                _ZN5XUart3endEv
+                0x00003e98       0x52 system/BluetoothUART.o
+                0x00003e98                __vector_19
+ .text.__vector_20
+                0x00003eea       0x52 system/BluetoothUART.o
+                0x00003eea                __vector_20
+ .text._ZN13BluetoothUART5flushEv
+                0x00003f3c       0x50 system/BluetoothUART.o
+                0x00003f3c                _ZN13BluetoothUART5flushEv
+ .text._ZN13BluetoothUART3endEv
+                0x00003f8c        0xc system/BluetoothUART.o
+                0x00003f8c                _ZN13BluetoothUART3endEv
  .text._GLOBAL__sub_I___vector_18
-                0x000043ba        0xe system/XUart.o
- .text._Znwj    0x000043c8        0x4 system/XUtil.o
-                0x000043c8                _Znwj
- .text._ZdlPv   0x000043cc        0x4 system/XUtil.o
-                0x000043cc                _ZdlPv
- .text._Z3mapjjjjj
-                0x000043d0        0x4 system/XUtil.o
-                0x000043d0                _Z3mapjjjjj
+                0x00003f98       0x12 system/BluetoothUART.o
+ .text._ZN11ConsoleUART5beginEm
+                0x00003faa       0x5e system/ConsoleUART.o
+                0x00003faa                _ZN11ConsoleUART5beginEm
+ .text._ZN11ConsoleUART4readEv
+                0x00004008       0x42 system/ConsoleUART.o
+                0x00004008                _ZN11ConsoleUART4readEv
+ .text._ZN11ConsoleUART5writeEh
+                0x0000404a       0x88 system/ConsoleUART.o
+                0x0000404a                _ZN11ConsoleUART5writeEh
+ .text._ZN11ConsoleUART5writeEPKhj
+                0x000040d2       0x52 system/ConsoleUART.o
+                0x000040d2                _ZN11ConsoleUART5writeEPKhj
+ .text._ZN11ConsoleUART5writeEPKc
+                0x00004124       0x20 system/ConsoleUART.o
+                0x00004124                _ZN11ConsoleUART5writeEPKc
+ .text._ZN11ConsoleUART5rxIsrEv
+                0x00004144       0x54 system/ConsoleUART.o
+                0x00004144                _ZN11ConsoleUART5rxIsrEv
+ .text.__vector_30
+                0x00004198       0x52 system/ConsoleUART.o
+                0x00004198                __vector_30
+ .text._ZN11ConsoleUART5txIsrEv
+                0x000041ea       0x50 system/ConsoleUART.o
+                0x000041ea                _ZN11ConsoleUART5txIsrEv
+ .text.__vector_31
+                0x0000423a       0x52 system/ConsoleUART.o
+                0x0000423a                __vector_31
+ .text.__vector_32
+                0x0000428c       0x52 system/ConsoleUART.o
+                0x0000428c                __vector_32
+ .text._GLOBAL__sub_I___vector_30
+                0x000042de       0x12 system/ConsoleUART.o
+ .text._ZN11DistanceADCC2Ev
+                0x000042f0       0x2a system/DistanceADC.o
+                0x000042f0                _ZN11DistanceADCC2Ev
+                0x000042f0                _ZN11DistanceADCC1Ev
+ .text._ZN11DistanceADC5beginEv
+                0x0000431a        0xc system/DistanceADC.o
+                0x0000431a                _ZN11DistanceADC5beginEv
+ .text._ZN11DistanceADC8readAdc0Ev
+                0x00004326       0x1c system/DistanceADC.o
+                0x00004326                _ZN11DistanceADC8readAdc0Ev
+ .text._ZN11DistanceADC18calculateMilliVoltEj
+                0x00004342       0x56 system/DistanceADC.o
+                0x00004342                _ZN11DistanceADC18calculateMilliVoltEj
+ .text._ZN11DistanceADC11getDistanceEv
+                0x00004398       0x2a system/DistanceADC.o
+                0x00004398                _ZN11DistanceADC11getDistanceEv
+ .text._ZN11DistanceADC3isrEv
+                0x000043c2       0x4a system/DistanceADC.o
+                0x000043c2                _ZN11DistanceADC3isrEv
+ .text.__vector_21
+                0x0000440c       0x52 system/DistanceADC.o
+                0x0000440c                __vector_21
+ .text._GLOBAL__sub_I___vector_21
+                0x0000445e        0x8 system/DistanceADC.o
+ .text._ZN12RotationINTRC2Ev
+                0x00004466       0x18 system/RotationINTR.o
+                0x00004466                _ZN12RotationINTRC2Ev
+                0x00004466                _ZN12RotationINTRC1Ev
+ .text._ZN12RotationINTR5beginEv
+                0x0000447e       0x1c system/RotationINTR.o
+                0x0000447e                _ZN12RotationINTR5beginEv
+ .text._ZN12RotationINTR11getVelocityEv
+                0x0000449a        0x8 system/RotationINTR.o
+                0x0000449a                _ZN12RotationINTR11getVelocityEv
+ .text._ZN12RotationINTR3isrEv
+                0x000044a2       0x8e system/RotationINTR.o
+                0x000044a2                _ZN12RotationINTR3isrEv
+ .text.__vector_1
+                0x00004530       0x52 system/RotationINTR.o
+                0x00004530                __vector_1
+ .text._GLOBAL__sub_I___vector_1
+                0x00004582        0x8 system/RotationINTR.o
+ .text._ZN9TickTIMER5beginEj
+                0x0000458a       0x20 system/TickTIMER.o
+                0x0000458a                _ZN9TickTIMER5beginEj
+ .text._ZN9TickTIMER3endEv
+                0x000045aa        0x8 system/TickTIMER.o
+                0x000045aa                _ZN9TickTIMER3endEv
+ .text._ZN9TickTIMER11getMillisecEv
+                0x000045b2        0xc system/TickTIMER.o
+                0x000045b2                _ZN9TickTIMER11getMillisecEv
+ .text._ZN9TickTIMER11incIntervalEv
+                0x000045be       0x5c system/TickTIMER.o
+                0x000045be                _ZN9TickTIMER11incIntervalEv
+ .text._ZN9TickTIMER11decIntervalEv
+                0x0000461a       0x72 system/TickTIMER.o
+                0x0000461a                _ZN9TickTIMER11decIntervalEv
+ .text._ZN9TickTIMER3isrEv
+                0x0000468c       0xbc system/TickTIMER.o
+                0x0000468c                _ZN9TickTIMER3isrEv
+ .text.__vector_15
+                0x00004748       0x52 system/TickTIMER.o
+                0x00004748                __vector_15
+ .text._GLOBAL__sub_I___vector_15
+                0x0000479a       0x16 system/TickTIMER.o
+ .text._GLOBAL__sub_D___vector_15
+                0x000047b0        0x8 system/TickTIMER.o
+ .text._Znwj    0x000047b8        0x4 system/Util.o
+                0x000047b8                _Znwj
+ .text._ZdlPv   0x000047bc        0x4 system/Util.o
+                0x000047bc                _ZdlPv
+ .text._Z3mapmmmmm
+                0x000047c0       0x78 system/Util.o
+                0x000047c0                _Z3mapmmmmm
+ .text._Z12byteToStringchPc
+                0x00004838       0x86 system/Util.o
+                0x00004838                _Z12byteToStringchPc
+ .text._Z12wordToStringjPc
+                0x000048be      0x11e system/Util.o
+                0x000048be                _Z12wordToStringjPc
+ .text.avr-libc.fplib
+                0x000049dc        0xa e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                0x000049dc                __subsf3
+                0x000049de                __addsf3
+ .text.avr-libc.fplib
+                0x000049e6       0xc0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                0x00004a00                __addsf3x
+ .text.avr-libc.fplib
+                0x00004aa6        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x00004aa6                __divsf3
+ .text.avr-libc.fplib
+                0x00004aaa       0xcc e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x00004ac0                __divsf3x
+                0x00004ac4                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00004b76       0x58 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                0x00004b76                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00004bce       0x7a e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x00004bce                __floatunsisf
+                0x00004bd2                __floatsisf
+ .text.avr-libc.fplib
+                0x00004c48        0xc e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x00004c48                __fp_inf
+ .text.avr-libc.fplib
+                0x00004c54        0x6 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00004c54                __fp_nan
+ .text.avr-libc.fplib
+                0x00004c5a        0xe e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x00004c5a                __fp_pscA
+ .text.avr-libc.fplib
+                0x00004c68        0xe e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x00004c68                __fp_pscB
+ .text.avr-libc.fplib
+                0x00004c76       0x22 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00004c76                __fp_round
+ .text.avr-libc.fplib
+                0x00004c98       0x44 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x00004c98                __fp_split3
+                0x00004ca8                __fp_splitA
+ .text.avr-libc.fplib
+                0x00004cdc        0xe e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x00004cdc                __fp_zero
+                0x00004cde                __fp_szero
+ .text.avr-libc.fplib
+                0x00004cea        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x00004cea                __mulsf3
+ .text.avr-libc.fplib
+                0x00004cee       0xc2 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x00004d02                __mulsf3x
+                0x00004d06                __mulsf3_pse
  .text.avr-libc
-                0x000043d4      0x712 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
-                0x000043d4                vfprintf
+                0x00004db0      0x712 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
+                0x00004db0                vfprintf
+ .text.libgcc.mul
+                0x000054c2       0x1e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
+                0x000054c2                __mulsi3
  .text.libgcc.div
-                0x00004ae6       0x44 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
-                0x00004ae6                __udivmodsi4
- .text.libgcc   0x00004b2a       0x12 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
-                0x00004b2a                __tablejump2__
- .text.avr-libc
-                0x00004b3c      0x242 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x00004b3c                malloc
-                0x00004c6c                free
- .text.avr-libc
-                0x00004d7e      0x1c0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(realloc.o)
-                0x00004d7e                realloc
- .text.avr-libc
-                0x00004f3e      0x214 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strtoul.o)
-                0x00004f3e                strtoul
- .text.avr-libc
-                0x00005152      0x1b0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
-                0x00005152                __ftoa_engine
- .text.avr-libc
-                0x00005302       0x10 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
-                0x00005302                isspace
- .text.avr-libc
-                0x00005312       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
-                0x00005312                strnlen_P
- .text.avr-libc
-                0x00005328       0x1a e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memcmp.o)
-                0x00005328                memcmp
- .text.avr-libc
-                0x00005342       0x12 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
-                0x00005342                memcpy
- .text.avr-libc
-                0x00005354        0xe e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memset.o)
-                0x00005354                memset
- .text.avr-libc
-                0x00005362       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
-                0x00005362                strnlen
- .text.avr-libc
-                0x00005378       0x78 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
-                0x00005378                fputc
- .text.avr-libc
-                0x000053f0       0x5e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
-                0x000053f0                sprintf
- .text.avr-libc
-                0x0000544e       0xbc e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
-                0x0000544e                __ultoa_invert
- .text.avr-libc
-                0x0000550a        0x6 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
-                0x0000550a                __ctype_isfalse
-                0x0000550e                __ctype_istrue
+                0x000054e0       0x44 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_udivmodsi4.o)
+                0x000054e0                __udivmodsi4
+ .text.libgcc   0x00005524       0x12 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_tablejump2.o)
+                0x00005524                __tablejump2__
  .text.libgcc.mul
-                0x00005510       0x1e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_mulsi3.o)
-                0x00005510                __mulsi3
+                0x00005536       0x1e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
+                0x00005536                __umulhisi3
  .text.libgcc.mul
-                0x0000552e       0x14 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
-                0x0000552e                __muluhisi3
- .text.libgcc.mul
-                0x00005542       0x1e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_umulhisi3.o)
-                0x00005542                __umulhisi3
-                0x00005560                . = ALIGN (0x2)
+                0x00005554       0x14 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_muluhisi3.o)
+                0x00005554                __muluhisi3
+ .text.avr-libc
+                0x00005568      0x242 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00005568                malloc
+                0x00005698                free
+ .text.avr-libc
+                0x000057aa      0x1c0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(realloc.o)
+                0x000057aa                realloc
+ .text.avr-libc
+                0x0000596a      0x214 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strtoul.o)
+                0x0000596a                strtoul
+ .text.avr-libc
+                0x00005b7e      0x1b0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ftoa_engine.o)
+                0x00005b7e                __ftoa_engine
+ .text.avr-libc
+                0x00005d2e       0x10 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(isspace.o)
+                0x00005d2e                isspace
+ .text.avr-libc
+                0x00005d3e       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00005d3e                strnlen_P
+ .text.avr-libc
+                0x00005d54       0x1a e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memcmp.o)
+                0x00005d54                memcmp
+ .text.avr-libc
+                0x00005d6e       0x12 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memcpy.o)
+                0x00005d6e                memcpy
+ .text.avr-libc
+                0x00005d80        0xe e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(memset.o)
+                0x00005d80                memset
+ .text.avr-libc
+                0x00005d8e       0x16 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00005d8e                strnlen
+ .text.avr-libc
+                0x00005da4       0x78 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00005da4                fputc
+ .text.avr-libc
+                0x00005e1c       0x5e e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(sprintf.o)
+                0x00005e1c                sprintf
+ .text.avr-libc
+                0x00005e7a       0xbc e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00005e7a                __ultoa_invert
+ .text.avr-libc
+                0x00005f36        0x6 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(cty_isfalse.o)
+                0x00005f36                __ctype_isfalse
+                0x00005f3a                __ctype_istrue
+                0x00005f3c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00005560        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
-                0x00005560                _exit
-                0x00005560                exit
+ .fini9         0x00005f3c        0x0 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+                0x00005f3c                _exit
+                0x00005f3c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00005560       0x14 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
-                0x00005560                __do_global_dtors
+ .fini6         0x00005f3c       0x14 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_dtors.o)
+                0x00005f3c                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1824,11 +1977,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00005574        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
+ .fini0         0x00005f50        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00005578                _etext = .
+                0x00005f54                _etext = .
 
-.data           0x00800100      0x124 load address 0x00005578
+.data           0x00800100      0x224 load address 0x00005f54
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
@@ -1840,137 +1993,141 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800106        0xa main.o
+                0x00800106       0xe8 main.o
+                                 0xea (size before relaxing)
  .rodata._ZTV22BLETypedCharacteristicIhE
-                0x00800110        0x8 main.o
-                0x00800110                _ZTV22BLETypedCharacteristicIhE
+                0x008001ee        0x8 main.o
+                0x008001ee                _ZTV22BLETypedCharacteristicIhE
  .rodata.str1.1
-                0x00800118        0x5 peripheral/LocalCharacteristic.o
+                0x008001f6        0x5 peripheral/LocalCharacteristic.o
  .rodata._ZTV19LocalCharacteristic
-                0x0080011d        0xa peripheral/LocalCharacteristic.o
-                0x0080011d                _ZTV19LocalCharacteristic
+                0x008001fb        0xa peripheral/LocalCharacteristic.o
+                0x008001fb                _ZTV19LocalCharacteristic
  .rodata._ZTV15LocalDescriptor
-                0x00800127        0xa peripheral/LocalDescriptor.o
-                0x00800127                _ZTV15LocalDescriptor
+                0x00800205        0xa peripheral/LocalDescriptor.o
+                0x00800205                _ZTV15LocalDescriptor
  .rodata.str1.1
-                0x00800131       0x1e peripheral/LocalDevice.o
+                0x0080020f       0x1e peripheral/LocalDevice.o
  .rodata._ZTV11LocalDevice
-                0x0080014f       0x1a peripheral/LocalDevice.o
-                0x0080014f                _ZTV11LocalDevice
+                0x0080022d       0x1a peripheral/LocalDevice.o
+                0x0080022d                _ZTV11LocalDevice
  .rodata._ZTV12LocalService
-                0x00800169        0xa peripheral/LocalService.o
-                0x00800169                _ZTV12LocalService
+                0x00800247        0xa peripheral/LocalService.o
+                0x00800247                _ZTV12LocalService
  .rodata._ZTV12BLEAttribute
-                0x00800173        0xa profile/BLEAttribute.o
-                0x00800173                _ZTV12BLEAttribute
+                0x00800251        0xa profile/BLEAttribute.o
+                0x00800251                _ZTV12BLEAttribute
  .rodata._ZTV17BLECharacteristic
-                0x0080017d        0x8 profile/BLECharacteristic.o
-                0x0080017d                _ZTV17BLECharacteristic
+                0x0080025b        0x8 profile/BLECharacteristic.o
+                0x0080025b                _ZTV17BLECharacteristic
  .rodata.str1.1
-                0x00800185       0x1e profile/BLEDevice.o
+                0x00800263       0x1e profile/BLEDevice.o
  .rodata._ZTV9BLEDevice
-                0x00800185       0x1a profile/BLEDevice.o
-                0x00800185                _ZTV9BLEDevice
+                0x00800263       0x1a profile/BLEDevice.o
+                0x00800263                _ZTV9BLEDevice
  .rodata._ZTV10BLEService
-                0x0080019f        0x8 profile/BLEService.o
-                0x0080019f                _ZTV10BLEService
+                0x0080027d        0x8 profile/BLEService.o
+                0x0080027d                _ZTV10BLEService
  .rodata._ZTV29BLEUnsignedCharCharacteristic
-                0x008001a7        0x8 profile/BLETypedCharacteristics.o
-                0x008001a7                _ZTV29BLEUnsignedCharCharacteristic
+                0x00800285        0x8 profile/BLETypedCharacteristics.o
+                0x00800285                _ZTV29BLEUnsignedCharCharacteristic
  .rodata._ZTV8ATTClass
-                0x008001af        0x8 protocol/ATT.o
-                0x008001af                _ZTV8ATTClass
+                0x0080028d        0x8 protocol/ATT.o
+                0x0080028d                _ZTV8ATTClass
  .rodata._ZTV8GAPClass
-                0x008001b7        0x8 protocol/GAP.o
-                0x008001b7                _ZTV8GAPClass
+                0x00800295        0x8 protocol/GAP.o
+                0x00800295                _ZTV8GAPClass
  .rodata.str1.1
-                0x008001bf       0x21 protocol/GATT.o
+                0x0080029d       0x21 protocol/GATT.o
  .rodata._ZTV9GATTClass
-                0x008001e0        0x8 protocol/GATT.o
-                0x008001e0                _ZTV9GATTClass
+                0x008002be        0x8 protocol/GATT.o
+                0x008002be                _ZTV9GATTClass
  .rodata._ZTV8HCIClass
-                0x008001e8        0x8 protocol/HCI.o
-                0x008001e8                _ZTV8HCIClass
+                0x008002c6        0x8 protocol/HCI.o
+                0x008002c6                _ZTV8HCIClass
  .rodata._ZTV21HCIUartTransportClass
-                0x008001f0       0x16 protocol/HCIUartTransport.o
-                0x008001f0                _ZTV21HCIUartTransportClass
- .rodata.g_hciTransport
-                0x00800206        0x2 protocol/HCIUartTransport.o
-                0x00800206                g_hciTransport
+                0x008002ce       0x16 protocol/HCIUartTransport.o
+                0x008002ce                _ZTV21HCIUartTransportClass
+ .rodata.x_hciTransport
+                0x008002e4        0x2 protocol/HCIUartTransport.o
+                0x008002e4                x_hciTransport
  .rodata._ZTV19L2CAPSignalingClass
-                0x00800208        0x8 protocol/L2CAPSignaling.o
-                0x00800208                _ZTV19L2CAPSignalingClass
- .rodata._ZTV8XConsole
-                0x00800210        0x8 system/XConsole.o
-                0x00800210                _ZTV8XConsole
+                0x008002e6        0x8 protocol/L2CAPSignaling.o
+                0x008002e6                _ZTV19L2CAPSignalingClass
  .rodata.str1.1
-                0x00800218        0x2 system/XRotation.o
+                0x008002ee        0x2 system/DistanceADC.o
  .rodata.str1.1
-                0x0080021a        0x2 system/XTimer.o
- .rodata._ZTV5XUart
-                0x0080021c        0x8 system/XUart.o
-                0x0080021c                _ZTV5XUart
+                0x008002f0        0x2 system/RotationINTR.o
+ .rodata.str1.1
+                0x008002f2       0x32 system/TickTIMER.o
+                                 0x34 (size before relaxing)
  *(.gnu.linkonce.r*)
-                0x00800224                . = ALIGN (0x2)
-                0x00800224                _edata = .
-                0x00800224                PROVIDE (__data_end, .)
+                0x00800324                . = ALIGN (0x2)
+                0x00800324                _edata = .
+                0x00800324                PROVIDE (__data_end, .)
 
-.bss            0x00800224      0x38b
-                0x00800224                PROVIDE (__bss_start, .)
+.bss            0x00800324      0x391
+                0x00800324                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.g_xLevelChar
-                0x00800224        0x4 main.o
-                0x00800224                g_xLevelChar
+                0x00800324        0x4 main.o
+                0x00800324                g_xLevelChar
  .bss.g_xService
-                0x00800228        0x4 main.o
-                0x00800228                g_xService
+                0x00800328        0x4 main.o
+                0x00800328                g_xService
+ .bss.x_manual_mode
+                0x0080032c        0x1 main.o
+                0x0080032c                x_manual_mode
+ .bss.x_showup  0x0080032d        0x1 main.o
+                0x0080032d                x_showup
  .bss.g_bleDevice
-                0x0080022c       0x2e peripheral/LocalDevice.o
-                0x0080022c                g_bleDevice
- .bss.g_att     0x0080025a       0x19 protocol/ATT.o
-                0x0080025a                g_att
- .bss.g_gap     0x00800273       0x14 protocol/GAP.o
-                0x00800273                g_gap
- .bss.g_gatt    0x00800287       0xe0 protocol/GATT.o
-                0x00800287                g_gatt
- .bss.g_hci     0x00800367      0x10f protocol/HCI.o
-                0x00800367                g_hci
- .bss.g_hciUartTransport
-                0x00800476        0x8 protocol/HCIUartTransport.o
-                0x00800476                g_hciUartTransport
- .bss.g_l2capSignaling
-                0x0080047e        0x6 protocol/L2CAPSignaling.o
-                0x0080047e                g_l2capSignaling
- .bss.g_console
-                0x00800484       0x87 system/XConsole.o
-                0x00800484                g_console
- .bss.g_distance
-                0x0080050b        0x9 system/XDistance.o
-                0x0080050b                g_distance
- .bss.g_rotation
-                0x00800514        0x4 system/XRotation.o
-                0x00800514                g_rotation
- .bss.g_timer0  0x00800518        0xa system/XTimer.o
-                0x00800518                g_timer0
- .bss.g_uart    0x00800522       0x87 system/XUart.o
-                0x00800522                g_uart
+                0x0080032e       0x2e peripheral/LocalDevice.o
+                0x0080032e                g_bleDevice
+ .bss.x_att     0x0080035c       0x19 protocol/ATT.o
+                0x0080035c                x_att
+ .bss.x_gap     0x00800375       0x14 protocol/GAP.o
+                0x00800375                x_gap
+ .bss.x_gatt    0x00800389       0xe0 protocol/GATT.o
+                0x00800389                x_gatt
+ .bss.x_hci     0x00800469      0x10f protocol/HCI.o
+                0x00800469                x_hci
+ .bss.x_hciUartTransport
+                0x00800578        0x8 protocol/HCIUartTransport.o
+                0x00800578                x_hciUartTransport
+ .bss.x_l2capSignaling
+                0x00800580        0x6 protocol/L2CAPSignaling.o
+                0x00800580                x_l2capSignaling
+ .bss.x_bluetooth
+                0x00800586       0x84 system/BluetoothUART.o
+                0x00800586                x_bluetooth
+ .bss.x_console
+                0x0080060a       0x84 system/ConsoleUART.o
+                0x0080060a                x_console
+ .bss.x_distance
+                0x0080068e        0xd system/DistanceADC.o
+                0x0080068e                x_distance
+ .bss.x_rotation
+                0x0080069b        0xa system/RotationINTR.o
+                0x0080069b                x_rotation
+ .bss.x_tick    0x008006a5        0xa system/TickTIMER.o
+                0x008006a5                x_tick
  *(COMMON)
- COMMON         0x008005a9        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x008005a9                __brkval
-                0x008005ab                __flp
- COMMON         0x008005ad        0x2 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(errno.o)
-                0x008005ad                errno
-                0x008005af                PROVIDE (__bss_end, .)
-                0x00005578                __data_load_start = LOADADDR (.data)
-                0x0000569c                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008006af        0x4 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x008006af                __brkval
+                0x008006b1                __flp
+ COMMON         0x008006b3        0x2 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(errno.o)
+                0x008006b3                errno
+                0x008006b5                PROVIDE (__bss_end, .)
+                0x00005f54                __data_load_start = LOADADDR (.data)
+                0x00006178                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008005af        0x0
+.noinit         0x008006b5        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008005af                _end = .
-                0x008005af                PROVIDE (__heap_start, .)
+                0x008006b5                _end = .
+                0x008006b5                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -2029,12 +2186,12 @@ END GROUP
  .comment       0x00000030       0x31 protocol/HCI.o
  .comment       0x00000030       0x31 protocol/HCIUartTransport.o
  .comment       0x00000030       0x31 protocol/L2CAPSignaling.o
- .comment       0x00000030       0x31 system/XConsole.o
- .comment       0x00000030       0x31 system/XDistance.o
- .comment       0x00000030       0x31 system/XRotation.o
- .comment       0x00000030       0x31 system/XTimer.o
- .comment       0x00000030       0x31 system/XUart.o
- .comment       0x00000030       0x31 system/XUtil.o
+ .comment       0x00000030       0x31 system/BluetoothUART.o
+ .comment       0x00000030       0x31 system/ConsoleUART.o
+ .comment       0x00000030       0x31 system/DistanceADC.o
+ .comment       0x00000030       0x31 system/RotationINTR.o
+ .comment       0x00000030       0x31 system/TickTIMER.o
+ .comment       0x00000030       0x31 system/Util.o
  .comment       0x00000030       0x2c e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libprintf_flt.a(vfprintf_flt.o)
                                  0x2d (size before relaxing)
  .comment       0x0000005c       0x31 e:/atmelstudio7/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr51\libc.a(malloc.o)
@@ -2064,240 +2221,240 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0xe08
+.debug_aranges  0x00000000      0xe50
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x50 main.o
+                0x00000000       0x68 main.o
  .debug_aranges
-                0x00000050       0xf0 peripheral/LocalCharacteristic.o
+                0x00000068       0xf0 peripheral/LocalCharacteristic.o
  .debug_aranges
-                0x00000140       0x68 peripheral/LocalDescriptor.o
+                0x00000158       0x68 peripheral/LocalDescriptor.o
  .debug_aranges
-                0x000001a8       0xf8 peripheral/LocalDevice.o
+                0x000001c0       0xf8 peripheral/LocalDevice.o
  .debug_aranges
-                0x000002a0       0x78 peripheral/LocalService.o
+                0x000002b8       0x78 peripheral/LocalService.o
  .debug_aranges
-                0x00000318       0x60 profile/BLEAttribute.o
+                0x00000330       0x60 profile/BLEAttribute.o
  .debug_aranges
-                0x00000378       0xb8 profile/BLECharacteristic.o
+                0x00000390       0xb8 profile/BLECharacteristic.o
  .debug_aranges
-                0x00000430       0x80 profile/BLEDevice.o
+                0x00000448       0x80 profile/BLEDevice.o
  .debug_aranges
-                0x000004b0       0x60 profile/BLEService.o
+                0x000004c8       0x60 profile/BLEService.o
  .debug_aranges
-                0x00000510      0x230 profile/BLETypedCharacteristics.o
+                0x00000528      0x230 profile/BLETypedCharacteristics.o
  .debug_aranges
-                0x00000740       0x38 profile/BLEUUID.o
+                0x00000758       0x38 profile/BLEUUID.o
  .debug_aranges
-                0x00000778       0xf0 protocol/ATT.o
+                0x00000790       0xf0 protocol/ATT.o
  .debug_aranges
-                0x00000868       0x88 protocol/GAP.o
+                0x00000880       0x88 protocol/GAP.o
  .debug_aranges
-                0x000008f0       0xa0 protocol/GATT.o
+                0x00000908       0xa0 protocol/GATT.o
  .debug_aranges
-                0x00000990       0xf8 protocol/HCI.o
+                0x000009a8       0xf8 protocol/HCI.o
  .debug_aranges
-                0x00000a88       0x78 protocol/HCIUartTransport.o
+                0x00000aa0       0x78 protocol/HCIUartTransport.o
  .debug_aranges
-                0x00000b00       0x70 protocol/L2CAPSignaling.o
+                0x00000b18       0x70 protocol/L2CAPSignaling.o
  .debug_aranges
-                0x00000b70       0xa8 system/XConsole.o
+                0x00000b88       0xa0 system/BluetoothUART.o
  .debug_aranges
-                0x00000c18       0x70 system/XDistance.o
+                0x00000c28       0xa0 system/ConsoleUART.o
  .debug_aranges
-                0x00000c88       0x40 system/XRotation.o
+                0x00000cc8       0x70 system/DistanceADC.o
  .debug_aranges
-                0x00000cc8       0x68 system/XTimer.o
+                0x00000d38       0x50 system/RotationINTR.o
  .debug_aranges
-                0x00000d30       0xa8 system/XUart.o
+                0x00000d88       0x78 system/TickTIMER.o
  .debug_aranges
-                0x00000dd8       0x30 system/XUtil.o
+                0x00000e00       0x50 system/Util.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x15ce0
+.debug_info     0x00000000    0x17ad6
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x780 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_info    0x00000780      0x8d1 main.o
- .debug_info    0x00001051     0x164f peripheral/LocalCharacteristic.o
- .debug_info    0x000026a0      0x5a5 peripheral/LocalDescriptor.o
- .debug_info    0x00002c45     0x127d peripheral/LocalDevice.o
- .debug_info    0x00003ec2      0xa36 peripheral/LocalService.o
- .debug_info    0x000048f8      0x573 profile/BLEAttribute.o
- .debug_info    0x00004e6b      0xc0a profile/BLECharacteristic.o
- .debug_info    0x00005a75      0x7d8 profile/BLEDevice.o
- .debug_info    0x0000624d      0x586 profile/BLEService.o
- .debug_info    0x000067d3     0x4d46 profile/BLETypedCharacteristics.o
- .debug_info    0x0000b519      0x2be profile/BLEUUID.o
- .debug_info    0x0000b7d7     0x32ff protocol/ATT.o
- .debug_info    0x0000ead6      0x9f5 protocol/GAP.o
- .debug_info    0x0000f4cb     0x13f3 protocol/GATT.o
- .debug_info    0x000108be     0x20cf protocol/HCI.o
- .debug_info    0x0001298d      0x9f5 protocol/HCIUartTransport.o
- .debug_info    0x00013382      0x982 protocol/L2CAPSignaling.o
- .debug_info    0x00013d04      0x8e8 system/XConsole.o
- .debug_info    0x000145ec      0x55e system/XDistance.o
- .debug_info    0x00014b4a      0x27c system/XRotation.o
- .debug_info    0x00014dc6      0x47e system/XTimer.o
- .debug_info    0x00015244      0x8e8 system/XUart.o
- .debug_info    0x00015b2c      0x1b4 system/XUtil.o
+ .debug_info    0x00000780     0x11b1 main.o
+ .debug_info    0x00001931     0x164f peripheral/LocalCharacteristic.o
+ .debug_info    0x00002f80      0x5a5 peripheral/LocalDescriptor.o
+ .debug_info    0x00003525     0x127d peripheral/LocalDevice.o
+ .debug_info    0x000047a2      0xa36 peripheral/LocalService.o
+ .debug_info    0x000051d8      0x573 profile/BLEAttribute.o
+ .debug_info    0x0000574b      0xc0a profile/BLECharacteristic.o
+ .debug_info    0x00006355      0x7d8 profile/BLEDevice.o
+ .debug_info    0x00006b2d      0x586 profile/BLEService.o
+ .debug_info    0x000070b3     0x4d46 profile/BLETypedCharacteristics.o
+ .debug_info    0x0000bdf9      0x2be profile/BLEUUID.o
+ .debug_info    0x0000c0b7     0x32ff protocol/ATT.o
+ .debug_info    0x0000f3b6      0x9f5 protocol/GAP.o
+ .debug_info    0x0000fdab     0x13f3 protocol/GATT.o
+ .debug_info    0x0001119e     0x2102 protocol/HCI.o
+ .debug_info    0x000132a0      0xbd9 protocol/HCIUartTransport.o
+ .debug_info    0x00013e79      0x982 protocol/L2CAPSignaling.o
+ .debug_info    0x000147fb      0x847 system/BluetoothUART.o
+ .debug_info    0x00015042      0xaa4 system/ConsoleUART.o
+ .debug_info    0x00015ae6      0x80d system/DistanceADC.o
+ .debug_info    0x000162f3      0x71f system/RotationINTR.o
+ .debug_info    0x00016a12      0xdc9 system/TickTIMER.o
+ .debug_info    0x000177db      0x2fb system/Util.o
 
-.debug_abbrev   0x00000000     0x4919
+.debug_abbrev   0x00000000     0x4a76
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x718 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_abbrev  0x00000718      0x2c8 main.o
- .debug_abbrev  0x000009e0      0x414 peripheral/LocalCharacteristic.o
- .debug_abbrev  0x00000df4      0x23e peripheral/LocalDescriptor.o
- .debug_abbrev  0x00001032      0x36a peripheral/LocalDevice.o
- .debug_abbrev  0x0000139c      0x3a1 peripheral/LocalService.o
- .debug_abbrev  0x0000173d      0x24d profile/BLEAttribute.o
- .debug_abbrev  0x0000198a      0x280 profile/BLECharacteristic.o
- .debug_abbrev  0x00001c0a      0x2a2 profile/BLEDevice.o
- .debug_abbrev  0x00001eac      0x288 profile/BLEService.o
- .debug_abbrev  0x00002134      0x20b profile/BLETypedCharacteristics.o
- .debug_abbrev  0x0000233f      0x1b8 profile/BLEUUID.o
- .debug_abbrev  0x000024f7      0x4f0 protocol/ATT.o
- .debug_abbrev  0x000029e7      0x30e protocol/GAP.o
- .debug_abbrev  0x00002cf5      0x3db protocol/GATT.o
- .debug_abbrev  0x000030d0      0x4e2 protocol/HCI.o
- .debug_abbrev  0x000035b2      0x381 protocol/HCIUartTransport.o
- .debug_abbrev  0x00003933      0x2f1 protocol/L2CAPSignaling.o
- .debug_abbrev  0x00003c24      0x304 system/XConsole.o
- .debug_abbrev  0x00003f28      0x251 system/XDistance.o
- .debug_abbrev  0x00004179      0x179 system/XRotation.o
- .debug_abbrev  0x000042f2      0x231 system/XTimer.o
- .debug_abbrev  0x00004523      0x304 system/XUart.o
- .debug_abbrev  0x00004827       0xf2 system/XUtil.o
+ .debug_abbrev  0x00000718      0x325 main.o
+ .debug_abbrev  0x00000a3d      0x414 peripheral/LocalCharacteristic.o
+ .debug_abbrev  0x00000e51      0x23e peripheral/LocalDescriptor.o
+ .debug_abbrev  0x0000108f      0x36a peripheral/LocalDevice.o
+ .debug_abbrev  0x000013f9      0x3a1 peripheral/LocalService.o
+ .debug_abbrev  0x0000179a      0x24d profile/BLEAttribute.o
+ .debug_abbrev  0x000019e7      0x280 profile/BLECharacteristic.o
+ .debug_abbrev  0x00001c67      0x2a2 profile/BLEDevice.o
+ .debug_abbrev  0x00001f09      0x288 profile/BLEService.o
+ .debug_abbrev  0x00002191      0x20b profile/BLETypedCharacteristics.o
+ .debug_abbrev  0x0000239c      0x1b8 profile/BLEUUID.o
+ .debug_abbrev  0x00002554      0x4f0 protocol/ATT.o
+ .debug_abbrev  0x00002a44      0x30e protocol/GAP.o
+ .debug_abbrev  0x00002d52      0x3db protocol/GATT.o
+ .debug_abbrev  0x0000312d      0x4ca protocol/HCI.o
+ .debug_abbrev  0x000035f7      0x35a protocol/HCIUartTransport.o
+ .debug_abbrev  0x00003951      0x2f1 protocol/L2CAPSignaling.o
+ .debug_abbrev  0x00003c42      0x2b3 system/BluetoothUART.o
+ .debug_abbrev  0x00003ef5      0x2c4 system/ConsoleUART.o
+ .debug_abbrev  0x000041b9      0x2a0 system/DistanceADC.o
+ .debug_abbrev  0x00004459      0x237 system/RotationINTR.o
+ .debug_abbrev  0x00004690      0x2b2 system/TickTIMER.o
+ .debug_abbrev  0x00004942      0x134 system/Util.o
 
-.debug_line     0x00000000     0x579e
+.debug_line     0x00000000     0x5d13
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x169 E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_line    0x00000169      0x19f main.o
- .debug_line    0x00000308      0x682 peripheral/LocalCharacteristic.o
- .debug_line    0x0000098a      0x1bc peripheral/LocalDescriptor.o
- .debug_line    0x00000b46      0x4e6 peripheral/LocalDevice.o
- .debug_line    0x0000102c      0x31b peripheral/LocalService.o
- .debug_line    0x00001347      0x18a profile/BLEAttribute.o
- .debug_line    0x000014d1      0x395 profile/BLECharacteristic.o
- .debug_line    0x00001866      0x28b profile/BLEDevice.o
- .debug_line    0x00001af1      0x199 profile/BLEService.o
- .debug_line    0x00001c8a      0x86c profile/BLETypedCharacteristics.o
- .debug_line    0x000024f6      0x163 profile/BLEUUID.o
- .debug_line    0x00002659      0xe93 protocol/ATT.o
- .debug_line    0x000034ec      0x347 protocol/GAP.o
- .debug_line    0x00003833      0x54f protocol/GATT.o
- .debug_line    0x00003d82      0x691 protocol/HCI.o
- .debug_line    0x00004413      0x26b protocol/HCIUartTransport.o
- .debug_line    0x0000467e      0x224 protocol/L2CAPSignaling.o
- .debug_line    0x000048a2      0x4d5 system/XConsole.o
- .debug_line    0x00004d77      0x1f2 system/XDistance.o
- .debug_line    0x00004f69       0xd2 system/XRotation.o
- .debug_line    0x0000503b      0x178 system/XTimer.o
- .debug_line    0x000051b3      0x4c8 system/XUart.o
- .debug_line    0x0000567b      0x123 system/XUtil.o
+ .debug_line    0x00000169      0x366 main.o
+ .debug_line    0x000004cf      0x680 peripheral/LocalCharacteristic.o
+ .debug_line    0x00000b4f      0x1bb peripheral/LocalDescriptor.o
+ .debug_line    0x00000d0a      0x4e6 peripheral/LocalDevice.o
+ .debug_line    0x000011f0      0x31a peripheral/LocalService.o
+ .debug_line    0x0000150a      0x18a profile/BLEAttribute.o
+ .debug_line    0x00001694      0x395 profile/BLECharacteristic.o
+ .debug_line    0x00001a29      0x28b profile/BLEDevice.o
+ .debug_line    0x00001cb4      0x199 profile/BLEService.o
+ .debug_line    0x00001e4d      0x86b profile/BLETypedCharacteristics.o
+ .debug_line    0x000026b8      0x163 profile/BLEUUID.o
+ .debug_line    0x0000281b      0xe92 protocol/ATT.o
+ .debug_line    0x000036ad      0x347 protocol/GAP.o
+ .debug_line    0x000039f4      0x54e protocol/GATT.o
+ .debug_line    0x00003f42      0x693 protocol/HCI.o
+ .debug_line    0x000045d5      0x276 protocol/HCIUartTransport.o
+ .debug_line    0x0000484b      0x224 protocol/L2CAPSignaling.o
+ .debug_line    0x00004a6f      0x451 system/BluetoothUART.o
+ .debug_line    0x00004ec0      0x492 system/ConsoleUART.o
+ .debug_line    0x00005352      0x288 system/DistanceADC.o
+ .debug_line    0x000055da      0x203 system/RotationINTR.o
+ .debug_line    0x000057dd      0x332 system/TickTIMER.o
+ .debug_line    0x00005b0f      0x204 system/Util.o
 
-.debug_frame    0x00000000     0x2cf8
+.debug_frame    0x00000000     0x2e88
  *(.debug_frame)
- .debug_frame   0x00000000       0x9c main.o
- .debug_frame   0x0000009c      0x334 peripheral/LocalCharacteristic.o
- .debug_frame   0x000003d0       0xe0 peripheral/LocalDescriptor.o
- .debug_frame   0x000004b0      0x268 peripheral/LocalDevice.o
- .debug_frame   0x00000718      0x14c peripheral/LocalService.o
- .debug_frame   0x00000864       0xb0 profile/BLEAttribute.o
- .debug_frame   0x00000914      0x1d0 profile/BLECharacteristic.o
- .debug_frame   0x00000ae4      0x140 profile/BLEDevice.o
- .debug_frame   0x00000c24       0xdc profile/BLEService.o
- .debug_frame   0x00000d00      0x718 profile/BLETypedCharacteristics.o
- .debug_frame   0x00001418       0x88 profile/BLEUUID.o
- .debug_frame   0x000014a0      0x628 protocol/ATT.o
- .debug_frame   0x00001ac8      0x138 protocol/GAP.o
- .debug_frame   0x00001c00      0x29c protocol/GATT.o
- .debug_frame   0x00001e9c      0x45c protocol/HCI.o
- .debug_frame   0x000022f8      0x11c protocol/HCIUartTransport.o
- .debug_frame   0x00002414      0x12c protocol/L2CAPSignaling.o
- .debug_frame   0x00002540      0x24c system/XConsole.o
- .debug_frame   0x0000278c      0x130 system/XDistance.o
- .debug_frame   0x000028bc       0xac system/XRotation.o
- .debug_frame   0x00002968      0x108 system/XTimer.o
- .debug_frame   0x00002a70      0x244 system/XUart.o
- .debug_frame   0x00002cb4       0x44 system/XUtil.o
+ .debug_frame   0x00000000       0xcc main.o
+ .debug_frame   0x000000cc      0x334 peripheral/LocalCharacteristic.o
+ .debug_frame   0x00000400       0xe0 peripheral/LocalDescriptor.o
+ .debug_frame   0x000004e0      0x268 peripheral/LocalDevice.o
+ .debug_frame   0x00000748      0x14c peripheral/LocalService.o
+ .debug_frame   0x00000894       0xb0 profile/BLEAttribute.o
+ .debug_frame   0x00000944      0x1d0 profile/BLECharacteristic.o
+ .debug_frame   0x00000b14      0x140 profile/BLEDevice.o
+ .debug_frame   0x00000c54       0xdc profile/BLEService.o
+ .debug_frame   0x00000d30      0x718 profile/BLETypedCharacteristics.o
+ .debug_frame   0x00001448       0x88 profile/BLEUUID.o
+ .debug_frame   0x000014d0      0x628 protocol/ATT.o
+ .debug_frame   0x00001af8      0x138 protocol/GAP.o
+ .debug_frame   0x00001c30      0x29c protocol/GATT.o
+ .debug_frame   0x00001ecc      0x45c protocol/HCI.o
+ .debug_frame   0x00002328      0x11c protocol/HCIUartTransport.o
+ .debug_frame   0x00002444      0x12c protocol/L2CAPSignaling.o
+ .debug_frame   0x00002570      0x244 system/BluetoothUART.o
+ .debug_frame   0x000027b4      0x24c system/ConsoleUART.o
+ .debug_frame   0x00002a00      0x15c system/DistanceADC.o
+ .debug_frame   0x00002b5c       0xec system/RotationINTR.o
+ .debug_frame   0x00002c48      0x158 system/TickTIMER.o
+ .debug_frame   0x00002da0       0xe8 system/Util.o
 
-.debug_str      0x00000000     0x765c
+.debug_str      0x00000000     0x78ac
  *(.debug_str)
  .debug_str     0x00000000      0x27d E:/AtmelStudio7/7.0/Packs/Atmel/ATmega_DFP/1.3.300/gcc/dev/atmega128a/avr51/crtatmega128a.o
- .debug_str     0x0000027d      0x781 main.o
-                                0x841 (size before relaxing)
- .debug_str     0x000009fe      0xa76 peripheral/LocalCharacteristic.o
-                                0xd91 (size before relaxing)
- .debug_str     0x00001474      0x1c6 peripheral/LocalDescriptor.o
+ .debug_str     0x0000027d      0xdd9 main.o
+                                0xeb5 (size before relaxing)
+ .debug_str     0x00001056      0xa54 peripheral/LocalCharacteristic.o
+                                0xd87 (size before relaxing)
+ .debug_str     0x00001aaa      0x1c6 peripheral/LocalDescriptor.o
                                 0x458 (size before relaxing)
- .debug_str     0x0000163a      0x9cc peripheral/LocalDevice.o
+ .debug_str     0x00001c70      0x9cc peripheral/LocalDevice.o
                                 0xd9e (size before relaxing)
- .debug_str     0x00002006      0x3fc peripheral/LocalService.o
-                                0x720 (size before relaxing)
- .debug_str     0x00002402      0x1d7 profile/BLEAttribute.o
+ .debug_str     0x0000263c      0x3f4 peripheral/LocalService.o
+                                0x716 (size before relaxing)
+ .debug_str     0x00002a30      0x1d7 profile/BLEAttribute.o
                                 0x44d (size before relaxing)
- .debug_str     0x000025d9      0x411 profile/BLECharacteristic.o
+ .debug_str     0x00002c07      0x411 profile/BLECharacteristic.o
                                 0x9ac (size before relaxing)
- .debug_str     0x000029ea      0x1e1 profile/BLEDevice.o
+ .debug_str     0x00003018      0x1e1 profile/BLEDevice.o
                                 0x4a7 (size before relaxing)
- .debug_str     0x00002bcb      0x1c1 profile/BLEService.o
+ .debug_str     0x000031f9      0x1c1 profile/BLEService.o
                                 0x471 (size before relaxing)
- .debug_str     0x00002d8c     0x2971 profile/BLETypedCharacteristics.o
+ .debug_str     0x000033ba     0x2971 profile/BLETypedCharacteristics.o
                                0x312e (size before relaxing)
- .debug_str     0x000056fd       0x36 profile/BLEUUID.o
+ .debug_str     0x00005d2b       0x36 profile/BLEUUID.o
                                 0x24a (size before relaxing)
- .debug_str     0x00005733      0x57c protocol/ATT.o
+ .debug_str     0x00005d61      0x581 protocol/ATT.o
                                 0xe37 (size before relaxing)
- .debug_str     0x00005caf      0x2d7 protocol/GAP.o
+ .debug_str     0x000062e2      0x2d7 protocol/GAP.o
                                 0x7fe (size before relaxing)
- .debug_str     0x00005f86      0x302 protocol/GATT.o
-                                0xb64 (size before relaxing)
- .debug_str     0x00006288      0x664 protocol/HCI.o
-                                0xe2f (size before relaxing)
- .debug_str     0x000068ec      0x4a9 protocol/HCIUartTransport.o
-                                0x814 (size before relaxing)
- .debug_str     0x00006d95      0x268 protocol/L2CAPSignaling.o
+ .debug_str     0x000065b9      0x2fa protocol/GATT.o
+                                0xb5a (size before relaxing)
+ .debug_str     0x000068b3      0x65b protocol/HCI.o
+                                0xeb1 (size before relaxing)
+ .debug_str     0x00006f0e      0x42e protocol/HCIUartTransport.o
+                                0xa07 (size before relaxing)
+ .debug_str     0x0000733c      0x268 protocol/L2CAPSignaling.o
                                 0x6e3 (size before relaxing)
- .debug_str     0x00006ffd      0x239 system/XConsole.o
-                                0x4d0 (size before relaxing)
- .debug_str     0x00007236      0x1d1 system/XDistance.o
-                                0x3ea (size before relaxing)
- .debug_str     0x00007407       0xb6 system/XRotation.o
-                                0x28d (size before relaxing)
- .debug_str     0x000074bd       0x69 system/XTimer.o
-                                0x337 (size before relaxing)
- .debug_str     0x00007526      0x10a system/XUart.o
-                                0x48e (size before relaxing)
- .debug_str     0x00007630       0x2c system/XUtil.o
-                                0x1fd (size before relaxing)
+ .debug_str     0x000075a4       0xb2 system/BluetoothUART.o
+                                0x4c7 (size before relaxing)
+ .debug_str     0x00007656       0x77 system/ConsoleUART.o
+                                0x634 (size before relaxing)
+ .debug_str     0x000076cd       0x75 system/DistanceADC.o
+                                0x612 (size before relaxing)
+ .debug_str     0x00007742       0x61 system/RotationINTR.o
+                                0x654 (size before relaxing)
+ .debug_str     0x000077a3       0xb5 system/TickTIMER.o
+                                0x9cc (size before relaxing)
+ .debug_str     0x00007858       0x54 system/Util.o
+                                0x272 (size before relaxing)
 
-.debug_loc      0x00000000     0xe0b4
+.debug_loc      0x00000000     0xe7d3
  *(.debug_loc)
- .debug_loc     0x00000000      0x1de main.o
- .debug_loc     0x000001de      0xfd0 peripheral/LocalCharacteristic.o
- .debug_loc     0x000011ae      0x2ed peripheral/LocalDescriptor.o
- .debug_loc     0x0000149b      0x909 peripheral/LocalDevice.o
- .debug_loc     0x00001da4      0x613 peripheral/LocalService.o
- .debug_loc     0x000023b7      0x1c0 profile/BLEAttribute.o
- .debug_loc     0x00002577      0x8fc profile/BLECharacteristic.o
- .debug_loc     0x00002e73      0x524 profile/BLEDevice.o
- .debug_loc     0x00003397      0x353 profile/BLEService.o
- .debug_loc     0x000036ea     0x2763 profile/BLETypedCharacteristics.o
- .debug_loc     0x00005e4d      0x19c profile/BLEUUID.o
- .debug_loc     0x00005fe9     0x36bb protocol/ATT.o
- .debug_loc     0x000096a4      0x30b protocol/GAP.o
- .debug_loc     0x000099af      0xda1 protocol/GATT.o
- .debug_loc     0x0000a750     0x19a5 protocol/HCI.o
- .debug_loc     0x0000c0f5      0x3a5 protocol/HCIUartTransport.o
- .debug_loc     0x0000c49a      0x4ca protocol/L2CAPSignaling.o
- .debug_loc     0x0000c964      0x85b system/XConsole.o
- .debug_loc     0x0000d1bf      0x327 system/XDistance.o
- .debug_loc     0x0000d4e6      0x127 system/XRotation.o
- .debug_loc     0x0000d60d      0x1f4 system/XTimer.o
- .debug_loc     0x0000d801      0x841 system/XUart.o
- .debug_loc     0x0000e042       0x72 system/XUtil.o
+ .debug_loc     0x00000000      0x1f1 main.o
+ .debug_loc     0x000001f1      0xfd0 peripheral/LocalCharacteristic.o
+ .debug_loc     0x000011c1      0x2ed peripheral/LocalDescriptor.o
+ .debug_loc     0x000014ae      0x909 peripheral/LocalDevice.o
+ .debug_loc     0x00001db7      0x613 peripheral/LocalService.o
+ .debug_loc     0x000023ca      0x1c0 profile/BLEAttribute.o
+ .debug_loc     0x0000258a      0x8fc profile/BLECharacteristic.o
+ .debug_loc     0x00002e86      0x524 profile/BLEDevice.o
+ .debug_loc     0x000033aa      0x353 profile/BLEService.o
+ .debug_loc     0x000036fd     0x2763 profile/BLETypedCharacteristics.o
+ .debug_loc     0x00005e60      0x19c profile/BLEUUID.o
+ .debug_loc     0x00005ffc     0x36bb protocol/ATT.o
+ .debug_loc     0x000096b7      0x30b protocol/GAP.o
+ .debug_loc     0x000099c2      0xda1 protocol/GATT.o
+ .debug_loc     0x0000a763     0x19a5 protocol/HCI.o
+ .debug_loc     0x0000c108      0x3a5 protocol/HCIUartTransport.o
+ .debug_loc     0x0000c4ad      0x4ca protocol/L2CAPSignaling.o
+ .debug_loc     0x0000c977      0x745 system/BluetoothUART.o
+ .debug_loc     0x0000d0bc      0x7c3 system/ConsoleUART.o
+ .debug_loc     0x0000d87f      0x3a6 system/DistanceADC.o
+ .debug_loc     0x0000dc25      0x1f9 system/RotationINTR.o
+ .debug_loc     0x0000de1e      0x384 system/TickTIMER.o
+ .debug_loc     0x0000e1a2      0x631 system/Util.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -2317,31 +2474,31 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0xef8
+.debug_ranges   0x00000000      0xf40
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x40 main.o
- .debug_ranges  0x00000040      0x110 peripheral/LocalCharacteristic.o
- .debug_ranges  0x00000150       0x58 peripheral/LocalDescriptor.o
- .debug_ranges  0x000001a8       0xe8 peripheral/LocalDevice.o
- .debug_ranges  0x00000290       0x80 peripheral/LocalService.o
- .debug_ranges  0x00000310       0x50 profile/BLEAttribute.o
- .debug_ranges  0x00000360       0xa8 profile/BLECharacteristic.o
- .debug_ranges  0x00000408       0x70 profile/BLEDevice.o
- .debug_ranges  0x00000478       0x50 profile/BLEService.o
- .debug_ranges  0x000004c8      0x220 profile/BLETypedCharacteristics.o
- .debug_ranges  0x000006e8       0x28 profile/BLEUUID.o
- .debug_ranges  0x00000710      0x250 protocol/ATT.o
- .debug_ranges  0x00000960       0x78 protocol/GAP.o
- .debug_ranges  0x000009d8      0x108 protocol/GATT.o
- .debug_ranges  0x00000ae0      0x118 protocol/HCI.o
- .debug_ranges  0x00000bf8       0x68 protocol/HCIUartTransport.o
- .debug_ranges  0x00000c60       0x60 protocol/L2CAPSignaling.o
- .debug_ranges  0x00000cc0       0x98 system/XConsole.o
- .debug_ranges  0x00000d58       0x60 system/XDistance.o
- .debug_ranges  0x00000db8       0x30 system/XRotation.o
- .debug_ranges  0x00000de8       0x58 system/XTimer.o
- .debug_ranges  0x00000e40       0x98 system/XUart.o
- .debug_ranges  0x00000ed8       0x20 system/XUtil.o
+ .debug_ranges  0x00000000       0x58 main.o
+ .debug_ranges  0x00000058      0x110 peripheral/LocalCharacteristic.o
+ .debug_ranges  0x00000168       0x58 peripheral/LocalDescriptor.o
+ .debug_ranges  0x000001c0       0xe8 peripheral/LocalDevice.o
+ .debug_ranges  0x000002a8       0x80 peripheral/LocalService.o
+ .debug_ranges  0x00000328       0x50 profile/BLEAttribute.o
+ .debug_ranges  0x00000378       0xa8 profile/BLECharacteristic.o
+ .debug_ranges  0x00000420       0x70 profile/BLEDevice.o
+ .debug_ranges  0x00000490       0x50 profile/BLEService.o
+ .debug_ranges  0x000004e0      0x220 profile/BLETypedCharacteristics.o
+ .debug_ranges  0x00000700       0x28 profile/BLEUUID.o
+ .debug_ranges  0x00000728      0x250 protocol/ATT.o
+ .debug_ranges  0x00000978       0x78 protocol/GAP.o
+ .debug_ranges  0x000009f0      0x108 protocol/GATT.o
+ .debug_ranges  0x00000af8      0x118 protocol/HCI.o
+ .debug_ranges  0x00000c10       0x68 protocol/HCIUartTransport.o
+ .debug_ranges  0x00000c78       0x60 protocol/L2CAPSignaling.o
+ .debug_ranges  0x00000cd8       0x90 system/BluetoothUART.o
+ .debug_ranges  0x00000d68       0x90 system/ConsoleUART.o
+ .debug_ranges  0x00000df8       0x60 system/DistanceADC.o
+ .debug_ranges  0x00000e58       0x40 system/RotationINTR.o
+ .debug_ranges  0x00000e98       0x68 system/TickTIMER.o
+ .debug_ranges  0x00000f00       0x40 system/Util.o
 
 .debug_macro
  *(.debug_macro)
